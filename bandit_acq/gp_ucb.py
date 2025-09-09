@@ -19,7 +19,6 @@ logger = logging.getLogger(__name__)
 
 
 def main():
-    # Parse arguments
     parser = argparse.ArgumentParser()
     parser.add_argument("--dataset_path", type=str, required=True, help="Path to SMILES dataset (.smiles).")
     parser.add_argument("--oracle_name", type=str, required=True, help="Which oracle to use (from TDC wrapper).")
@@ -36,8 +35,6 @@ def main():
     # Load dataset
     smiles_all = pd.read_csv(args.dataset_path, header=None)[0].tolist()
     smiles_all = smiles_all[: args.dataset_size]
-
-    # Init oracle
     oracle = Oracle(args.oracle_name)
 
     # Warm start: pick one random molecule

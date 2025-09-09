@@ -49,7 +49,6 @@ def select_batch_from_thompson_samples(
 
 
 def main():
-    # Parse arguments
     parser = argparse.ArgumentParser()
     parser.add_argument("--dataset_path", type=str, required=True, help="Path to SMILES dataset (.smiles).")
     parser.add_argument("--oracle_name", type=str, required=True, help="Which oracle to use (from TDC wrapper).")
