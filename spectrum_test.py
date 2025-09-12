@@ -69,14 +69,15 @@ def analyze_effective_dimension(eigvals, lam=1e-4):
     """
     return np.sum(eigvals / (eigvals + lam))
 
-def plot_spectrum(eigvals, title="Nyström-approximated Tanimoto Spectrum"):
+def plot_spectrum(eigvals, title="Nyström-approximated Tanimoto Spectrum", outfile="tanimoto_spectrum.pdf"):
     plt.figure(figsize=(6,4))
     plt.semilogy(eigvals, marker="o", linestyle="None")
     plt.xlabel("Index (sorted)")
     plt.ylabel("Eigenvalue (log scale)")
     plt.title(title)
     plt.tight_layout()
-    plt.show()
+    plt.savefig(outfile, format="pdf")  # save as PDF
+    print(f"Spectrum plot saved to {outfile}")
 
 # ------------------------------
 # Main script
@@ -98,4 +99,4 @@ if __name__ == "__main__":
     print("Effective dimension (λ=1e-4):", d_eff)
 
     # Plot spectrum decay
-    plot_spectrum(eigvals_scaled)
+    plot_spectrum(eigvals_scaled, outfile="nystrom_tanimoto_spectrum.pdf")
