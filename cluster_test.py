@@ -34,7 +34,7 @@ def build_tanimoto_kernel(fps):
 # ------------------------------
 # Packing (distance floor) selection
 # ------------------------------
-def select_packed_batch(smiles_list, batch_size=100, rho=0.3):
+def select_packed_batch(smiles_list, batch_size=100, rho=0.9):
     """
     Greedy selection: enforce min Tanimoto distance >= rho.
     """
@@ -76,7 +76,7 @@ if __name__ == "__main__":
     dataset_path = os.path.join("guacamol_dataset", "guacamol_v1_train.smiles")
     n_subset = 5000   # work with manageable subset
     batch_size = 100
-    rho = 0.3         # distance floor
+    rho = 0.9       # distance floor
 
     # Load SMILES
     smiles = []
