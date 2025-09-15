@@ -11,7 +11,7 @@ from kernel_only_GP.tanimoto_gp import (
 from utils.utils import evaluate_fex_MPO
 
 # === Logging setup ===
-log_file = "logs_trial1/terminal_output_jax_ucb_fex.log"
+log_file = "logs_trial2/terminal_output_jax_ucb_fex.log"
 sys.stdout = open(log_file, "w")
 sys.stderr = sys.stdout
 
