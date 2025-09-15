@@ -21,7 +21,7 @@ h = logging.StreamHandler()
 h.setFormatter(logging.Formatter("%(asctime)s - %(levelname)s - %(message)s"))
 bo_loop_logger.addHandler(h)
 
-# === UCB acquisition function ===
+# acquisition function
 def ucb(means, vars_, beta=0.1):
     std = np.sqrt(vars_)
     return means + beta * std
@@ -84,7 +84,7 @@ def bayesian_optimization_ucb(
 
 if __name__ == "__main__":
     df = pd.read_csv("guacamol_dataset/guacamol_v1_train.smiles", header=None, names=["smiles"])
-    all_sm = df["smiles"].tolist()[:10000]
+    all_sm = df["smiles"].tolist()[:100000]
     random.shuffle(all_sm)
 
     init_smiles = all_sm[:10]
