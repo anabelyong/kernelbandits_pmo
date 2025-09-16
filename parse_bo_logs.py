@@ -5,7 +5,6 @@ import csv
 LOG_DIRS = ["logs_trial1", "logs_trial2", "logs_trial3"]
 OUT_DIR = "csv_results"
 
-# --- Regex patterns for aug_fex logs ---
 ITER_RE       = re.compile(r"--- Iter\s+(\d+)")
 ETA_RE        = re.compile(r"eta_t=([0-9\.eE\-\+]+)")
 SELECT_AUG_RE = re.compile(r"Selected\s+(.+?)\s*→\s*UCB\+nov\s*=\s*([0-9\.eE\-\+]+)")
@@ -14,10 +13,8 @@ NOVELTY_RE    = re.compile(r"novelty mean=([0-9\.eE\-\+]+), std=([0-9\.eE\-\+]+)
 UCB_RANGE_RE  = re.compile(r"UCB range=\(([-0-9\.eE]+),\s*([-0-9\.eE]+)\)")
 NOVZ_RANGE_RE = re.compile(r"novelty_z range=\(([-0-9\.eE]+),\s*([-0-9\.eE]+)\)")
 
-# --- Regex patterns for fex logs ---
 SELECT_FEX_RE = re.compile(r"Selected\s+(.+?)\s*→\s*UCB\s*=\s*([0-9\.eE\-\+]+)")
 
-# ----------------- Parsers -----------------
 def parse_aug_fex_log(path):
     rows = []
     with open(path) as f:
@@ -89,7 +86,6 @@ def parse_fex_log(path):
             rows.append(current)
     return rows, ["BO Iteration", "Selected SMILES", "UCB", "True f"]
 
-# ----------------- Writer -----------------
 def write_csv(outpath, rows, headers):
     if not rows:
         return
@@ -100,7 +96,6 @@ def write_csv(outpath, rows, headers):
         for r in rows:
             writer.writerow(r)
 
-# ----------------- Main -----------------
 def main():
     os.makedirs(OUT_DIR, exist_ok=True)
     for log_dir in LOG_DIRS:
