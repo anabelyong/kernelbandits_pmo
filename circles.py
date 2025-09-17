@@ -1,7 +1,13 @@
+#!/usr/bin/env python
+"""
+Compute NumCircles from BO CSVs for different Tanimoto thresholds.
+Processes both UCB and UCB+aug logs.
+"""
+
 import os
-import re
 import pandas as pd
 import numpy as np
+from glob import glob
 from rdkit import Chem, DataStructs
 from tqdm import tqdm
 from typing import List, Any
@@ -20,49 +26,43 @@ def compute_circles(smiles_list: List[str], threshold: float) -> int:
     n_circles, _ = ncircle.measure(smiles_list)
     return n_circles
 
-def extract_initial_smiles(log_text: str) -> list:
-    match = re.findall(r"Initial SMILES:\s*\[((?:\s*'[^']+',?\s*)+)\]", log_text, re.DOTALL)
-    if not match:
-        raise ValueError("No initial SMILES found.")
-    return re.findall(r"'([^']+)'", match[0])
+if __name__ == "__main__":
+    IN_DIR = "csv_results"
+    OUT_DIR = "circles_results"
+    os.makedirs(OUT_DIR, exist_ok=True)
 
-def extract_initial_objectives(log_text: str) -> np.ndarray:
-    """
-    Parses the multi-line initial objective array from the log text.
-    Handles formats like:
-        Initial objectives:
-        [[... ... ...]
-         [... ... ...]
-         ...
-        ]
-    """
-    lines = log_text.splitlines()
-    start_idx = None
+    thresholds = np.arange(0.1, 0.91, 0.05)
 
-    for i, line in enumerate(lines):
-        if "Initial Y:" in line:
-            start_idx = i + 1
-            break
+    for csv_path in sorted(glob(os.path.join(IN_DIR, "*.csv"))):
+        name = os.path.basename(csv_path).replace(".csv", "")
+        print(f"\n== Processing {name} ==")
 
-    if start_idx is None:
-        raise ValueError("Initial objectives block not found in log.")
+        try:
+            df = pd.read_csv(csv_path)
+        except Exception as e:
+            print(f"[ERROR] Could not read {csv_path}: {e}")
+            continue
 
-    objective_lines = []
-    for line in lines[start_idx:]:
-        if line.strip().startswith("["):
-            objective_lines.append(line.strip().lstrip("[").rstrip("]"))
-        else:
-            break  # end of matrix block
+        if "Selected SMILES" not in df.columns:
+            print(f"[WARN] No 'Selected SMILES' column in {csv_path}. Skipping.")
+            continue
 
-    if not objective_lines:
-        raise ValueError("Failed to parse objectives block.")
+        smiles_list = df["Selected SMILES"].dropna().tolist()
+        if not smiles_list:
+            print(f"[WARN] Empty SMILES list in {csv_path}. Skipping.")
+            continue
 
-    # Convert lines into floats
-    parsed = []
-    for line in objective_lines:
-        row = list(map(float, line.split()))
-        parsed.append(row)
+        results = []
+        for t in thresholds:
+            print(f"Computing NumCircles at threshold {t:.2f}...")
+            try:
+                n = compute_circles(smiles_list, threshold=t)
+                results.append({"Threshold": t, "NumCircles": n})
+                print(f"  → {n}")
+            except Exception as e:
+                print(f"  → Failed at t={t:.2f}: {e}")
+                results.append({"Threshold": t, "NumCircles": np.nan})
 
-    return np.array(parsed)
-
-
+        out_path = os.path.join(OUT_DIR, f"{name}_circles.csv")
+        pd.DataFrame(results).to_csv(out_path, index=False)
+        print(f"Saved results to {out_path}")
