@@ -1,8 +1,7 @@
 #!/usr/bin/env python
 """
-GP-BUCB + MI bonus:
-Inside each batch, acquisition = mu + sqrt_beta * sigma + eta_t * zscore(MI),
-where MI(x) = 0.5 * log(1 + v_work(x)/lambda_obs).
+GP-BUCB + MI bonus with multi-trial support.
+Each trial logs to its own file but also prints to terminal.
 """
 
 import logging, sys, time, random, os
@@ -39,7 +38,6 @@ def zscore(v, eps=1e-8):
     s = s if s > eps else 1.0
     return (v - m) / s, m, s
 
-# ---- Build BUCB+MI batch ----
 def build_batch_bucb_mi(gp, params, pool_smiles, fps_cache, K, sqrt_beta, eta_t, rho_floor=None):
     mu_f, var_f = gp.predict_f(params, pool_smiles, full_covar=False)
     mu = np.asarray(mu_f).flatten()
@@ -61,6 +59,7 @@ def build_batch_bucb_mi(gp, params, pool_smiles, fps_cache, K, sqrt_beta, eta_t,
         x_star = pool_smiles[i_star]
         selected.append(x_star)
 
+        # variance-only hallucination update
         k_star = a * k_tanimoto_row(x_star, pool_smiles, fps_cache)
         denom = lambda_obs + v_work[i_star]
         v_work = v_work - (k_star * k_star) / max(denom, 1e-12)
@@ -86,15 +85,17 @@ def bayesian_optimization_bucb_mi(
     log_file = f"logs_trial{trial_id}/terminal_output_jax_bucb_mi_fex.log"
     os.makedirs(os.path.dirname(log_file), exist_ok=True)
 
-    sys.stdout = open(log_file, "w")
-    sys.stderr = sys.stdout
-
     bo_loop_logger = logging.getLogger(f"bo_loop_logger_trial{trial_id}")
     bo_loop_logger.setLevel(logging.INFO)
     bo_loop_logger.handlers.clear()
-    h = logging.StreamHandler()
-    h.setFormatter(logging.Formatter("%(asctime)s - %(levelname)s - %(message)s"))
-    bo_loop_logger.addHandler(h)
+
+    fh = logging.FileHandler(log_file, mode="w")
+    fh.setFormatter(logging.Formatter("%(asctime)s - %(levelname)s - %(message)s"))
+    bo_loop_logger.addHandler(fh)
+
+    sh = logging.StreamHandler(sys.stdout)
+    sh.setFormatter(logging.Formatter("%(asctime)s - %(levelname)s - %(message)s"))
+    bo_loop_logger.addHandler(sh)
 
     fps = {s: get_fingerprint(s) for s in (init_smiles + pool_smiles)}
 
@@ -137,17 +138,16 @@ def bayesian_optimization_bucb_mi(
 
         bo_loop_logger.info(f"Round {r} done in {time.time()-t0:.2f}s; train size={len(gp._smiles_train)}")
 
-    sys.stdout.close()
 
 # ---- Entry ----
 if __name__ == "__main__":
-    NUM_TRIALS = 3   
+    NUM_TRIALS = 3   # change to 10 later if needed
 
     df = pd.read_csv("guacamol_dataset/guacamol_v1_train.smiles", header=None, names=["smiles"])
     all_sm = df["smiles"].tolist()[:100000]
 
     for trial_id in range(1, NUM_TRIALS + 1):
-        random.shuffle(all_sm)  
+        random.shuffle(all_sm)
 
         init_smiles = all_sm[:10]
         pool_smiles = all_sm[10:]
