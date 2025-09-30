@@ -1,0 +1,1200 @@
+2025-09-29 21:36:37,402 - INFO - 
+--- Trial 1, Iter 0 (train size=10) ---
+2025-09-29 21:36:46,059 - INFO - eta_t=0.5000 | novelty mean=0.8195, std=0.0466 | UCB range=(0.3145, 0.6719) | novelty_z range=(-13.657,3.670)
+2025-09-29 21:36:46,059 - INFO - Selected FC(Cl)(Cl)Cl → UCB+nov = 2.155
+2025-09-29 21:36:46,060 - INFO -   True f = 0
+2025-09-29 21:36:46,078 - INFO - Iter time: 8.68s
+2025-09-29 21:36:46,078 - INFO - 
+--- Trial 1, Iter 1 (train size=11) ---
+2025-09-29 21:36:55,083 - INFO - eta_t=0.4268 | novelty mean=0.8194, std=0.0465 | UCB range=(0.2723, 0.6719) | novelty_z range=(-13.667,3.674)
+2025-09-29 21:36:55,083 - INFO - Selected C=C=C → UCB+nov = 1.886
+2025-09-29 21:36:55,084 - INFO -   True f = 0
+2025-09-29 21:36:55,102 - INFO - Iter time: 9.02s
+2025-09-29 21:36:55,102 - INFO - 
+--- Trial 1, Iter 2 (train size=12) ---
+2025-09-29 21:37:04,671 - INFO - eta_t=0.3943 | novelty mean=0.8194, std=0.0465 | UCB range=(0.2723, 0.6720) | novelty_z range=(-13.670,3.556)
+2025-09-29 21:37:04,671 - INFO - Selected [O-][Cl+]O → UCB+nov = 1.728
+2025-09-29 21:37:04,672 - INFO -   True f = 0
+2025-09-29 21:37:04,690 - INFO - Iter time: 9.59s
+2025-09-29 21:37:04,690 - INFO - 
+--- Trial 1, Iter 3 (train size=13) ---
+2025-09-29 21:37:14,390 - INFO - eta_t=0.3750 | novelty mean=0.8194, std=0.0465 | UCB range=(0.2723, 0.6720) | novelty_z range=(-13.672,3.418)
+2025-09-29 21:37:14,391 - INFO - Selected S=C(S)[N-]C[N-]C(=S)S → UCB+nov = 1.623
+2025-09-29 21:37:14,392 - INFO -   True f = 0.000235
+2025-09-29 21:37:14,413 - INFO - Iter time: 9.72s
+2025-09-29 21:37:14,413 - INFO - 
+--- Trial 1, Iter 4 (train size=14) ---
+2025-09-29 21:37:24,749 - INFO - eta_t=0.3618 | novelty mean=0.8194, std=0.0465 | UCB range=(0.2723, 0.6719) | novelty_z range=(-13.676,3.243)
+2025-09-29 21:37:24,749 - INFO - Selected OCC1OC(O)C(O)C(CCCCCCCCCCCCCCCCCCCCC2C(O)C(O)OC(CO)C2O)C1O → UCB+nov = 1.511
+2025-09-29 21:37:24,752 - INFO -   True f = 0.4304
+2025-09-29 21:37:24,770 - INFO - Iter time: 10.36s
+2025-09-29 21:37:24,770 - INFO - 
+--- Trial 1, Iter 5 (train size=15) ---
+2025-09-29 21:37:35,737 - INFO - eta_t=0.3521 | novelty mean=0.8184, std=0.0460 | UCB range=(0.2722, 0.6700) | novelty_z range=(-13.815,3.243)
+2025-09-29 21:37:35,737 - INFO - Selected C[Si]1(C)N[Si](C)(C)N[Si](C)(C)N1 → UCB+nov = 1.484
+2025-09-29 21:37:35,739 - INFO -   True f = 0.001055
+2025-09-29 21:37:35,757 - INFO - Iter time: 10.99s
+2025-09-29 21:37:35,757 - INFO - 
+--- Trial 1, Iter 6 (train size=16) ---
+2025-09-29 21:37:47,064 - INFO - eta_t=0.3445 | novelty mean=0.8184, std=0.0459 | UCB range=(0.2722, 0.6699) | novelty_z range=(-13.821,3.220)
+2025-09-29 21:37:47,064 - INFO - Selected NCC(N)CSP(=O)(O)O → UCB+nov = 1.454
+2025-09-29 21:37:47,065 - INFO -   True f = 0.2476
+2025-09-29 21:37:47,084 - INFO - Iter time: 11.33s
+2025-09-29 21:37:47,085 - INFO - 
+--- Trial 1, Iter 7 (train size=17) ---
+2025-09-29 21:37:58,784 - INFO - eta_t=0.3384 | novelty mean=0.8182, std=0.0457 | UCB range=(0.2722, 0.6703) | novelty_z range=(-13.885,3.239)
+2025-09-29 21:37:58,784 - INFO - Selected O=S(=O)(O)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)F → UCB+nov = 1.425
+2025-09-29 21:37:58,786 - INFO -   True f = 0.02078
+2025-09-29 21:37:58,805 - INFO - Iter time: 11.72s
+2025-09-29 21:37:58,805 - INFO - 
+--- Trial 1, Iter 8 (train size=18) ---
+2025-09-29 21:38:11,459 - INFO - eta_t=0.3333 | novelty mean=0.8181, std=0.0458 | UCB range=(0.2454, 0.6701) | novelty_z range=(-13.860,3.105)
+2025-09-29 21:38:11,460 - INFO - Selected CN(CCBr)CCBr → UCB+nov = 1.404
+2025-09-29 21:38:11,461 - INFO -   True f = 1.061e-06
+2025-09-29 21:38:11,481 - INFO - Iter time: 12.68s
+2025-09-29 21:38:11,481 - INFO - 
+--- Trial 1, Iter 9 (train size=19) ---
+2025-09-29 21:38:24,249 - INFO - eta_t=0.3291 | novelty mean=0.8181, std=0.0457 | UCB range=(0.2453, 0.6694) | novelty_z range=(-13.878,3.104)
+2025-09-29 21:38:24,249 - INFO - Selected S=C1NCCN1 → UCB+nov = 1.363
+2025-09-29 21:38:24,250 - INFO -   True f = 0.0001245
+2025-09-29 21:38:24,269 - INFO - Iter time: 12.79s
+2025-09-29 21:38:24,269 - INFO - 
+--- Trial 1, Iter 10 (train size=20) ---
+2025-09-29 21:38:38,095 - INFO - eta_t=0.3254 | novelty mean=0.8180, std=0.0457 | UCB range=(0.2453, 0.6693) | novelty_z range=(-13.887,3.107)
+2025-09-29 21:38:38,096 - INFO - Selected c1nc[nH]n1 → UCB+nov = 1.344
+2025-09-29 21:38:38,097 - INFO -   True f = 0.002791
+2025-09-29 21:38:38,115 - INFO - Iter time: 13.85s
+2025-09-29 21:38:38,115 - INFO - 
+--- Trial 1, Iter 11 (train size=21) ---
+2025-09-29 21:38:52,226 - INFO - eta_t=0.3222 | novelty mean=0.8180, std=0.0457 | UCB range=(0.2453, 0.6692) | novelty_z range=(-13.897,3.060)
+2025-09-29 21:38:52,227 - INFO - Selected N#CCNCC#N → UCB+nov = 1.327
+2025-09-29 21:38:52,228 - INFO -   True f = 0.02962
+2025-09-29 21:38:52,245 - INFO - Iter time: 14.13s
+2025-09-29 21:38:52,245 - INFO - 
+--- Trial 1, Iter 12 (train size=22) ---
+2025-09-29 21:39:06,428 - INFO - eta_t=0.3193 | novelty mean=0.8180, std=0.0456 | UCB range=(0.2453, 0.6692) | novelty_z range=(-13.905,3.062)
+2025-09-29 21:39:06,429 - INFO - Selected CC(=O)NC(=N)N → UCB+nov = 1.314
+2025-09-29 21:39:06,430 - INFO -   True f = 0.1628
+2025-09-29 21:39:06,448 - INFO - Iter time: 14.20s
+2025-09-29 21:39:06,448 - INFO - 
+--- Trial 1, Iter 13 (train size=23) ---
+2025-09-29 21:39:21,315 - INFO - eta_t=0.3168 | novelty mean=0.8179, std=0.0455 | UCB range=(0.2448, 0.6697) | novelty_z range=(-13.945,3.074)
+2025-09-29 21:39:21,315 - INFO - Selected C=CC(O)C#CC#CC(O)C(C)O → UCB+nov = 1.302
+2025-09-29 21:39:21,316 - INFO -   True f = 0.05444
+2025-09-29 21:39:21,335 - INFO - Iter time: 14.89s
+2025-09-29 21:39:21,335 - INFO - 
+--- Trial 1, Iter 14 (train size=24) ---
+2025-09-29 21:39:37,230 - INFO - eta_t=0.3145 | novelty mean=0.8179, std=0.0455 | UCB range=(0.2447, 0.6697) | novelty_z range=(-13.943,3.074)
+2025-09-29 21:39:37,230 - INFO - Selected O=CC=O → UCB+nov = 1.295
+2025-09-29 21:39:37,231 - INFO -   True f = 0.0007694
+2025-09-29 21:39:37,249 - INFO - Iter time: 15.91s
+2025-09-29 21:39:37,250 - INFO - 
+--- Trial 1, Iter 15 (train size=25) ---
+2025-09-29 21:39:53,151 - INFO - eta_t=0.3125 | novelty mean=0.8179, std=0.0455 | UCB range=(0.2454, 0.6698) | novelty_z range=(-13.946,3.075)
+2025-09-29 21:39:53,151 - INFO - Selected ClC1(Cl)C2(Cl)C3(Cl)C4(Cl)C(Cl)(Cl)C5(Cl)C3(Cl)C1(Cl)C5(Cl)C24Cl → UCB+nov = 1.275
+2025-09-29 21:39:53,152 - INFO -   True f = 0
+2025-09-29 21:39:53,171 - INFO - Iter time: 15.92s
+2025-09-29 21:39:53,171 - INFO - 
+--- Trial 1, Iter 16 (train size=26) ---
+2025-09-29 21:40:09,354 - INFO - eta_t=0.3106 | novelty mean=0.8179, std=0.0455 | UCB range=(0.2454, 0.6698) | novelty_z range=(-13.947,2.919)
+2025-09-29 21:40:09,354 - INFO - Selected C#CCOc1nc(OCC#C)nc(OCC#C)n1 → UCB+nov = 1.268
+2025-09-29 21:40:09,356 - INFO -   True f = 0.1006
+2025-09-29 21:40:09,374 - INFO - Iter time: 16.20s
+2025-09-29 21:40:09,374 - INFO - 
+--- Trial 1, Iter 17 (train size=27) ---
+2025-09-29 21:40:26,094 - INFO - eta_t=0.3089 | novelty mean=0.8178, std=0.0454 | UCB range=(0.2454, 0.6696) | novelty_z range=(-13.958,2.886)
+2025-09-29 21:40:26,094 - INFO - Selected CCC=CCC=CCC=CCC=CCC=CCC=CCCC(=O)NCCO → UCB+nov = 1.257
+2025-09-29 21:40:26,095 - INFO -   True f = 0.02711
+2025-09-29 21:40:26,114 - INFO - Iter time: 16.74s
+2025-09-29 21:40:26,115 - INFO - 
+--- Trial 1, Iter 18 (train size=28) ---
+2025-09-29 21:40:43,345 - INFO - eta_t=0.3074 | novelty mean=0.8176, std=0.0457 | UCB range=(0.2336, 0.6698) | novelty_z range=(-13.876,2.874)
+2025-09-29 21:40:43,345 - INFO - Selected [N-]=[N+]=NCC1=CC=C(CCl)SS1 → UCB+nov = 1.242
+2025-09-29 21:40:43,347 - INFO -   True f = 0.01761
+2025-09-29 21:40:43,365 - INFO - Iter time: 17.25s
+2025-09-29 21:40:43,365 - INFO - 
+--- Trial 1, Iter 19 (train size=29) ---
+2025-09-29 21:41:01,738 - INFO - eta_t=0.3059 | novelty mean=0.8176, std=0.0457 | UCB range=(0.2335, 0.6697) | novelty_z range=(-13.881,2.873)
+2025-09-29 21:41:01,738 - INFO - Selected CCC1OC1C → UCB+nov = 1.213
+2025-09-29 21:41:01,739 - INFO -   True f = 7.915e-06
+2025-09-29 21:41:01,758 - INFO - Iter time: 18.39s
+2025-09-29 21:41:01,758 - INFO - 
+--- Trial 1, Iter 20 (train size=30) ---
+2025-09-29 21:41:20,753 - INFO - eta_t=0.3046 | novelty mean=0.8176, std=0.0456 | UCB range=(0.2330, 0.6693) | novelty_z range=(-13.897,2.877)
+2025-09-29 21:41:20,754 - INFO - Selected C1CCC2(CC1)OOC1(CCCCC1)OOC1(CCCCC1)OO2 → UCB+nov = 1.206
+2025-09-29 21:41:20,755 - INFO -   True f = 0.04223
+2025-09-29 21:41:20,775 - INFO - Iter time: 19.02s
+2025-09-29 21:41:20,775 - INFO - 
+--- Trial 1, Iter 21 (train size=31) ---
+2025-09-29 21:41:39,264 - INFO - eta_t=0.3033 | novelty mean=0.8175, std=0.0455 | UCB range=(0.2330, 0.6694) | novelty_z range=(-13.929,2.806)
+2025-09-29 21:41:39,264 - INFO - Selected CN1C=C(Br)N(O)N1 → UCB+nov = 1.204
+2025-09-29 21:41:39,265 - INFO -   True f = 0.002487
+2025-09-29 21:41:39,284 - INFO - Iter time: 18.51s
+2025-09-29 21:41:39,285 - INFO - 
+--- Trial 1, Iter 22 (train size=32) ---
+2025-09-29 21:41:59,002 - INFO - eta_t=0.3021 | novelty mean=0.8175, std=0.0455 | UCB range=(0.2332, 0.6692) | novelty_z range=(-13.937,2.808)
+2025-09-29 21:41:59,002 - INFO - Selected Clc1nc2c(I)c(I)c(I)c(I)c2[nH]1 → UCB+nov = 1.192
+2025-09-29 21:41:59,003 - INFO -   True f = 0.000338
+2025-09-29 21:41:59,023 - INFO - Iter time: 19.74s
+2025-09-29 21:41:59,023 - INFO - 
+--- Trial 1, Iter 23 (train size=33) ---
+2025-09-29 21:42:19,268 - INFO - eta_t=0.3010 | novelty mean=0.8174, std=0.0454 | UCB range=(0.2332, 0.6686) | novelty_z range=(-13.954,2.724)
+2025-09-29 21:42:19,268 - INFO - Selected OCC1(CO)CC2(C1)CC(CO)(CO)C2 → UCB+nov = 1.184
+2025-09-29 21:42:19,269 - INFO -   True f = 0.3183
+2025-09-29 21:42:19,290 - INFO - Iter time: 20.27s
+2025-09-29 21:42:19,290 - INFO - 
+--- Trial 1, Iter 24 (train size=34) ---
+2025-09-29 21:42:40,234 - INFO - eta_t=0.3000 | novelty mean=0.8174, std=0.0454 | UCB range=(0.2326, 0.6679) | novelty_z range=(-13.962,2.726)
+2025-09-29 21:42:40,235 - INFO - Selected NC(=O)C1CCCN1C(=O)CC1(O)C2C3CC4C5C3C1C5C(O)(CC(=O)N1CCCC1C(N)=O)C42 → UCB+nov = 1.178
+2025-09-29 21:42:40,237 - INFO -   True f = 0.5004
+2025-09-29 21:42:40,258 - INFO - Iter time: 20.97s
+2025-09-29 21:42:40,258 - INFO - 
+--- Trial 1, Iter 25 (train size=35) ---
+2025-09-29 21:43:01,417 - INFO - eta_t=0.2990 | novelty mean=0.8173, std=0.0453 | UCB range=(0.2372, 0.6726) | novelty_z range=(-13.999,2.737)
+2025-09-29 21:43:01,417 - INFO - Selected O=S1(=O)OCCOS(=O)(=O)C1(F)Br → UCB+nov = 1.187
+2025-09-29 21:43:01,418 - INFO -   True f = 0.2077
+2025-09-29 21:43:01,439 - INFO - Iter time: 21.18s
+2025-09-29 21:43:01,439 - INFO - 
+--- Trial 1, Iter 26 (train size=36) ---
+2025-09-29 21:43:23,683 - INFO - eta_t=0.2981 | novelty mean=0.8173, std=0.0453 | UCB range=(0.2374, 0.6755) | novelty_z range=(-13.999,2.737)
+2025-09-29 21:43:23,683 - INFO - Selected CCCc1cn(C2OC(CO[Si](C)(C)C(C)(C)C)C3(OS(=O)(=O)C=C3N)C2O[Si](C)(C)C(C)(C)C)nn1 → UCB+nov = 1.185
+2025-09-29 21:43:23,685 - INFO -   True f = 0.4066
+2025-09-29 21:43:23,706 - INFO - Iter time: 22.27s
+2025-09-29 21:43:23,706 - INFO - 
+--- Trial 1, Iter 27 (train size=37) ---
+2025-09-29 21:43:46,008 - INFO - eta_t=0.2972 | novelty mean=0.8171, std=0.0453 | UCB range=(0.2410, 0.6754) | novelty_z range=(-14.001,2.742)
+2025-09-29 21:43:46,008 - INFO - Selected [N-]=[N+]=NCC1OC(OS(=O)(=O)O)C(OS(=O)(=O)O)C(OS(=O)(=O)O)C1OS(=O)(=O)O → UCB+nov = 1.19
+2025-09-29 21:43:46,010 - INFO -   True f = 0.2422
+2025-09-29 21:43:46,030 - INFO - Iter time: 22.32s
+2025-09-29 21:43:46,031 - INFO - 
+--- Trial 1, Iter 28 (train size=38) ---
+2025-09-29 21:44:09,142 - INFO - eta_t=0.2964 | novelty mean=0.8171, std=0.0452 | UCB range=(0.2383, 0.6777) | novelty_z range=(-14.005,2.743)
+2025-09-29 21:44:09,142 - INFO - Selected Nc1ncnc2c1ncn2CCOCP(=O)(O)OCCOCCOCCOCCOCCOCCO → UCB+nov = 1.191
+2025-09-29 21:44:09,144 - INFO -   True f = 0.4773
+2025-09-29 21:44:09,165 - INFO - Iter time: 23.13s
+2025-09-29 21:44:09,165 - INFO - 
+--- Trial 1, Iter 29 (train size=39) ---
+2025-09-29 21:44:32,741 - INFO - eta_t=0.2956 | novelty mean=0.8168, std=0.0451 | UCB range=(0.2373, 0.6763) | novelty_z range=(-14.046,2.758)
+2025-09-29 21:44:32,741 - INFO - Selected O=NN1CC=CC1 → UCB+nov = 1.178
+2025-09-29 21:44:32,742 - INFO -   True f = 0.001052
+2025-09-29 21:44:32,763 - INFO - Iter time: 23.60s
+2025-09-29 21:44:32,764 - INFO - 
+--- Trial 1, Iter 30 (train size=40) ---
+2025-09-29 21:44:56,953 - INFO - eta_t=0.2949 | novelty mean=0.8168, std=0.0451 | UCB range=(0.2376, 0.6763) | novelty_z range=(-14.047,2.758)
+2025-09-29 21:44:56,953 - INFO - Selected CNP1(NC)=NP(NC)(NC)=NP(NC)(N2CC2)=N1 → UCB+nov = 1.163
+2025-09-29 21:44:56,955 - INFO -   True f = 0.1819
+2025-09-29 21:44:56,977 - INFO - Iter time: 24.21s
+2025-09-29 21:44:56,977 - INFO - 
+--- Trial 1, Iter 31 (train size=41) ---
+2025-09-29 21:45:22,297 - INFO - eta_t=0.2942 | novelty mean=0.8168, std=0.0451 | UCB range=(0.2377, 0.6767) | novelty_z range=(-14.041,2.757)
+2025-09-29 21:45:22,297 - INFO - Selected NN=C1C(=NO)CCc2nonc21 → UCB+nov = 1.16
+2025-09-29 21:45:22,299 - INFO -   True f = 0.3065
+2025-09-29 21:45:22,320 - INFO - Iter time: 25.34s
+2025-09-29 21:45:22,321 - INFO - 
+--- Trial 1, Iter 32 (train size=42) ---
+2025-09-29 21:45:48,710 - INFO - eta_t=0.2935 | novelty mean=0.8168, std=0.0451 | UCB range=(0.2370, 0.6781) | novelty_z range=(-14.053,2.761)
+2025-09-29 21:45:48,710 - INFO - Selected N=C(NN=Cc1c(F)c(F)c(F)c(F)c1F)NN=Cc1c(F)c(F)c(F)c(F)c1F → UCB+nov = 1.163
+2025-09-29 21:45:48,712 - INFO -   True f = 0.1967
+2025-09-29 21:45:48,734 - INFO - Iter time: 26.41s
+2025-09-29 21:45:48,734 - INFO - 
+--- Trial 1, Iter 33 (train size=43) ---
+2025-09-29 21:46:15,502 - INFO - eta_t=0.2929 | novelty mean=0.8167, std=0.0450 | UCB range=(0.2395, 0.6791) | novelty_z range=(-14.058,2.763)
+2025-09-29 21:46:15,502 - INFO - Selected O=C(O)Cn1cnnn1 → UCB+nov = 1.159
+2025-09-29 21:46:15,504 - INFO -   True f = 0.2286
+2025-09-29 21:46:15,526 - INFO - Iter time: 26.79s
+2025-09-29 21:46:15,526 - INFO - 
+--- Trial 1, Iter 34 (train size=44) ---
+2025-09-29 21:46:42,469 - INFO - eta_t=0.2923 | novelty mean=0.8167, std=0.0450 | UCB range=(0.2391, 0.6789) | novelty_z range=(-14.074,2.767)
+2025-09-29 21:46:42,469 - INFO - Selected O=c1[nH]c(=O)n(COC(CO)CO)cc1F → UCB+nov = 1.156
+2025-09-29 21:46:42,470 - INFO -   True f = 0.4327
+2025-09-29 21:46:42,493 - INFO - Iter time: 26.97s
+2025-09-29 21:46:42,493 - INFO - 
+--- Trial 1, Iter 35 (train size=45) ---
+2025-09-29 21:47:10,619 - INFO - eta_t=0.2917 | novelty mean=0.8164, std=0.0449 | UCB range=(0.2370, 0.6807) | novelty_z range=(-14.106,2.781)
+2025-09-29 21:47:10,619 - INFO - Selected CN(C)C(=NO)C(=NO)N(C)C → UCB+nov = 1.156
+2025-09-29 21:47:10,620 - INFO -   True f = 0.1536
+2025-09-29 21:47:10,643 - INFO - Iter time: 28.15s
+2025-09-29 21:47:10,643 - INFO - 
+--- Trial 1, Iter 36 (train size=46) ---
+2025-09-29 21:47:39,354 - INFO - eta_t=0.2911 | novelty mean=0.8164, std=0.0448 | UCB range=(0.2368, 0.6815) | novelty_z range=(-14.114,2.783)
+2025-09-29 21:47:39,355 - INFO - Selected ClC=CC[N+]12CN3CN(CN(C3)C1)C2 → UCB+nov = 1.155
+2025-09-29 21:47:39,356 - INFO -   True f = 8.467e-06
+2025-09-29 21:47:39,380 - INFO - Iter time: 28.74s
+2025-09-29 21:47:39,380 - INFO - 
+--- Trial 1, Iter 37 (train size=47) ---
+2025-09-29 21:48:08,646 - INFO - eta_t=0.2906 | novelty mean=0.8164, std=0.0448 | UCB range=(0.2367, 0.6817) | novelty_z range=(-14.115,2.783)
+2025-09-29 21:48:08,647 - INFO - Selected CC(=Cc1cc(F)c(OCCCF)cc1F)C(=O)NC1C(O)C(O)C2OCOC2C1OCCCF → UCB+nov = 1.15
+2025-09-29 21:48:08,649 - INFO -   True f = 0.5843
+2025-09-29 21:48:08,672 - INFO - Iter time: 29.29s
+2025-09-29 21:48:08,672 - INFO - 
+--- Trial 1, Iter 38 (train size=48) ---
+2025-09-29 21:48:38,913 - INFO - eta_t=0.2900 | novelty mean=0.8163, std=0.0447 | UCB range=(0.2386, 0.6829) | novelty_z range=(-14.143,2.791)
+2025-09-29 21:48:38,913 - INFO - Selected OC1C=CSC1O → UCB+nov = 1.155
+2025-09-29 21:48:38,914 - INFO -   True f = 0.004643
+2025-09-29 21:48:38,938 - INFO - Iter time: 30.27s
+2025-09-29 21:48:38,938 - INFO - 
+--- Trial 1, Iter 39 (train size=49) ---
+2025-09-29 21:49:08,310 - INFO - eta_t=0.2895 | novelty mean=0.8163, std=0.0447 | UCB range=(0.2389, 0.6832) | novelty_z range=(-14.146,2.649)
+2025-09-29 21:49:08,310 - INFO - Selected CC1(C)OCC(C2OC3OC(C)(C)OC3C2OC(=S)SSC(=S)OC2C(C3COC(C)(C)O3)OC3OC(C)(C)OC32)O1 → UCB+nov = 1.148
+2025-09-29 21:49:08,312 - INFO -   True f = 0.3237
+2025-09-29 21:49:08,337 - INFO - Iter time: 29.40s
+2025-09-29 21:49:08,337 - INFO - 
+--- Trial 1, Iter 40 (train size=50) ---
+2025-09-29 21:49:39,298 - INFO - eta_t=0.2890 | novelty mean=0.8162, std=0.0447 | UCB range=(0.2394, 0.6831) | novelty_z range=(-14.159,2.653)
+2025-09-29 21:49:39,298 - INFO - Selected CO[Si](CCCNCCC[Si](OC)(OC)OC)(OC)OC → UCB+nov = 1.15
+2025-09-29 21:49:39,300 - INFO -   True f = 0.1466
+2025-09-29 21:49:39,325 - INFO - Iter time: 30.99s
+2025-09-29 21:49:39,325 - INFO - 
+--- Trial 1, Iter 41 (train size=51) ---
+2025-09-29 21:50:09,900 - INFO - eta_t=0.2886 | novelty mean=0.8162, std=0.0447 | UCB range=(0.2394, 0.6831) | novelty_z range=(-14.169,2.623)
+2025-09-29 21:50:09,900 - INFO - Selected O=C1NC(=O)C2C3C=CC(C12)C1C2C(=O)NC(=O)C2C31 → UCB+nov = 1.145
+2025-09-29 21:50:09,902 - INFO -   True f = 0.407
+2025-09-29 21:50:09,927 - INFO - Iter time: 30.60s
+2025-09-29 21:50:09,927 - INFO - 
+--- Trial 1, Iter 42 (train size=52) ---
+2025-09-29 21:50:42,448 - INFO - eta_t=0.2881 | novelty mean=0.8162, std=0.0446 | UCB range=(0.2382, 0.6878) | novelty_z range=(-14.177,2.625)
+2025-09-29 21:50:42,448 - INFO - Selected CC(C)CC1c2c(O)c(C=O)c(O)c(C=O)c2OC(c2c(O)c(C=O)c(O)c(C=O)c2O)C1C(C)C → UCB+nov = 1.146
+2025-09-29 21:50:42,450 - INFO -   True f = 0.5022
+2025-09-29 21:50:42,475 - INFO - Iter time: 32.55s
+2025-09-29 21:50:42,476 - INFO - 
+--- Trial 1, Iter 43 (train size=53) ---
+2025-09-29 21:51:14,800 - INFO - eta_t=0.2877 | novelty mean=0.8161, std=0.0446 | UCB range=(0.2361, 0.6933) | novelty_z range=(-14.199,2.631)
+2025-09-29 21:51:14,800 - INFO - Selected CC(C)COc1ncnc2[nH]cc(C=CC(=N)O)c12 → UCB+nov = 1.148
+2025-09-29 21:51:14,801 - INFO -   True f = 0.4838
+2025-09-29 21:51:14,827 - INFO - Iter time: 32.35s
+2025-09-29 21:51:14,827 - INFO - 
+--- Trial 1, Iter 44 (train size=54) ---
+2025-09-29 21:51:47,918 - INFO - eta_t=0.2873 | novelty mean=0.8160, std=0.0444 | UCB range=(0.2359, 0.6963) | novelty_z range=(-14.241,2.642)
+2025-09-29 21:51:47,918 - INFO - Selected CC1(COC=O)C(C(=O)O)N2C(=O)C(=CC(=O)O)C2S1(=O)=O → UCB+nov = 1.157
+2025-09-29 21:51:47,919 - INFO -   True f = 0.4648
+2025-09-29 21:51:47,946 - INFO - Iter time: 33.12s
+2025-09-29 21:51:47,946 - INFO - 
+--- Trial 1, Iter 45 (train size=55) ---
+2025-09-29 21:52:21,561 - INFO - eta_t=0.2869 | novelty mean=0.8159, std=0.0444 | UCB range=(0.2347, 0.6975) | novelty_z range=(-14.256,2.647)
+2025-09-29 21:52:21,562 - INFO - Selected C=CCn1c(S)nnc1CCC(O)CCCCC → UCB+nov = 1.159
+2025-09-29 21:52:21,563 - INFO -   True f = 0.03828
+2025-09-29 21:52:21,590 - INFO - Iter time: 33.64s
+2025-09-29 21:52:21,590 - INFO - 
+--- Trial 1, Iter 46 (train size=56) ---
+2025-09-29 21:52:55,772 - INFO - eta_t=0.2865 | novelty mean=0.8158, std=0.0442 | UCB range=(0.2349, 0.6994) | novelty_z range=(-14.300,2.659)
+2025-09-29 21:52:55,772 - INFO - Selected O=P1(N(CCCl)CCCl)NC(SCCS(=O)(=O)O)CCO1 → UCB+nov = 1.147
+2025-09-29 21:52:55,774 - INFO -   True f = 0.4205
+2025-09-29 21:52:55,801 - INFO - Iter time: 34.21s
+2025-09-29 21:52:55,801 - INFO - 
+--- Trial 1, Iter 47 (train size=57) ---
+2025-09-29 21:53:31,218 - INFO - eta_t=0.2861 | novelty mean=0.8157, std=0.0442 | UCB range=(0.2280, 0.7052) | novelty_z range=(-14.305,2.661)
+2025-09-29 21:53:31,218 - INFO - Selected O=C(CS)OCCOC(=O)CS → UCB+nov = 1.149
+2025-09-29 21:53:31,219 - INFO -   True f = 0.03085
+2025-09-29 21:53:31,246 - INFO - Iter time: 35.45s
+2025-09-29 21:53:31,246 - INFO - 
+--- Trial 1, Iter 48 (train size=58) ---
+2025-09-29 21:54:06,742 - INFO - eta_t=0.2857 | novelty mean=0.8157, std=0.0442 | UCB range=(0.2290, 0.7063) | novelty_z range=(-14.315,2.664)
+2025-09-29 21:54:06,743 - INFO - Selected C#CC(CC)ON=C1CCN(C)CC1 → UCB+nov = 1.144
+2025-09-29 21:54:06,744 - INFO -   True f = 0.0003156
+2025-09-29 21:54:06,771 - INFO - Iter time: 35.52s
+2025-09-29 21:54:06,771 - INFO - 
+--- Trial 1, Iter 49 (train size=59) ---
+2025-09-29 21:54:42,969 - INFO - eta_t=0.2854 | novelty mean=0.8156, std=0.0441 | UCB range=(0.2285, 0.7052) | novelty_z range=(-14.330,2.668)
+2025-09-29 21:54:42,969 - INFO - Selected Nc1nc(C(=NOCCSc2nnc(-c3cc(O)c(O)cn3)o2)C(=O)NC2C(=O)N3C(C(=O)O)=C(CSc4cnns4)CSC23)cs1 → UCB+nov = 1.143
+2025-09-29 21:54:42,972 - INFO -   True f = 0.5061
+2025-09-29 21:54:43,000 - INFO - Iter time: 36.23s
+2025-09-29 21:54:43,000 - INFO - 
+--- Trial 1, Iter 50 (train size=60) ---
+2025-09-29 21:55:20,793 - INFO - eta_t=0.2850 | novelty mean=0.8155, std=0.0442 | UCB range=(0.2278, 0.7089) | novelty_z range=(-14.312,2.668)
+2025-09-29 21:55:20,793 - INFO - Selected Nc1nc(N)nc(NCCCNC2CCCCC2NCCCNc2nc(N)nc(N)n2)n1 → UCB+nov = 1.143
+2025-09-29 21:55:20,795 - INFO -   True f = 0.4515
+2025-09-29 21:55:20,824 - INFO - Iter time: 37.82s
+2025-09-29 21:55:20,825 - INFO - 
+--- Trial 1, Iter 51 (train size=61) ---
+2025-09-29 21:55:58,425 - INFO - eta_t=0.2847 | novelty mean=0.8155, std=0.0441 | UCB range=(0.2285, 0.7091) | novelty_z range=(-14.324,2.671)
+2025-09-29 21:55:58,426 - INFO - Selected Nc1nc2c(c(=O)[nH]1)NC1C(N2)OC2COP(=O)(O)OC2C1(O)O → UCB+nov = 1.146
+2025-09-29 21:55:58,427 - INFO -   True f = 0.3815
+2025-09-29 21:55:58,457 - INFO - Iter time: 37.63s
+2025-09-29 21:55:58,457 - INFO - 
+--- Trial 1, Iter 52 (train size=62) ---
+2025-09-29 21:56:36,626 - INFO - eta_t=0.2843 | novelty mean=0.8154, std=0.0441 | UCB range=(0.2277, 0.7100) | novelty_z range=(-14.334,2.674)
+2025-09-29 21:56:36,626 - INFO - Selected CSc1nnc2n(C)c3c(=O)n(C)c(=O)n(C)c3n12 → UCB+nov = 1.148
+2025-09-29 21:56:36,628 - INFO -   True f = 0.2448
+2025-09-29 21:56:36,658 - INFO - Iter time: 38.20s
+2025-09-29 21:56:36,658 - INFO - 
+--- Trial 1, Iter 53 (train size=63) ---
+2025-09-29 21:57:17,104 - INFO - eta_t=0.2840 | novelty mean=0.8152, std=0.0440 | UCB range=(0.2272, 0.7108) | novelty_z range=(-14.349,2.682)
+2025-09-29 21:57:17,104 - INFO - Selected CC(C)CC1NC(=O)C(CCCNC(=N)N)NC(=O)C(CCCC[N+](C)(C)C)NC(=O)C(CC(=O)O)NC(=O)C(CCCCN)NC(=O)CCNC1=O → UCB+nov = 1.15
+2025-09-29 21:57:17,107 - INFO -   True f = 0.4551
+2025-09-29 21:57:17,138 - INFO - Iter time: 40.48s
+2025-09-29 21:57:17,138 - INFO - 
+--- Trial 1, Iter 54 (train size=64) ---
+2025-09-29 21:57:58,102 - INFO - eta_t=0.2837 | novelty mean=0.8151, std=0.0441 | UCB range=(0.2271, 0.7150) | novelty_z range=(-14.326,2.682)
+2025-09-29 21:57:58,102 - INFO - Selected C=C(C)C(Cc1c(OC(C)=O)c(Cc2c(OC)c(C)c(OC(C)=O)c(C(C)=O)c2OC(C)=O)c(OC(C)=O)c(C(C)=O)c1OC(C)=O)OC(C)=O → UCB+nov = 1.142
+2025-09-29 21:57:58,105 - INFO -   True f = 0.3407
+2025-09-29 21:57:58,136 - INFO - Iter time: 41.00s
+2025-09-29 21:57:58,136 - INFO - 
+--- Trial 1, Iter 55 (train size=65) ---
+2025-09-29 21:58:40,244 - INFO - eta_t=0.2834 | novelty mean=0.8150, std=0.0441 | UCB range=(0.2269, 0.7159) | novelty_z range=(-14.326,2.684)
+2025-09-29 21:58:40,244 - INFO - Selected NC(=S)Nc1c(S(N)(=O)=O)cc(S(N)(=O)=O)c(Cl)c1Cl → UCB+nov = 1.138
+2025-09-29 21:58:40,246 - INFO -   True f = 0.2789
+2025-09-29 21:58:40,277 - INFO - Iter time: 42.14s
+2025-09-29 21:58:40,277 - INFO - 
+--- Trial 1, Iter 56 (train size=66) ---
+2025-09-29 21:59:22,036 - INFO - eta_t=0.2831 | novelty mean=0.8149, std=0.0440 | UCB range=(0.2258, 0.7180) | novelty_z range=(-14.352,2.692)
+2025-09-29 21:59:22,036 - INFO - Selected COC1(OC)C2(Cl)C(Cl)=C(Cl)C1(Cl)C1C=CC=CC12 → UCB+nov = 1.137
+2025-09-29 21:59:22,038 - INFO -   True f = 8.121e-05
+2025-09-29 21:59:22,069 - INFO - Iter time: 41.79s
+2025-09-29 21:59:22,070 - INFO - 
+--- Trial 1, Iter 57 (train size=67) ---
+2025-09-29 22:00:04,527 - INFO - eta_t=0.2828 | novelty mean=0.8149, std=0.0440 | UCB range=(0.2254, 0.7170) | novelty_z range=(-14.354,2.693)
+2025-09-29 22:00:04,527 - INFO - Selected C=C1CC(CC=C(C)CC2CC(=C)C(=O)O2)OC1=O → UCB+nov = 1.134
+2025-09-29 22:00:04,528 - INFO -   True f = 0.044
+2025-09-29 22:00:04,561 - INFO - Iter time: 42.49s
+2025-09-29 22:00:04,561 - INFO - 
+--- Trial 1, Iter 58 (train size=68) ---
+2025-09-29 22:00:48,596 - INFO - eta_t=0.2825 | novelty mean=0.8148, std=0.0439 | UCB range=(0.2260, 0.7166) | novelty_z range=(-14.370,2.697)
+2025-09-29 22:00:48,596 - INFO - Selected OC1=NC(=Cc2cnn3c(=NC4CC4)[nH]c(=NCCC(F)(F)F)[nH]c23)C(O)=N1 → UCB+nov = 1.126
+2025-09-29 22:00:48,598 - INFO -   True f = 0.4964
+2025-09-29 22:00:48,631 - INFO - Iter time: 44.07s
+2025-09-29 22:00:48,632 - INFO - 
+--- Trial 1, Iter 59 (train size=69) ---
+2025-09-29 22:01:33,520 - INFO - eta_t=0.2823 | novelty mean=0.8146, std=0.0443 | UCB range=(0.2301, 0.7171) | novelty_z range=(-14.238,2.678)
+2025-09-29 22:01:33,520 - INFO - Selected Oc1coccc1=S → UCB+nov = 1.12
+2025-09-29 22:01:33,522 - INFO -   True f = 0.001555
+2025-09-29 22:01:33,555 - INFO - Iter time: 44.92s
+2025-09-29 22:01:33,555 - INFO - 
+--- Trial 1, Iter 60 (train size=70) ---
+2025-09-29 22:02:18,694 - INFO - eta_t=0.2820 | novelty mean=0.8146, std=0.0443 | UCB range=(0.2304, 0.7169) | novelty_z range=(-14.261,2.684)
+2025-09-29 22:02:18,694 - INFO - Selected CC1(C#N)C(O)C(COP(=O)(O)OP(=O)(O)OP(=O)(O)O)OC1(C#N)c1cnc2c(=N)nc[nH]n12 → UCB+nov = 1.117
+2025-09-29 22:02:18,696 - INFO -   True f = 0.4148
+2025-09-29 22:02:18,730 - INFO - Iter time: 45.17s
+2025-09-29 22:02:18,730 - INFO - 
+--- Trial 1, Iter 61 (train size=71) ---
+2025-09-29 22:03:04,591 - INFO - eta_t=0.2818 | novelty mean=0.8145, std=0.0443 | UCB range=(0.2298, 0.7246) | novelty_z range=(-14.251,2.685)
+2025-09-29 22:03:04,591 - INFO - Selected CC(=O)NC1C(NC(CC2=CCCCC2)=NS(C)(=O)=O)C=C(C(=O)O)OC1C(O)C(O)CO → UCB+nov = 1.116
+2025-09-29 22:03:04,593 - INFO -   True f = 0.5367
+2025-09-29 22:03:04,627 - INFO - Iter time: 45.90s
+2025-09-29 22:03:04,627 - INFO - 
+--- Trial 1, Iter 62 (train size=72) ---
+2025-09-29 22:03:50,824 - INFO - eta_t=0.2815 | novelty mean=0.8143, std=0.0442 | UCB range=(0.2271, 0.7373) | novelty_z range=(-14.257,2.689)
+2025-09-29 22:03:50,824 - INFO - Selected Cc1nc2nc3c(c(O)n2n1)n(CCN1CCCCC1)c(=O)n3C1OC(CO)C(O)C1O → UCB+nov = 1.122
+2025-09-29 22:03:50,826 - INFO -   True f = 0.5358
+2025-09-29 22:03:50,861 - INFO - Iter time: 46.23s
+2025-09-29 22:03:50,861 - INFO - 
+--- Trial 1, Iter 63 (train size=73) ---
+2025-09-29 22:04:39,188 - INFO - eta_t=0.2812 | novelty mean=0.8139, std=0.0440 | UCB range=(0.2270, 0.7519) | novelty_z range=(-14.317,2.712)
+2025-09-29 22:04:39,188 - INFO - Selected N#CCCn1cnc2c(Br)c(Br)c(Br)c(Br)c21 → UCB+nov = 1.126
+2025-09-29 22:04:39,190 - INFO -   True f = 0.006125
+2025-09-29 22:04:39,225 - INFO - Iter time: 48.36s
+2025-09-29 22:04:39,225 - INFO - 
+--- Trial 1, Iter 64 (train size=74) ---
+2025-09-29 22:05:27,341 - INFO - eta_t=0.2810 | novelty mean=0.8138, std=0.0440 | UCB range=(0.2267, 0.7478) | novelty_z range=(-14.314,2.713)
+2025-09-29 22:05:27,342 - INFO - Selected COP1OCC2CCCC2O1 → UCB+nov = 1.123
+2025-09-29 22:05:27,343 - INFO -   True f = 0.0004816
+2025-09-29 22:05:27,379 - INFO - Iter time: 48.15s
+2025-09-29 22:05:27,379 - INFO - 
+--- Trial 1, Iter 65 (train size=75) ---
+2025-09-29 22:06:15,709 - INFO - eta_t=0.2808 | novelty mean=0.8138, std=0.0440 | UCB range=(0.2263, 0.7481) | novelty_z range=(-14.324,2.716)
+2025-09-29 22:06:15,710 - INFO - Selected NCCC1CN=CN1 → UCB+nov = 1.116
+2025-09-29 22:06:15,711 - INFO -   True f = 0.02108
+2025-09-29 22:06:15,747 - INFO - Iter time: 48.37s
+2025-09-29 22:06:15,747 - INFO - 
+--- Trial 1, Iter 66 (train size=76) ---
+2025-09-29 22:07:05,854 - INFO - eta_t=0.2805 | novelty mean=0.8138, std=0.0440 | UCB range=(0.2260, 0.7476) | novelty_z range=(-14.326,2.716)
+2025-09-29 22:07:05,854 - INFO - Selected ClC1C(Cl)C(Cl)C(Cl)C(Cl)C1Cl → UCB+nov = 1.114
+2025-09-29 22:07:05,855 - INFO -   True f = 0
+2025-09-29 22:07:05,892 - INFO - Iter time: 50.15s
+2025-09-29 22:07:05,892 - INFO - 
+--- Trial 1, Iter 67 (train size=77) ---
+2025-09-29 22:07:54,909 - INFO - eta_t=0.2803 | novelty mean=0.8138, std=0.0440 | UCB range=(0.2259, 0.7471) | novelty_z range=(-14.327,2.717)
+2025-09-29 22:07:54,909 - INFO - Selected CC1(C)CN1P(=O)(NC(=O)OCCN=C1C(O)=C(Cl)C(=NCCOC(=O)NP(=O)(N2CC2(C)C)N2CC2(C)C)C(O)=C1Cl)N1CC1(C)C → UCB+nov = 1.112
+2025-09-29 22:07:54,911 - INFO -   True f = 0.3631
+2025-09-29 22:07:54,950 - INFO - Iter time: 49.06s
+2025-09-29 22:07:54,950 - INFO - 
+--- Trial 1, Iter 68 (train size=78) ---
+2025-09-29 22:08:45,908 - INFO - eta_t=0.2801 | novelty mean=0.8138, std=0.0440 | UCB range=(0.2258, 0.7476) | novelty_z range=(-14.336,2.719)
+2025-09-29 22:08:45,908 - INFO - Selected COC1=CC(C)=CC(C)C(O)C(C)CC(C)=CC=CC(OC)C(C(C)C(O)C(C)C2(OC)CC(OC)C(C)C(C(C)C)O2)OC1=O → UCB+nov = 1.109
+2025-09-29 22:08:45,911 - INFO -   True f = 0.265
+2025-09-29 22:08:45,949 - INFO - Iter time: 51.00s
+2025-09-29 22:08:45,949 - INFO - 
+--- Trial 1, Iter 69 (train size=79) ---
+2025-09-29 22:09:37,132 - INFO - eta_t=0.2799 | novelty mean=0.8137, std=0.0439 | UCB range=(0.2258, 0.7476) | novelty_z range=(-14.345,2.723)
+2025-09-29 22:09:37,132 - INFO - Selected O=[N+]([O-])c1cc2cc(-c3nn[nH]n3)c(O)nc2cc1[N+](=O)[O-] → UCB+nov = 1.108
+2025-09-29 22:09:37,134 - INFO -   True f = 0.468
+2025-09-29 22:09:37,172 - INFO - Iter time: 51.22s
+2025-09-29 22:09:37,172 - INFO - 
+--- Trial 1, Iter 70 (train size=80) ---
+2025-09-29 22:10:28,133 - INFO - eta_t=0.2797 | novelty mean=0.8135, std=0.0438 | UCB range=(0.2237, 0.7484) | novelty_z range=(-14.383,2.737)
+2025-09-29 22:10:28,133 - INFO - Selected COC12C(COC(N)=O)C3=C(C(=O)C(CSCCO)=C(N)C3=O)N1CC1NC12 → UCB+nov = 1.112
+2025-09-29 22:10:28,135 - INFO -   True f = 0.4882
+2025-09-29 22:10:28,174 - INFO - Iter time: 51.00s
+2025-09-29 22:10:28,174 - INFO - 
+--- Trial 1, Iter 71 (train size=81) ---
+2025-09-29 22:11:21,026 - INFO - eta_t=0.2795 | novelty mean=0.8133, std=0.0441 | UCB range=(0.2234, 0.7516) | novelty_z range=(-14.279,2.721)
+2025-09-29 22:11:21,027 - INFO - Selected OCCN(CCO)c1nc(NCc2ccc3c(c2)OCO3)c2nc(N(CCO)CCO)nc(NCc3ccc4c(c3)OCO4)c2n1 → UCB+nov = 1.103
+2025-09-29 22:11:21,029 - INFO -   True f = 0.5359
+2025-09-29 22:11:21,070 - INFO - Iter time: 52.90s
+2025-09-29 22:11:21,070 - INFO - 
+--- Trial 1, Iter 72 (train size=82) ---
+2025-09-29 22:12:13,775 - INFO - eta_t=0.2793 | novelty mean=0.8131, std=0.0441 | UCB range=(0.2236, 0.7604) | novelty_z range=(-14.288,2.728)
+2025-09-29 22:12:13,775 - INFO - Selected CC1CN(CC(=O)Nc2nc3cc4nc(NC(=O)CN5CC(C)NCC5C)sc4cc3s2)C(C)CN1 → UCB+nov = 1.108
+2025-09-29 22:12:13,777 - INFO -   True f = 0.5143
+2025-09-29 22:12:13,818 - INFO - Iter time: 52.75s
+2025-09-29 22:12:13,818 - INFO - 
+--- Trial 1, Iter 73 (train size=83) ---
+2025-09-29 22:13:09,733 - INFO - eta_t=0.2791 | novelty mean=0.8131, std=0.0440 | UCB range=(0.2236, 0.7660) | novelty_z range=(-14.297,2.731)
+2025-09-29 22:13:09,733 - INFO - Selected c1c2n[nH]c1CNCCN1CCNCc3cc(n[nH]3)CNCCN(CCNC2)CCNCc2cc([nH]n2)CNCC1 → UCB+nov = 1.104
+2025-09-29 22:13:09,736 - INFO -   True f = 0.5255
+2025-09-29 22:13:09,777 - INFO - Iter time: 55.96s
+2025-09-29 22:13:09,777 - INFO - 
+--- Trial 1, Iter 74 (train size=84) ---
+2025-09-29 22:14:06,379 - INFO - eta_t=0.2789 | novelty mean=0.8130, std=0.0440 | UCB range=(0.2242, 0.7752) | novelty_z range=(-14.299,2.732)
+2025-09-29 22:14:06,379 - INFO - Selected NCC(O)c1cc(O)c2c(c1)SCC(C(=O)O)N2 → UCB+nov = 1.102
+2025-09-29 22:14:06,381 - INFO -   True f = 0.4991
+2025-09-29 22:14:06,422 - INFO - Iter time: 56.64s
+2025-09-29 22:14:06,422 - INFO - 
+--- Trial 1, Iter 75 (train size=85) ---
+2025-09-29 22:15:02,383 - INFO - eta_t=0.2787 | novelty mean=0.8130, std=0.0440 | UCB range=(0.2240, 0.7743) | novelty_z range=(-14.316,2.737)
+2025-09-29 22:15:02,383 - INFO - Selected CCC(CNC(=O)NCCCCNC(=O)NCC(CC)C12CC3CC(CC(C3)C1)C2)C12CC3CC(CC(C3)C1)C2 → UCB+nov = 1.101
+2025-09-29 22:15:02,386 - INFO -   True f = 0.1104
+2025-09-29 22:15:02,429 - INFO - Iter time: 56.01s
+2025-09-29 22:15:02,429 - INFO - 
+--- Trial 1, Iter 76 (train size=86) ---
+2025-09-29 22:15:59,600 - INFO - eta_t=0.2785 | novelty mean=0.8128, std=0.0439 | UCB range=(0.2241, 0.7700) | novelty_z range=(-14.334,2.745)
+2025-09-29 22:15:59,600 - INFO - Selected C=CC1=C(C)c2cc3[nH]c(cc4nc(cc5[nH]c(cc1n2)c(C)c5CCC(=O)O)C(CCC(=O)O)=C4C)c(C)c3C=C → UCB+nov = 1.101
+2025-09-29 22:15:59,603 - INFO -   True f = 0.06886
+2025-09-29 22:15:59,646 - INFO - Iter time: 57.22s
+2025-09-29 22:15:59,646 - INFO - 
+--- Trial 1, Iter 77 (train size=87) ---
+2025-09-29 22:16:58,478 - INFO - eta_t=0.2783 | novelty mean=0.8128, std=0.0439 | UCB range=(0.2251, 0.7663) | novelty_z range=(-14.336,2.747)
+2025-09-29 22:16:58,478 - INFO - Selected COCCCNc1cc(C)nn2cnnc12 → UCB+nov = 1.094
+2025-09-29 22:16:58,479 - INFO -   True f = 0.1335
+2025-09-29 22:16:58,523 - INFO - Iter time: 58.88s
+2025-09-29 22:16:58,523 - INFO - 
+--- Trial 1, Iter 78 (train size=88) ---
+2025-09-29 22:17:57,236 - INFO - eta_t=0.2781 | novelty mean=0.8126, std=0.0438 | UCB range=(0.2247, 0.7643) | novelty_z range=(-14.366,2.756)
+2025-09-29 22:17:57,236 - INFO - Selected CCOP(=O)(C=C=C(C)C)OCC → UCB+nov = 1.093
+2025-09-29 22:17:57,237 - INFO -   True f = 0.002051
+2025-09-29 22:17:57,282 - INFO - Iter time: 58.76s
+2025-09-29 22:17:57,282 - INFO - 
+--- Trial 1, Iter 79 (train size=89) ---
+2025-09-29 22:18:57,051 - INFO - eta_t=0.2780 | novelty mean=0.8126, std=0.0438 | UCB range=(0.2249, 0.7650) | novelty_z range=(-14.378,2.760)
+2025-09-29 22:18:57,051 - INFO - Selected O=C1CN2C(=O)CCCCC2N1 → UCB+nov = 1.092
+2025-09-29 22:18:57,053 - INFO -   True f = 0.02691
+2025-09-29 22:18:57,098 - INFO - Iter time: 59.82s
+2025-09-29 22:18:57,098 - INFO - 
+--- Trial 1, Iter 80 (train size=90) ---
+2025-09-29 22:19:55,631 - INFO - eta_t=0.2778 | novelty mean=0.8125, std=0.0437 | UCB range=(0.2256, 0.7650) | novelty_z range=(-14.409,2.769)
+2025-09-29 22:19:55,631 - INFO - Selected CC=CC=CC(=O)OCC1OC2C(Oc3nc(=N)ccn32)C1OC(=O)C=CC=CC → UCB+nov = 1.09
+2025-09-29 22:19:55,633 - INFO -   True f = 0.5004
+2025-09-29 22:19:55,679 - INFO - Iter time: 58.58s
+2025-09-29 22:19:55,679 - INFO - 
+--- Trial 1, Iter 81 (train size=91) ---
+2025-09-29 22:20:57,013 - INFO - eta_t=0.2776 | novelty mean=0.8124, std=0.0436 | UCB range=(0.2255, 0.7714) | novelty_z range=(-14.409,2.770)
+2025-09-29 22:20:57,014 - INFO - Selected CC(C)Nc1nc(NC(C)C)nc(SCC(N)=O)n1 → UCB+nov = 1.093
+2025-09-29 22:20:57,015 - INFO -   True f = 0.3395
+2025-09-29 22:20:57,062 - INFO - Iter time: 61.38s
+2025-09-29 22:20:57,062 - INFO - 
+--- Trial 1, Iter 82 (train size=92) ---
+2025-09-29 22:21:57,745 - INFO - eta_t=0.2774 | novelty mean=0.8123, std=0.0436 | UCB range=(0.2255, 0.7707) | novelty_z range=(-14.424,2.776)
+2025-09-29 22:21:57,745 - INFO - Selected O=C1Nc2ccc(Cl)cc2C(OCC=C(Cl)Cl)(C(F)(F)F)O1 → UCB+nov = 1.093
+2025-09-29 22:21:57,747 - INFO -   True f = 0.01971
+2025-09-29 22:21:57,794 - INFO - Iter time: 60.73s
+2025-09-29 22:21:57,795 - INFO - 
+--- Trial 1, Iter 83 (train size=93) ---
+2025-09-29 22:22:59,662 - INFO - eta_t=0.2773 | novelty mean=0.8120, std=0.0434 | UCB range=(0.2220, 0.7717) | novelty_z range=(-14.478,2.794)
+2025-09-29 22:22:59,662 - INFO - Selected NCC1OC(OC2C(N)CC(N)C(O)C2NCCNC(=O)C2OC(n3ccc(=O)[nH]c3=O)C(O)C2O)C(N)C(O)C1O → UCB+nov = 1.092
+2025-09-29 22:22:59,665 - INFO -   True f = 0.4839
+2025-09-29 22:22:59,713 - INFO - Iter time: 61.92s
+2025-09-29 22:22:59,713 - INFO - 
+--- Trial 1, Iter 84 (train size=94) ---
+2025-09-29 22:24:01,947 - INFO - eta_t=0.2771 | novelty mean=0.8119, std=0.0435 | UCB range=(0.2219, 0.7787) | novelty_z range=(-14.456,2.795)
+2025-09-29 22:24:01,947 - INFO - Selected NNc1nnc(-c2nnc(NN)o2)o1 → UCB+nov = 1.092
+2025-09-29 22:24:01,949 - INFO -   True f = 0.2097
+2025-09-29 22:24:01,998 - INFO - Iter time: 62.29s
+2025-09-29 22:24:01,998 - INFO - 
+--- Trial 1, Iter 85 (train size=95) ---
+2025-09-29 22:25:04,948 - INFO - eta_t=0.2770 | novelty mean=0.8118, std=0.0435 | UCB range=(0.2220, 0.7793) | novelty_z range=(-14.458,2.796)
+2025-09-29 22:25:04,948 - INFO - Selected CN=C(S)n1nccc1N → UCB+nov = 1.087
+2025-09-29 22:25:04,949 - INFO -   True f = 0.03886
+2025-09-29 22:25:04,999 - INFO - Iter time: 63.00s
+2025-09-29 22:25:04,999 - INFO - 
+--- Trial 1, Iter 86 (train size=96) ---
+2025-09-29 22:26:08,393 - INFO - eta_t=0.2768 | novelty mean=0.8118, std=0.0434 | UCB range=(0.2219, 0.7784) | novelty_z range=(-14.465,2.797)
+2025-09-29 22:26:08,393 - INFO - Selected O=c1sc2c(s1)SSSSS2 → UCB+nov = 1.087
+2025-09-29 22:26:08,394 - INFO -   True f = 3.006e-05
+2025-09-29 22:26:08,444 - INFO - Iter time: 63.44s
+2025-09-29 22:26:08,444 - INFO - 
+--- Trial 1, Iter 87 (train size=97) ---
+2025-09-29 22:27:11,619 - INFO - eta_t=0.2767 | novelty mean=0.8118, std=0.0434 | UCB range=(0.2221, 0.7786) | novelty_z range=(-14.465,2.798)
+2025-09-29 22:27:11,619 - INFO - Selected COCC1OC(=O)c2coc3c2C1(C)C1=C(C3=O)C2CCC(=O)C2(C)CC1OC(=O)CN(C)c1ccc([N+](=O)[O-])c2nonc12 → UCB+nov = 1.081
+2025-09-29 22:27:11,622 - INFO -   True f = 0.5604
+2025-09-29 22:27:11,673 - INFO - Iter time: 63.23s
+2025-09-29 22:27:11,673 - INFO - 
+--- Trial 1, Iter 88 (train size=98) ---
+2025-09-29 22:28:18,497 - INFO - eta_t=0.2765 | novelty mean=0.8118, std=0.0434 | UCB range=(0.2223, 0.7823) | novelty_z range=(-14.466,2.799)
+2025-09-29 22:28:18,497 - INFO - Selected C=CC1(C)CC(OC(=O)CSC2CCN(C(=O)CCn3cnc4c(N5CCC(NC)C5)ncnc43)CC2)C2(C)C(C)CCC3(CCC(=O)C32)C(C)C1O → UCB+nov = 1.086
+2025-09-29 22:28:18,500 - INFO -   True f = 0.5467
+2025-09-29 22:28:18,553 - INFO - Iter time: 66.88s
+2025-09-29 22:28:18,553 - INFO - 
+--- Trial 1, Iter 89 (train size=99) ---
+2025-09-29 22:29:23,848 - INFO - eta_t=0.2764 | novelty mean=0.8115, std=0.0434 | UCB range=(0.2221, 0.7959) | novelty_z range=(-14.482,2.808)
+2025-09-29 22:29:23,848 - INFO - Selected C=CCSSCC=C → UCB+nov = 1.086
+2025-09-29 22:29:23,849 - INFO -   True f = 2.996e-07
+2025-09-29 22:29:23,903 - INFO - Iter time: 65.35s
+2025-09-29 22:29:23,903 - INFO - 
+--- Trial 1, Iter 90 (train size=100) ---
+2025-09-29 22:30:32,871 - INFO - eta_t=0.2762 | novelty mean=0.8115, std=0.0434 | UCB range=(0.2220, 0.7962) | novelty_z range=(-14.482,2.809)
+2025-09-29 22:30:32,871 - INFO - Selected CN1C2COCC1CC(N=C(O)c1cn(CC(F)F)c3ncc(F)cc13)C2 → UCB+nov = 1.084
+2025-09-29 22:30:32,873 - INFO -   True f = 0.1642
+2025-09-29 22:30:32,927 - INFO - Iter time: 69.02s
+2025-09-29 22:30:32,927 - INFO - 
+--- Trial 1, Iter 91 (train size=101) ---
+2025-09-29 22:31:40,014 - INFO - eta_t=0.2761 | novelty mean=0.8115, std=0.0433 | UCB range=(0.2212, 0.7925) | novelty_z range=(-14.487,2.812)
+2025-09-29 22:31:40,014 - INFO - Selected CCc1nc2c(o1)C(O)=CC(=NCCN(C)C)C2=O → UCB+nov = 1.082
+2025-09-29 22:31:40,016 - INFO -   True f = 0.3718
+2025-09-29 22:31:40,071 - INFO - Iter time: 67.14s
+2025-09-29 22:31:40,071 - INFO - 
+--- Trial 1, Iter 92 (train size=102) ---
+2025-09-29 22:32:48,902 - INFO - eta_t=0.2759 | novelty mean=0.8114, std=0.0433 | UCB range=(0.2208, 0.7920) | novelty_z range=(-14.516,2.820)
+2025-09-29 22:32:48,903 - INFO - Selected COC(=O)CCc1c2c(c(CC(C)N)c3c1OCC3)OCC2 → UCB+nov = 1.086
+2025-09-29 22:32:48,904 - INFO -   True f = 0.2531
+2025-09-29 22:32:48,960 - INFO - Iter time: 68.89s
+2025-09-29 22:32:48,960 - INFO - 
+--- Trial 1, Iter 93 (train size=103) ---
+2025-09-29 22:33:57,964 - INFO - eta_t=0.2758 | novelty mean=0.8113, std=0.0432 | UCB range=(0.2208, 0.7920) | novelty_z range=(-14.525,2.823)
+2025-09-29 22:33:57,964 - INFO - Selected CC(C)=CCCC(C)=CCCC(C)=CCCC(C)=CCCC(C)=CCCC(C)=CCCC(C)=CCc1cc(O)ccc1O → UCB+nov = 1.084
+2025-09-29 22:33:57,967 - INFO -   True f = 1.604e-08
+2025-09-29 22:33:58,023 - INFO - Iter time: 69.06s
+2025-09-29 22:33:58,023 - INFO - 
+--- Trial 1, Iter 94 (train size=104) ---
+2025-09-29 22:35:07,640 - INFO - eta_t=0.2756 | novelty mean=0.8112, std=0.0433 | UCB range=(0.2207, 0.7922) | novelty_z range=(-14.483,2.819)
+2025-09-29 22:35:07,640 - INFO - Selected ClC(Br)Br → UCB+nov = 1.082
+2025-09-29 22:35:07,641 - INFO -   True f = 0
+2025-09-29 22:35:07,697 - INFO - Iter time: 69.67s
+2025-09-29 22:35:07,697 - INFO - 
+--- Trial 1, Iter 95 (train size=105) ---
+2025-09-29 22:36:17,872 - INFO - eta_t=0.2755 | novelty mean=0.8111, std=0.0433 | UCB range=(0.2207, 0.7922) | novelty_z range=(-14.484,2.669)
+2025-09-29 22:36:17,873 - INFO - Selected COc1cc(N2CCc3c(c(O)nc4nc(N)nc(N)c34)C2)cc(OC)c1OC → UCB+nov = 1.08
+2025-09-29 22:36:17,875 - INFO -   True f = 0.4707
+2025-09-29 22:36:17,932 - INFO - Iter time: 70.23s
+2025-09-29 22:36:17,932 - INFO - 
+--- Trial 1, Iter 96 (train size=106) ---
+2025-09-29 22:37:30,298 - INFO - eta_t=0.2754 | novelty mean=0.8102, std=0.0432 | UCB range=(0.2206, 0.7948) | novelty_z range=(-14.506,2.699)
+2025-09-29 22:37:30,298 - INFO - Selected CSCCC(NC(=O)CN(c1nc(Cl)nc2[nH]cnc12)C1CC1)C(=O)O → UCB+nov = 1.084
+2025-09-29 22:37:30,300 - INFO -   True f = 0.5156
+2025-09-29 22:37:30,358 - INFO - Iter time: 72.43s
+2025-09-29 22:37:30,358 - INFO - 
+--- Trial 1, Iter 97 (train size=107) ---
+2025-09-29 22:38:44,422 - INFO - eta_t=0.2753 | novelty mean=0.8101, std=0.0432 | UCB range=(0.2200, 0.8000) | novelty_z range=(-14.510,2.702)
+2025-09-29 22:38:44,422 - INFO - Selected Nc1ccn(C2CCC(COP(=O)(O)OCC3CCC(n4ccc(N)nc4=O)O3)O2)c(=O)n1 → UCB+nov = 1.085
+2025-09-29 22:38:44,424 - INFO -   True f = 0.5112
+2025-09-29 22:38:44,483 - INFO - Iter time: 74.12s
+2025-09-29 22:38:44,483 - INFO - 
+--- Trial 1, Iter 98 (train size=108) ---
+2025-09-29 22:39:56,962 - INFO - eta_t=0.2751 | novelty mean=0.8101, std=0.0432 | UCB range=(0.2197, 0.8034) | novelty_z range=(-14.512,2.704)
+2025-09-29 22:39:56,962 - INFO - Selected COC(=O)C1CSCc2c(O)cc(O)c(C)c2C(=O)OCC(NC(=O)C2C(O)CCN2C(=O)OC(C)(C)C)C(=O)N1 → UCB+nov = 1.086
+2025-09-29 22:39:56,964 - INFO -   True f = 0.5334
+2025-09-29 22:39:57,023 - INFO - Iter time: 72.54s
+2025-09-29 22:39:57,024 - INFO - 
+--- Trial 1, Iter 99 (train size=109) ---
+2025-09-29 22:41:10,224 - INFO - eta_t=0.2750 | novelty mean=0.8100, std=0.0431 | UCB range=(0.2198, 0.8053) | novelty_z range=(-14.528,2.710)
+2025-09-29 22:41:10,224 - INFO - Selected COCCOCCON=CC12CC3C(C)CCC3C3(C=O)CC1C=C(C(C)C)C23C(=O)O → UCB+nov = 1.085
+2025-09-29 22:41:10,226 - INFO -   True f = 0.6163
+2025-09-29 22:41:10,287 - INFO - Iter time: 73.26s
+2025-09-29 22:41:10,287 - INFO - 
+--- Trial 1, Iter 100 (train size=110) ---
+2025-09-29 22:42:26,442 - INFO - eta_t=0.2749 | novelty mean=0.8099, std=0.0431 | UCB range=(0.2189, 0.8054) | novelty_z range=(-14.523,2.711)
+2025-09-29 22:42:26,442 - INFO - Selected CC1=CCC(C(C)(O)CCCC(C)(C)NC(=S)NN)CC1 → UCB+nov = 1.09
+2025-09-29 22:42:26,444 - INFO -   True f = 0.275
+2025-09-29 22:42:26,505 - INFO - Iter time: 76.22s
+2025-09-29 22:42:26,505 - INFO - 
+--- Trial 1, Iter 101 (train size=111) ---
+2025-09-29 22:43:41,515 - INFO - eta_t=0.2748 | novelty mean=0.8099, std=0.0431 | UCB range=(0.2191, 0.8054) | novelty_z range=(-14.532,2.713)
+2025-09-29 22:43:41,515 - INFO - Selected CC(C)C#Cc1cnc2c(c1)C(=O)N(C(C)CO)CC(C)C(CN(C)C(=O)c1cnccn1)O2 → UCB+nov = 1.09
+2025-09-29 22:43:41,517 - INFO -   True f = 0.5395
+2025-09-29 22:43:41,580 - INFO - Iter time: 75.08s
+2025-09-29 22:43:41,581 - INFO - 
+--- Trial 1, Iter 102 (train size=112) ---
+2025-09-29 22:44:57,981 - INFO - eta_t=0.2746 | novelty mean=0.8097, std=0.0432 | UCB range=(0.2187, 0.8126) | novelty_z range=(-14.510,2.714)
+2025-09-29 22:44:57,981 - INFO - Selected COCc1n[nH]c2c1C(C1C=CCCC1)C(C#N)=C(N)O2 → UCB+nov = 1.091
+2025-09-29 22:44:57,983 - INFO -   True f = 0.4667
+2025-09-29 22:44:58,048 - INFO - Iter time: 76.47s
+2025-09-29 22:44:58,048 - INFO - 
+--- Trial 1, Iter 103 (train size=113) ---
+2025-09-29 22:46:15,912 - INFO - eta_t=0.2745 | novelty mean=0.8096, std=0.0432 | UCB range=(0.2195, 0.8132) | novelty_z range=(-14.506,2.715)
+2025-09-29 22:46:15,912 - INFO - Selected CC(=O)CCN1CC2CN=NC2(C#N)C1 → UCB+nov = 1.095
+2025-09-29 22:46:15,914 - INFO -   True f = 0.1981
+2025-09-29 22:46:15,979 - INFO - Iter time: 77.93s
+2025-09-29 22:46:15,979 - INFO - 
+--- Trial 1, Iter 104 (train size=114) ---
+2025-09-29 22:47:33,745 - INFO - eta_t=0.2744 | novelty mean=0.8096, std=0.0432 | UCB range=(0.2195, 0.8132) | novelty_z range=(-14.509,2.716)
+2025-09-29 22:47:33,745 - INFO - Selected S=c1[nH]nc(Cc2n[nH]c(=S)s2)s1 → UCB+nov = 1.089
+2025-09-29 22:47:33,747 - INFO -   True f = 0.03581
+2025-09-29 22:47:33,814 - INFO - Iter time: 77.83s
+2025-09-29 22:47:33,814 - INFO - 
+--- Trial 1, Iter 105 (train size=115) ---
+2025-09-29 22:48:53,533 - INFO - eta_t=0.2743 | novelty mean=0.8096, std=0.0432 | UCB range=(0.2194, 0.8135) | novelty_z range=(-14.511,2.716)
+2025-09-29 22:48:53,533 - INFO - Selected CC1CN2c3c(cc4c(N5CC(CN=[N+]=[N-])OC5=O)noc4c3F)CC3(C(O)=NC(=O)N=C3O)C2C(C)O1 → UCB+nov = 1.089
+2025-09-29 22:48:53,536 - INFO -   True f = 0.4924
+2025-09-29 22:48:53,604 - INFO - Iter time: 79.79s
+2025-09-29 22:48:53,604 - INFO - 
+--- Trial 1, Iter 106 (train size=116) ---
+2025-09-29 22:50:11,225 - INFO - eta_t=0.2742 | novelty mean=0.8096, std=0.0433 | UCB range=(0.2191, 0.8140) | novelty_z range=(-14.463,2.709)
+2025-09-29 22:50:11,225 - INFO - Selected O=C(O)COCC(O)C(O)C=CC=CC#CC=CC(O)COc1ccc(F)cc1 → UCB+nov = 1.085
+2025-09-29 22:50:11,227 - INFO -   True f = 0.5857
+2025-09-29 22:50:11,296 - INFO - Iter time: 77.69s
+2025-09-29 22:50:11,296 - INFO - 
+--- Trial 1, Iter 107 (train size=117) ---
+2025-09-29 22:51:33,086 - INFO - eta_t=0.2741 | novelty mean=0.8095, std=0.0433 | UCB range=(0.2193, 0.8133) | novelty_z range=(-14.473,2.712)
+2025-09-29 22:51:33,086 - INFO - Selected NC(=O)CC1(O)C=CC(=O)C=C1 → UCB+nov = 1.09
+2025-09-29 22:51:33,087 - INFO -   True f = 0.368
+2025-09-29 22:51:33,156 - INFO - Iter time: 81.86s
+2025-09-29 22:51:33,157 - INFO - 
+--- Trial 1, Iter 108 (train size=118) ---
+2025-09-29 22:52:53,893 - INFO - eta_t=0.2739 | novelty mean=0.8095, std=0.0432 | UCB range=(0.2180, 0.8130) | novelty_z range=(-14.477,2.714)
+2025-09-29 22:52:53,893 - INFO - Selected O=C1NCCc2cc(Br)c(O)c(c2)Oc2c(Br)cc(cc2Br)C(O)CNC(=O)C(=NO)Cc2cc(Br)c(O)c(c2)Oc2ccc(cc2Br)CC1=NO → UCB+nov = 1.088
+2025-09-29 22:52:53,897 - INFO -   True f = 0.0526
+2025-09-29 22:52:53,968 - INFO - Iter time: 80.81s
+2025-09-29 22:52:53,968 - INFO - 
+--- Trial 1, Iter 109 (train size=119) ---
+2025-09-29 22:54:14,939 - INFO - eta_t=0.2738 | novelty mean=0.8095, std=0.0433 | UCB range=(0.2186, 0.8155) | novelty_z range=(-14.469,2.713)
+2025-09-29 22:54:14,939 - INFO - Selected N=C(N)Nc1nc(CSCCNC2=NS(=O)(=O)c3cscc32)cs1 → UCB+nov = 1.089
+2025-09-29 22:54:14,941 - INFO -   True f = 0.437
+2025-09-29 22:54:15,013 - INFO - Iter time: 81.04s
+2025-09-29 22:54:15,013 - INFO - 
+--- Trial 1, Iter 110 (train size=120) ---
+2025-09-29 22:55:37,171 - INFO - eta_t=0.2737 | novelty mean=0.8094, std=0.0432 | UCB range=(0.2183, 0.8156) | novelty_z range=(-14.473,2.715)
+2025-09-29 22:55:37,171 - INFO - Selected COC(=O)CSC(=S)Nc1nnc(NC(=S)SCOC(C)=O)n1C(=S)SCC(=O)OC → UCB+nov = 1.087
+2025-09-29 22:55:37,173 - INFO -   True f = 0.3623
+2025-09-29 22:55:37,246 - INFO - Iter time: 82.23s
+2025-09-29 22:55:37,246 - INFO - 
+--- Trial 1, Iter 111 (train size=121) ---
+2025-09-29 22:57:00,112 - INFO - eta_t=0.2736 | novelty mean=0.8094, std=0.0432 | UCB range=(0.2182, 0.8170) | novelty_z range=(-14.475,2.715)
+2025-09-29 22:57:00,112 - INFO - Selected CN(C)N=Nc1ncn(C2CCCO2)c1C(N)=O → UCB+nov = 1.086
+2025-09-29 22:57:00,114 - INFO -   True f = 0.411
+2025-09-29 22:57:00,188 - INFO - Iter time: 82.94s
+2025-09-29 22:57:00,188 - INFO - 
+--- Trial 1, Iter 112 (train size=122) ---
+2025-09-29 22:58:23,960 - INFO - eta_t=0.2735 | novelty mean=0.8094, std=0.0432 | UCB range=(0.2185, 0.8214) | novelty_z range=(-14.484,2.718)
+2025-09-29 22:58:23,960 - INFO - Selected COC(=O)NCC=Cc1nc(CCCO)co1 → UCB+nov = 1.087
+2025-09-29 22:58:23,962 - INFO -   True f = 0.4558
+2025-09-29 22:58:24,036 - INFO - Iter time: 83.85s
+2025-09-29 22:58:24,036 - INFO - 
+--- Trial 1, Iter 113 (train size=123) ---
+2025-09-29 22:59:48,780 - INFO - eta_t=0.2734 | novelty mean=0.8093, std=0.0432 | UCB range=(0.2180, 0.8211) | novelty_z range=(-14.490,2.720)
+2025-09-29 22:59:48,781 - INFO - Selected CCOCC1CN(S(C)(=O)=O)Cc2cnn(C)c21 → UCB+nov = 1.088
+2025-09-29 22:59:48,782 - INFO -   True f = 0.1382
+2025-09-29 22:59:48,857 - INFO - Iter time: 84.82s
+2025-09-29 22:59:48,857 - INFO - 
+--- Trial 1, Iter 114 (train size=124) ---
+2025-09-29 23:01:13,090 - INFO - eta_t=0.2733 | novelty mean=0.8093, std=0.0432 | UCB range=(0.2201, 0.8171) | novelty_z range=(-14.500,2.724)
+2025-09-29 23:01:13,090 - INFO - Selected CCCCOC(=O)C(C)NP(=O)(NC(C)C(=O)OCCCC)OCC1OC(n2cnc3c(OC)nc(N)nc32)C(C)(O)C1O → UCB+nov = 1.086
+2025-09-29 23:01:13,093 - INFO -   True f = 0.4785
+2025-09-29 23:01:13,168 - INFO - Iter time: 84.31s
+2025-09-29 23:01:13,168 - INFO - 
+--- Trial 1, Iter 115 (train size=125) ---
+2025-09-29 23:02:38,171 - INFO - eta_t=0.2732 | novelty mean=0.8091, std=0.0433 | UCB range=(0.2201, 0.8170) | novelty_z range=(-15.855,2.718)
+2025-09-29 23:02:38,172 - INFO - Selected O=C(NCCCCCNC(=O)C1=NOC2(C=C(Br)C(=O)C(Br)C2O)C1)C1=NOC2(C=C(Br)C(=O)C(Br)C2O)C1 → UCB+nov = 1.083
+2025-09-29 23:02:38,174 - INFO -   True f = 0.5421
+2025-09-29 23:02:38,252 - INFO - Iter time: 85.08s
+2025-09-29 23:02:38,252 - INFO - 
+--- Trial 1, Iter 116 (train size=126) ---
+2025-09-29 23:04:03,739 - INFO - eta_t=0.2731 | novelty mean=0.8091, std=0.0433 | UCB range=(0.2199, 0.8208) | novelty_z range=(-15.853,2.718)
+2025-09-29 23:04:03,739 - INFO - Selected COC(CC(C)C(O)C=CC=CCNC(=O)C(C)(C)C(O)C(C)=CC=CC=CC(C)=C(C)[N+](=O)[O-])C1(O)C(C)C(=O)N(C)C12COC2=O → UCB+nov = 1.083
+2025-09-29 23:04:03,742 - INFO -   True f = 0.6064
+2025-09-29 23:04:03,820 - INFO - Iter time: 85.57s
+2025-09-29 23:04:03,820 - INFO - 
+--- Trial 1, Iter 117 (train size=127) ---
+2025-09-29 23:05:31,750 - INFO - eta_t=0.2730 | novelty mean=0.8091, std=0.0433 | UCB range=(0.2201, 0.8256) | novelty_z range=(-15.856,2.719)
+2025-09-29 23:05:31,750 - INFO - Selected CC(C)C1(O)C(OC(=O)c2ccc[nH]2)C2(O)C3(C)CC4(O)OC5(C(O)C(CSC(C)(C)C)CCC35O)C2(O)C41C → UCB+nov = 1.093
+2025-09-29 23:05:31,752 - INFO -   True f = 0.5021
+2025-09-29 23:05:31,832 - INFO - Iter time: 88.01s
+2025-09-29 23:05:31,832 - INFO - 
+--- Trial 1, Iter 118 (train size=128) ---
+2025-09-29 23:07:01,165 - INFO - eta_t=0.2729 | novelty mean=0.8091, std=0.0433 | UCB range=(0.2204, 0.8265) | novelty_z range=(-15.846,2.719)
+2025-09-29 23:07:01,166 - INFO - Selected CC(CCn1cc[n+](C)c1C=NO)C(C)(C)[N+](=O)[O-] → UCB+nov = 1.09
+2025-09-29 23:07:01,167 - INFO -   True f = 0.4369
+2025-09-29 23:07:01,247 - INFO - Iter time: 89.42s
+2025-09-29 23:07:01,248 - INFO - 
+--- Trial 1, Iter 119 (train size=129) ---
+2025-09-29 23:08:29,194 - INFO - eta_t=0.2728 | novelty mean=0.8090, std=0.0433 | UCB range=(0.2200, 0.8278) | novelty_z range=(-15.841,2.719)
+2025-09-29 23:08:29,194 - INFO - Selected COc1nn(CC(=O)N2N=C(C)CC2(O)C(F)F)cc1[N+](=O)[O-] → UCB+nov = 1.097
+2025-09-29 23:08:29,196 - INFO -   True f = 0.4214
+2025-09-29 23:08:29,276 - INFO - Iter time: 88.03s
+2025-09-29 23:08:29,277 - INFO - 
+--- Trial 1, Iter 120 (train size=130) ---
+2025-09-29 23:09:59,677 - INFO - eta_t=0.2727 | novelty mean=0.8090, std=0.0433 | UCB range=(0.2199, 0.8279) | novelty_z range=(-15.846,2.720)
+2025-09-29 23:09:59,677 - INFO - Selected Cc1c(C=NNC(=O)c2no[n+]([O-])c2C)no[n+]1[O-] → UCB+nov = 1.092
+2025-09-29 23:09:59,679 - INFO -   True f = 0.3573
+2025-09-29 23:09:59,762 - INFO - Iter time: 90.49s
+2025-09-29 23:09:59,762 - INFO - 
+--- Trial 1, Iter 121 (train size=131) ---
+2025-09-29 23:11:29,848 - INFO - eta_t=0.2726 | novelty mean=0.8090, std=0.0433 | UCB range=(0.2197, 0.8285) | novelty_z range=(-15.841,2.721)
+2025-09-29 23:11:29,848 - INFO - Selected CC1CCC(C(C)C)C(OC(=O)N(CCCCCCc2cn(CCCCCCc3c[nH]c(N)n3)nn2)CCc2ccccn2)C1 → UCB+nov = 1.087
+2025-09-29 23:11:29,850 - INFO -   True f = 0.1325
+2025-09-29 23:11:29,934 - INFO - Iter time: 90.17s
+2025-09-29 23:11:29,934 - INFO - 
+--- Trial 1, Iter 122 (train size=132) ---
+2025-09-29 23:13:01,788 - INFO - eta_t=0.2725 | novelty mean=0.8088, std=0.0433 | UCB range=(0.2190, 0.8268) | novelty_z range=(-15.859,2.728)
+2025-09-29 23:13:01,788 - INFO - Selected CCC(C)C=C(C)C=CC1=CC2=C(Cl)C(=O)C3(C)OC(=O)C(C(C)=O)=C3C2=CO1 → UCB+nov = 1.091
+2025-09-29 23:13:01,790 - INFO -   True f = 0.2428
+2025-09-29 23:13:01,875 - INFO - Iter time: 91.94s
+2025-09-29 23:13:01,875 - INFO - 
+--- Trial 1, Iter 123 (train size=133) ---
+2025-09-29 23:14:35,431 - INFO - eta_t=0.2725 | novelty mean=0.8088, std=0.0432 | UCB range=(0.2191, 0.8266) | novelty_z range=(-15.864,2.730)
+2025-09-29 23:14:35,431 - INFO - Selected CC#CC#CC=C1C=CC2(CCCCO2)O1 → UCB+nov = 1.083
+2025-09-29 23:14:35,433 - INFO -   True f = 8.283e-05
+2025-09-29 23:14:35,519 - INFO - Iter time: 93.64s
+2025-09-29 23:14:35,519 - INFO - 
+--- Trial 1, Iter 124 (train size=134) ---
+2025-09-29 23:16:09,474 - INFO - eta_t=0.2724 | novelty mean=0.8088, std=0.0432 | UCB range=(0.2188, 0.8277) | novelty_z range=(-15.866,2.730)
+2025-09-29 23:16:09,475 - INFO - Selected CC(C)=CCN1CCN(Cc2cc(CC(C)C)n[nH]2)CC1CCO → UCB+nov = 1.079
+2025-09-29 23:16:09,476 - INFO -   True f = 0.07935
+2025-09-29 23:16:09,564 - INFO - Iter time: 94.05s
+2025-09-29 23:16:09,565 - INFO - 
+--- Trial 1, Iter 125 (train size=135) ---
+2025-09-29 23:17:42,299 - INFO - eta_t=0.2723 | novelty mean=0.8087, std=0.0433 | UCB range=(0.2183, 0.8271) | novelty_z range=(-15.858,2.731)
+2025-09-29 23:17:42,299 - INFO - Selected O=C(O)COCC=C1CC2CC(O)C(C=NNC(=O)Nc3ccc(Cl)c(Cl)c3)C2C1 → UCB+nov = 1.076
+2025-09-29 23:17:42,302 - INFO -   True f = 0.619
+2025-09-29 23:17:42,390 - INFO - Iter time: 92.83s
+2025-09-29 23:17:42,390 - INFO - 
+--- Trial 1, Iter 126 (train size=136) ---
+2025-09-29 23:19:19,595 - INFO - eta_t=0.2722 | novelty mean=0.8085, std=0.0432 | UCB range=(0.2175, 0.8310) | novelty_z range=(-15.872,2.738)
+2025-09-29 23:19:19,595 - INFO - Selected OCC1C2COC3C2OC1C3n1cnc2c(Cl)ncnc21 → UCB+nov = 1.079
+2025-09-29 23:19:19,597 - INFO -   True f = 0.3902
+2025-09-29 23:19:19,686 - INFO - Iter time: 97.30s
+2025-09-29 23:19:19,686 - INFO - 
+--- Trial 1, Iter 127 (train size=137) ---
+2025-09-29 23:20:55,026 - INFO - eta_t=0.2721 | novelty mean=0.8084, std=0.0432 | UCB range=(0.2175, 0.8370) | novelty_z range=(-15.857,2.738)
+2025-09-29 23:20:55,027 - INFO - Selected C[N+]1(C)C2CC(OC(=O)C(O)(c3cccs3)C34OC3C=CS4)CC1C1OC12 → UCB+nov = 1.079
+2025-09-29 23:20:55,029 - INFO -   True f = 0.3002
+2025-09-29 23:20:55,119 - INFO - Iter time: 95.43s
+2025-09-29 23:20:55,119 - INFO - 
+--- Trial 1, Iter 128 (train size=138) ---
+2025-09-29 23:22:33,925 - INFO - eta_t=0.2720 | novelty mean=0.8084, std=0.0432 | UCB range=(0.2175, 0.8370) | novelty_z range=(-15.856,2.739)
+2025-09-29 23:22:33,925 - INFO - Selected CC(O)C1C(=O)N2C(C(=O)O)=C(SC3CNC(Cc4cn(C)[n+](CCO)c4)C3)C(C)C12 → UCB+nov = 1.078
+2025-09-29 23:22:33,927 - INFO -   True f = 0.5567
+2025-09-29 23:22:34,018 - INFO - Iter time: 98.90s
+2025-09-29 23:22:34,018 - INFO - 
+--- Trial 1, Iter 129 (train size=139) ---
+2025-09-29 23:24:11,225 - INFO - eta_t=0.2719 | novelty mean=0.8083, std=0.0433 | UCB range=(0.2174, 0.8374) | novelty_z range=(-15.831,2.736)
+2025-09-29 23:24:11,225 - INFO - Selected CC(O)(C#Cc1cc2c(cc1F)C1CC(C1)n1c-2nc(C(N)=O)c1-c1nc(C2CC2)n[nH]1)CO → UCB+nov = 1.079
+2025-09-29 23:24:11,228 - INFO -   True f = 0.5348
+2025-09-29 23:24:11,321 - INFO - Iter time: 97.30s
+2025-09-29 23:24:11,321 - INFO - 
+--- Trial 1, Iter 130 (train size=140) ---
+2025-09-29 23:25:49,873 - INFO - eta_t=0.2718 | novelty mean=0.8083, std=0.0433 | UCB range=(0.2176, 0.8371) | novelty_z range=(-15.829,2.737)
+2025-09-29 23:25:49,874 - INFO - Selected C#CCO → UCB+nov = 1.078
+2025-09-29 23:25:49,874 - INFO -   True f = 0
+2025-09-29 23:25:49,967 - INFO - Iter time: 98.65s
+2025-09-29 23:25:49,968 - INFO - 
+--- Trial 1, Iter 131 (train size=141) ---
+2025-09-29 23:27:27,691 - INFO - eta_t=0.2718 | novelty mean=0.8083, std=0.0433 | UCB range=(0.2178, 0.8375) | novelty_z range=(-15.830,2.737)
+2025-09-29 23:27:27,691 - INFO - Selected O=C1COc2ccc(CNC34CCC(CC5(O)CN6C(=O)CCc7ncc(F)c5c76)(CC3)OC4)nc2N1 → UCB+nov = 1.073
+2025-09-29 23:27:27,694 - INFO -   True f = 0.58
+2025-09-29 23:27:27,789 - INFO - Iter time: 97.82s
+2025-09-29 23:27:27,789 - INFO - 
+--- Trial 1, Iter 132 (train size=142) ---
+2025-09-29 23:29:07,585 - INFO - eta_t=0.2717 | novelty mean=0.8082, std=0.0434 | UCB range=(0.2171, 0.8358) | novelty_z range=(-15.809,2.735)
+2025-09-29 23:29:07,585 - INFO - Selected Oc1cnnc(NN=CC2CC=CCC2)n1 → UCB+nov = 1.075
+2025-09-29 23:29:07,587 - INFO -   True f = 0.4014
+2025-09-29 23:29:07,684 - INFO - Iter time: 99.89s
+2025-09-29 23:29:07,684 - INFO - 
+--- Trial 1, Iter 133 (train size=143) ---
+2025-09-29 23:30:46,561 - INFO - eta_t=0.2716 | novelty mean=0.8082, std=0.0434 | UCB range=(0.2169, 0.8349) | novelty_z range=(-15.810,2.736)
+2025-09-29 23:30:46,561 - INFO - Selected Cc1ncc(CO)c(C=NCCCCCCN=Cc2c(CO)cnc(C)c2O)c1O → UCB+nov = 1.077
+2025-09-29 23:30:46,563 - INFO -   True f = 0.6353
+2025-09-29 23:30:46,659 - INFO - Iter time: 98.98s
+2025-09-29 23:30:46,660 - INFO - 
+--- Trial 1, Iter 134 (train size=144) ---
+2025-09-29 23:32:29,238 - INFO - eta_t=0.2715 | novelty mean=0.8082, std=0.0433 | UCB range=(0.2168, 0.8330) | novelty_z range=(-15.814,2.737)
+2025-09-29 23:32:29,239 - INFO - Selected OCc1cc(-c2nc(C(O)C(O)C(O)CO)c[nH]2)no1 → UCB+nov = 1.079
+2025-09-29 23:32:29,240 - INFO -   True f = 0.496
+2025-09-29 23:32:29,338 - INFO - Iter time: 102.68s
+2025-09-29 23:32:29,339 - INFO - 
+--- Trial 1, Iter 135 (train size=145) ---
+2025-09-29 23:34:13,977 - INFO - eta_t=0.2714 | novelty mean=0.8082, std=0.0434 | UCB range=(0.2170, 0.8340) | novelty_z range=(-15.812,2.737)
+2025-09-29 23:34:13,977 - INFO - Selected C=C1CCOC2(C(O)C(C)(O)CO)NC(=O)C1(NO)NC2=O → UCB+nov = 1.08
+2025-09-29 23:34:13,979 - INFO -   True f = 0.468
+2025-09-29 23:34:14,080 - INFO - Iter time: 104.74s
+2025-09-29 23:34:14,080 - INFO - 
+--- Trial 1, Iter 136 (train size=146) ---
+2025-09-29 23:35:55,378 - INFO - eta_t=0.2714 | novelty mean=0.8082, std=0.0434 | UCB range=(0.2166, 0.8332) | novelty_z range=(-15.812,2.737)
+2025-09-29 23:35:55,378 - INFO - Selected C=CCN1C(=O)C(Cc2ccc(O)c(O)c2)C(=O)N(CC=C)C1=O → UCB+nov = 1.079
+2025-09-29 23:35:55,380 - INFO -   True f = 0.5698
+2025-09-29 23:35:55,480 - INFO - Iter time: 101.40s
+2025-09-29 23:35:55,481 - INFO - 
+--- Trial 1, Iter 137 (train size=147) ---
+2025-09-29 23:37:39,834 - INFO - eta_t=0.2713 | novelty mean=0.8080, std=0.0433 | UCB range=(0.2157, 0.8318) | novelty_z range=(-15.837,2.746)
+2025-09-29 23:37:39,834 - INFO - Selected CC1C(=O)OC2C(O)C34C5CC(C(C)(C)C)C36C(OC(=O)C6O)OC4(C(=O)O5)C12O → UCB+nov = 1.08
+2025-09-29 23:37:39,836 - INFO -   True f = 0.4206
+2025-09-29 23:37:39,937 - INFO - Iter time: 104.46s
+2025-09-29 23:37:39,937 - INFO - 
+--- Trial 1, Iter 138 (train size=148) ---
+2025-09-29 23:39:22,604 - INFO - eta_t=0.2712 | novelty mean=0.8080, std=0.0433 | UCB range=(0.2156, 0.8321) | novelty_z range=(-15.844,2.748)
+2025-09-29 23:39:22,604 - INFO - Selected O=P(O)(O)COc1cccc2c1-c1nc(Cl)sc1C2 → UCB+nov = 1.079
+2025-09-29 23:39:22,606 - INFO -   True f = 0.3931
+2025-09-29 23:39:22,710 - INFO - Iter time: 102.77s
+2025-09-29 23:39:22,711 - INFO - 
+--- Trial 1, Iter 139 (train size=149) ---
+2025-09-29 23:41:06,140 - INFO - eta_t=0.2711 | novelty mean=0.8079, std=0.0432 | UCB range=(0.2153, 0.8306) | novelty_z range=(-15.871,2.755)
+2025-09-29 23:41:06,140 - INFO - Selected CC1(C)C2CCC(CCOc3ccc(CCC(N)(CO)CO)cc3)C1C2 → UCB+nov = 1.08
+2025-09-29 23:41:06,142 - INFO -   True f = 0.4355
+2025-09-29 23:41:06,247 - INFO - Iter time: 103.54s
+2025-09-29 23:41:06,247 - INFO - 
+--- Trial 1, Iter 140 (train size=150) ---
+2025-09-29 23:42:50,790 - INFO - eta_t=0.2711 | novelty mean=0.8077, std=0.0431 | UCB range=(0.2156, 0.8300) | novelty_z range=(-15.885,2.763)
+2025-09-29 23:42:50,790 - INFO - Selected Cc1nc(C(O)=Nc2csc(C34COC(C)CC3CSC(=N)N4)n2)c(C)o1 → UCB+nov = 1.082
+2025-09-29 23:42:50,792 - INFO -   True f = 0.4941
+2025-09-29 23:42:50,898 - INFO - Iter time: 104.65s
+2025-09-29 23:42:50,898 - INFO - 
+--- Trial 1, Iter 141 (train size=151) ---
+2025-09-29 23:44:39,640 - INFO - eta_t=0.2710 | novelty mean=0.8077, std=0.0432 | UCB range=(0.2156, 0.8279) | novelty_z range=(-15.847,2.757)
+2025-09-29 23:44:39,640 - INFO - Selected CC(=O)Oc1c(C)nc(N=Nc2cc(S(=O)(=O)O)ccc2S(=O)(=O)O)c2c1COP(=O)(O)OC2 → UCB+nov = 1.083
+2025-09-29 23:44:39,642 - INFO -   True f = 0.4637
+2025-09-29 23:44:39,748 - INFO - Iter time: 108.85s
+2025-09-29 23:44:39,749 - INFO - 
+--- Trial 1, Iter 142 (train size=152) ---
+2025-09-29 23:46:25,985 - INFO - eta_t=0.2709 | novelty mean=0.8076, std=0.0432 | UCB range=(0.2149, 0.8285) | novelty_z range=(-15.849,2.758)
+2025-09-29 23:46:25,985 - INFO - Selected COc1cc(C=CC(=O)OCC2COC(=O)CCCCCCCCCCCCCCCCCCCCCCCCCCCCCO2)ccc1O → UCB+nov = 1.08
+2025-09-29 23:46:25,988 - INFO -   True f = 2.136e-05
+2025-09-29 23:46:26,097 - INFO - Iter time: 106.35s
+2025-09-29 23:46:26,097 - INFO - 
+--- Trial 1, Iter 143 (train size=153) ---
+2025-09-29 23:48:15,711 - INFO - eta_t=0.2708 | novelty mean=0.8076, std=0.0433 | UCB range=(0.1946, 0.8305) | novelty_z range=(-16.246,2.755)
+2025-09-29 23:48:15,711 - INFO - Selected CSC1OC(C(NC(=O)c2ncccc2C)C(C)Cl)C(O)C(O)C1O → UCB+nov = 1.074
+2025-09-29 23:48:15,713 - INFO -   True f = 0.416
+2025-09-29 23:48:15,822 - INFO - Iter time: 109.72s
+2025-09-29 23:48:15,822 - INFO - 
+--- Trial 1, Iter 144 (train size=154) ---
+2025-09-29 23:50:03,792 - INFO - eta_t=0.2708 | novelty mean=0.8075, std=0.0433 | UCB range=(0.1946, 0.8328) | novelty_z range=(-16.241,2.757)
+2025-09-29 23:50:03,792 - INFO - Selected CSC(S)=NCCCC[S+](C)[O-] → UCB+nov = 1.074
+2025-09-29 23:50:03,794 - INFO -   True f = 0.002379
+2025-09-29 23:50:03,906 - INFO - Iter time: 108.08s
+2025-09-29 23:50:03,906 - INFO - 
+--- Trial 1, Iter 145 (train size=155) ---
+2025-09-29 23:51:52,874 - INFO - eta_t=0.2707 | novelty mean=0.8075, std=0.0433 | UCB range=(0.1947, 0.8334) | novelty_z range=(-16.242,2.757)
+2025-09-29 23:51:52,874 - INFO - Selected C=C1C(=O)OC2CC(C)C3C=CC(=O)C3(C)C(OC(=O)CNC(=O)C(F)(F)F)C12 → UCB+nov = 1.072
+2025-09-29 23:51:52,876 - INFO -   True f = 0.4737
+2025-09-29 23:51:52,988 - INFO - Iter time: 109.08s
+2025-09-29 23:51:52,988 - INFO - 
+--- Trial 1, Iter 146 (train size=156) ---
+2025-09-29 23:53:45,142 - INFO - eta_t=0.2706 | novelty mean=0.8075, std=0.0433 | UCB range=(0.1946, 0.8350) | novelty_z range=(-16.244,2.759)
+2025-09-29 23:53:45,142 - INFO - Selected COCCNc1nc(C)c(-c2nc3c(C)nccc3s2)c(NC2CC(C(C)(C)O)C(O)C2O)n1 → UCB+nov = 1.073
+2025-09-29 23:53:45,145 - INFO -   True f = 0.5008
+2025-09-29 23:53:45,257 - INFO - Iter time: 112.27s
+2025-09-29 23:53:45,258 - INFO - 
+--- Trial 1, Iter 147 (train size=157) ---
+2025-09-29 23:55:37,123 - INFO - eta_t=0.2705 | novelty mean=0.8074, std=0.0433 | UCB range=(0.1945, 0.8363) | novelty_z range=(-16.218,2.756)
+2025-09-29 23:55:37,124 - INFO - Selected COc1nc(NC(=O)NS(=O)(=O)c2ccoc2COCCF)nc(OC)n1 → UCB+nov = 1.073
+2025-09-29 23:55:37,125 - INFO -   True f = 0.4129
+2025-09-29 23:55:37,239 - INFO - Iter time: 111.98s
+2025-09-29 23:55:37,239 - INFO - 
+--- Trial 1, Iter 148 (train size=158) ---
+2025-09-29 23:57:31,259 - INFO - eta_t=0.2705 | novelty mean=0.8073, std=0.0433 | UCB range=(0.1945, 0.8358) | novelty_z range=(-16.216,2.757)
+2025-09-29 23:57:31,259 - INFO - Selected CCCCC1CCCCC(C)C(O)c2cc(O)c(c(O)c2)C(CCCCCl)CCCCC(C)C(O)c2cc(O)c1c(O)c2 → UCB+nov = 1.073
+2025-09-29 23:57:31,262 - INFO -   True f = 0.004634
+2025-09-29 23:57:31,377 - INFO - Iter time: 114.14s
+2025-09-29 23:57:31,377 - INFO - 
+--- Trial 1, Iter 149 (train size=159) ---
+2025-09-29 23:59:22,611 - INFO - eta_t=0.2704 | novelty mean=0.8073, std=0.0433 | UCB range=(0.1929, 0.8393) | novelty_z range=(-16.223,2.759)
+2025-09-29 23:59:22,611 - INFO - Selected CN(C)CCNC(=O)c1nc(NC(=O)c2nc(NC(=O)CCNC(=O)c3nc(NC=O)cn3C)cn2C)cn1C → UCB+nov = 1.071
+2025-09-29 23:59:22,614 - INFO -   True f = 0.4846
+2025-09-29 23:59:22,731 - INFO - Iter time: 111.35s
+2025-09-29 23:59:22,731 - INFO - 
+--- Trial 1, Iter 150 (train size=160) ---
+2025-09-30 00:01:15,589 - INFO - eta_t=0.2703 | novelty mean=0.8073, std=0.0433 | UCB range=(0.1928, 0.8399) | novelty_z range=(-16.217,2.760)
+2025-09-30 00:01:15,589 - INFO - Selected C=CCC1NS(=O)(=O)OCC1NC(=O)OCC(Cl)(Cl)Cl → UCB+nov = 1.068
+2025-09-30 00:01:15,590 - INFO -   True f = 0.3694
+2025-09-30 00:01:15,709 - INFO - Iter time: 112.98s
+2025-09-30 00:01:15,710 - INFO - 
+--- Trial 1, Iter 151 (train size=161) ---
+2025-09-30 00:03:07,620 - INFO - eta_t=0.2703 | novelty mean=0.8073, std=0.0433 | UCB range=(0.1930, 0.8402) | novelty_z range=(-16.217,2.760)
+2025-09-30 00:03:07,620 - INFO - Selected CC1SC(=O)NC1C(=O)NCCO[N+](=O)[O-] → UCB+nov = 1.069
+2025-09-30 00:03:07,621 - INFO -   True f = 0.3619
+2025-09-30 00:03:07,741 - INFO - Iter time: 112.03s
+2025-09-30 00:03:07,741 - INFO - 
+--- Trial 1, Iter 152 (train size=162) ---
+2025-09-30 00:05:02,544 - INFO - eta_t=0.2702 | novelty mean=0.8073, std=0.0433 | UCB range=(0.1930, 0.8404) | novelty_z range=(-16.219,2.761)
+2025-09-30 00:05:02,544 - INFO - Selected C=C(Br)COc1noc2c1CNCC2 → UCB+nov = 1.069
+2025-09-30 00:05:02,545 - INFO -   True f = 0.01638
+2025-09-30 00:05:02,666 - INFO - Iter time: 114.93s
+2025-09-30 00:05:02,666 - INFO - 
+--- Trial 1, Iter 153 (train size=163) ---
+2025-09-30 00:06:56,564 - INFO - eta_t=0.2701 | novelty mean=0.8072, std=0.0433 | UCB range=(0.1929, 0.8409) | novelty_z range=(-16.221,2.761)
+2025-09-30 00:06:56,564 - INFO - Selected CCC(=O)N1C2C3N(C(=O)CC)C1C1N(C(=O)CC)C(C(N1C(=O)CC)N3C(=O)CC)N2C(=O)CC → UCB+nov = 1.069
+2025-09-30 00:06:56,566 - INFO -   True f = 0.3534
+2025-09-30 00:06:56,687 - INFO - Iter time: 114.02s
+2025-09-30 00:06:56,687 - INFO - 
+--- Trial 1, Iter 154 (train size=164) ---
+2025-09-30 00:08:55,805 - INFO - eta_t=0.2701 | novelty mean=0.8072, std=0.0433 | UCB range=(0.1927, 0.8414) | novelty_z range=(-16.222,2.761)
+2025-09-30 00:08:55,805 - INFO - Selected NC(CCC(=O)O)C(=O)N1CC(O)CC1B(O)O → UCB+nov = 1.069
+2025-09-30 00:08:55,807 - INFO -   True f = 0.482
+2025-09-30 00:08:55,930 - INFO - Iter time: 119.24s
+2025-09-30 00:08:55,930 - INFO - 
+--- Trial 1, Iter 155 (train size=165) ---
+2025-09-30 00:10:52,675 - INFO - eta_t=0.2700 | novelty mean=0.8072, std=0.0433 | UCB range=(0.1926, 0.8448) | novelty_z range=(-16.223,2.763)
+2025-09-30 00:10:52,675 - INFO - Selected C=C(CO)C1OC(O)(C(O)C2CC3OC4(CCC5(CC=CC(C=CCCC(=O)O)O5)O4)C(C)CC3O2)C(C)CC1C → UCB+nov = 1.068
+2025-09-30 00:10:52,678 - INFO -   True f = 0.5755
+2025-09-30 00:10:52,802 - INFO - Iter time: 116.87s
+2025-09-30 00:10:52,802 - INFO - 
+--- Trial 1, Iter 156 (train size=166) ---
+2025-09-30 00:12:49,531 - INFO - eta_t=0.2700 | novelty mean=0.8072, std=0.0433 | UCB range=(0.1926, 0.8458) | novelty_z range=(-16.226,2.764)
+2025-09-30 00:12:49,531 - INFO - Selected CC(C)(CO)C(O)C(=O)NCCC(=O)NCCN=[N+]=[N-] → UCB+nov = 1.07
+2025-09-30 00:12:49,532 - INFO -   True f = 0.4441
+2025-09-30 00:12:49,659 - INFO - Iter time: 116.86s
+2025-09-30 00:12:49,659 - INFO - 
+--- Trial 1, Iter 157 (train size=167) ---
+2025-09-30 00:14:50,829 - INFO - eta_t=0.2699 | novelty mean=0.8071, std=0.0433 | UCB range=(0.1925, 0.8478) | novelty_z range=(-16.216,2.763)
+2025-09-30 00:14:50,829 - INFO - Selected NS(=O)(=O)c1ccc(NC(=O)CN(CCN(CCN(CC(=O)O)CC(=O)O)CC(=O)O)CC(=O)O)c(F)c1 → UCB+nov = 1.07
+2025-09-30 00:14:50,831 - INFO -   True f = 0.5676
+2025-09-30 00:14:50,959 - INFO - Iter time: 121.30s
+2025-09-30 00:14:50,959 - INFO - 
+--- Trial 1, Iter 158 (train size=168) ---
+2025-09-30 00:16:49,054 - INFO - eta_t=0.2698 | novelty mean=0.8071, std=0.0435 | UCB range=(0.1926, 0.8504) | novelty_z range=(-16.159,2.756)
+2025-09-30 00:16:49,054 - INFO - Selected CCOC(=O)C(=NNc1c(Br)cc(Br)cc1Br)C(C)=O → UCB+nov = 1.069
+2025-09-30 00:16:49,056 - INFO -   True f = 0.1727
+2025-09-30 00:16:49,185 - INFO - Iter time: 118.23s
+2025-09-30 00:16:49,185 - INFO - 
+--- Trial 1, Iter 159 (train size=169) ---
+2025-09-30 00:18:53,168 - INFO - eta_t=0.2698 | novelty mean=0.8069, std=0.0434 | UCB range=(0.1924, 0.8500) | novelty_z range=(-16.183,2.763)
+2025-09-30 00:18:53,168 - INFO - Selected NC(CCO)C(O)=NCC1CCc2c(sc3ncnc(Nc4ccc5nc(O)sc5c4)c23)C1 → UCB+nov = 1.067
+2025-09-30 00:18:53,171 - INFO -   True f = 0.5954
+2025-09-30 00:18:53,301 - INFO - Iter time: 124.12s
+2025-09-30 00:18:53,301 - INFO - 
+--- Trial 1, Iter 160 (train size=170) ---
+2025-09-30 00:20:52,154 - INFO - eta_t=0.2697 | novelty mean=0.8068, std=0.0434 | UCB range=(0.1925, 0.8539) | novelty_z range=(-16.168,2.764)
+2025-09-30 00:20:52,154 - INFO - Selected O=C(C1CSC(c2ncccc2O)=N1)N(O)CCOCCOCCN(O)C(=O)C1CSC(c2ncccc2O)=N1 → UCB+nov = 1.072
+2025-09-30 00:20:52,156 - INFO -   True f = 0.6091
+2025-09-30 00:20:52,287 - INFO - Iter time: 118.99s
+2025-09-30 00:20:52,288 - INFO - 
+--- Trial 1, Iter 161 (train size=171) ---
+2025-09-30 00:22:55,475 - INFO - eta_t=0.2696 | novelty mean=0.8068, std=0.0434 | UCB range=(0.1928, 0.8537) | novelty_z range=(-16.169,2.764)
+2025-09-30 00:22:55,476 - INFO - Selected COc1cc(F)c(F)c(Nc2ccc(I)cc2F)c1NS(=O)(=O)C1(CC(O)CO)CC1 → UCB+nov = 1.071
+2025-09-30 00:22:55,478 - INFO -   True f = 0.5512
+2025-09-30 00:22:55,611 - INFO - Iter time: 123.32s
+2025-09-30 00:22:55,611 - INFO - 
+--- Trial 1, Iter 162 (train size=172) ---
+2025-09-30 00:25:01,529 - INFO - eta_t=0.2696 | novelty mean=0.8066, std=0.0433 | UCB range=(0.1933, 0.8522) | novelty_z range=(-16.192,2.773)
+2025-09-30 00:25:01,529 - INFO - Selected FS(F)(F)(F)(F)F → UCB+nov = 1.07
+2025-09-30 00:25:01,530 - INFO -   True f = 0
+2025-09-30 00:25:01,664 - INFO - Iter time: 126.05s
+2025-09-30 00:25:01,664 - INFO - 
+--- Trial 1, Iter 163 (train size=173) ---
+2025-09-30 00:27:03,545 - INFO - eta_t=0.2695 | novelty mean=0.8066, std=0.0433 | UCB range=(0.1933, 0.8522) | novelty_z range=(-16.193,2.597)
+2025-09-30 00:27:03,545 - INFO - Selected CCC(=O)c1c(O)cc(CCCC(=O)Nc2c3sscc-3[nH]c2=O)oc1=O → UCB+nov = 1.07
+2025-09-30 00:27:03,547 - INFO -   True f = 0.4948
+2025-09-30 00:27:03,683 - INFO - Iter time: 122.02s
+2025-09-30 00:27:03,683 - INFO - 
+--- Trial 1, Iter 164 (train size=174) ---
+2025-09-30 00:29:06,467 - INFO - eta_t=0.2695 | novelty mean=0.8066, std=0.0433 | UCB range=(0.1935, 0.8553) | novelty_z range=(-16.191,2.598)
+2025-09-30 00:29:06,467 - INFO - Selected O=C1C=C2SC3CC2(C=C1Br)C1=C(N3)C(=O)c2[nH]cc3ccnc1c23 → UCB+nov = 1.069
+2025-09-30 00:29:06,469 - INFO -   True f = 0.3489
+2025-09-30 00:29:06,606 - INFO - Iter time: 122.92s
+2025-09-30 00:29:06,607 - INFO - 
+--- Trial 1, Iter 165 (train size=175) ---
+2025-09-30 00:31:10,087 - INFO - eta_t=0.2694 | novelty mean=0.8066, std=0.0433 | UCB range=(0.1934, 0.8551) | novelty_z range=(-16.198,2.600)
+2025-09-30 00:31:10,087 - INFO - Selected C=C1c2cccc(O)c2C(=O)C2C(=O)C3(O)C(=O)C(C(N)=O)C(=O)C(N(C)C)C3C(O)C12 → UCB+nov = 1.069
+2025-09-30 00:31:10,090 - INFO -   True f = 0.4819
+2025-09-30 00:31:10,230 - INFO - Iter time: 123.62s
+2025-09-30 00:31:10,230 - INFO - 
+--- Trial 1, Iter 166 (train size=176) ---
+2025-09-30 00:33:16,231 - INFO - eta_t=0.2693 | novelty mean=0.8065, std=0.0433 | UCB range=(0.1934, 0.8551) | novelty_z range=(-16.196,2.601)
+2025-09-30 00:33:16,231 - INFO - Selected CC(C)CCn1nc(-c2cccs2)c(O)c(C2=NS(=O)(=O)c3cc(-c4cnn[nH]4)ccc3N2)c1=O → UCB+nov = 1.067
+2025-09-30 00:33:16,234 - INFO -   True f = 0.5292
+2025-09-30 00:33:16,375 - INFO - Iter time: 126.14s
+2025-09-30 00:33:16,375 - INFO - 
+--- Trial 1, Iter 167 (train size=177) ---
+2025-09-30 00:35:20,592 - INFO - eta_t=0.2693 | novelty mean=0.8063, std=0.0434 | UCB range=(0.1935, 0.8569) | novelty_z range=(-16.171,2.603)
+2025-09-30 00:35:20,592 - INFO - Selected CC(C)c1csc(CCc2ccn3c(=O)c(C=CC(=O)O)c(N4CCC(O)C4)nc3c2)n1 → UCB+nov = 1.07
+2025-09-30 00:35:20,595 - INFO -   True f = 0.6288
+2025-09-30 00:35:20,738 - INFO - Iter time: 124.36s
+2025-09-30 00:35:20,738 - INFO - 
+--- Trial 1, Iter 168 (train size=178) ---
+2025-09-30 00:37:31,475 - INFO - eta_t=0.2692 | novelty mean=0.8062, std=0.0434 | UCB range=(0.1939, 0.8570) | novelty_z range=(-16.170,2.605)
+2025-09-30 00:37:31,475 - INFO - Selected CNCCC#Cc1cc(Cl)c(C2(C)CS(=O)(=O)C3(CCC3)C(=N)N2)s1 → UCB+nov = 1.071
+2025-09-30 00:37:31,477 - INFO -   True f = 0.4327
+2025-09-30 00:37:31,622 - INFO - Iter time: 130.88s
+2025-09-30 00:37:31,622 - INFO - 
+--- Trial 1, Iter 169 (train size=179) ---
+2025-09-30 00:39:38,575 - INFO - eta_t=0.2692 | novelty mean=0.8061, std=0.0434 | UCB range=(0.1939, 0.8548) | novelty_z range=(-16.159,2.604)
+2025-09-30 00:39:38,575 - INFO - Selected CN(CC=CC#CC(C)(C)C)Cc1ccc(Cl)c2ccsc12 → UCB+nov = 1.072
+2025-09-30 00:39:38,577 - INFO -   True f = 1.255e-06
+2025-09-30 00:39:38,724 - INFO - Iter time: 127.10s
+2025-09-30 00:39:38,724 - INFO - 
+--- Trial 1, Iter 170 (train size=180) ---
+2025-09-30 00:41:46,829 - INFO - eta_t=0.2691 | novelty mean=0.8061, std=0.0434 | UCB range=(0.1935, 0.8578) | novelty_z range=(-16.169,2.608)
+2025-09-30 00:41:46,829 - INFO - Selected Cc1cccc(Sc2nc3ncnc(OC4CC(O)C(COS(N)(=O)=O)C4)c3[nH]2)c1 → UCB+nov = 1.068
+2025-09-30 00:41:46,831 - INFO -   True f = 0.5299
+2025-09-30 00:41:46,979 - INFO - Iter time: 128.26s
+2025-09-30 00:41:46,980 - INFO - 
+--- Trial 1, Iter 171 (train size=181) ---
+2025-09-30 00:43:57,920 - INFO - eta_t=0.2691 | novelty mean=0.8060, std=0.0434 | UCB range=(0.1938, 0.8579) | novelty_z range=(-16.172,2.610)
+2025-09-30 00:43:57,920 - INFO - Selected CNC(=O)CNC(=O)CCC(=O)NCC(=O)Nc1cccc2c3c([nH]c12)C1Oc2c(O)ccc4c2C12CCN(CC1CC1)C(C4)C2(O)C3 → UCB+nov = 1.069
+2025-09-30 00:43:57,923 - INFO -   True f = 0.6448
+2025-09-30 00:43:58,071 - INFO - Iter time: 131.09s
+2025-09-30 00:43:58,071 - INFO - 
+--- Trial 1, Iter 172 (train size=182) ---
+2025-09-30 00:46:10,662 - INFO - eta_t=0.2690 | novelty mean=0.8059, std=0.0435 | UCB range=(0.1940, 0.8620) | novelty_z range=(-16.110,2.604)
+2025-09-30 00:46:10,663 - INFO - Selected N#CC1=C(O)NC(O)=C(C#N)C1c1ccc(C2C(C#N)=C(O)NC(O)=C2C#N)cc1 → UCB+nov = 1.068
+2025-09-30 00:46:10,665 - INFO -   True f = 0.4506
+2025-09-30 00:46:10,816 - INFO - Iter time: 132.74s
+2025-09-30 00:46:10,816 - INFO - 
+--- Trial 1, Iter 173 (train size=183) ---
+2025-09-30 00:48:20,666 - INFO - eta_t=0.2690 | novelty mean=0.8059, std=0.0435 | UCB range=(0.1940, 0.8620) | novelty_z range=(-16.113,2.605)
+2025-09-30 00:48:20,666 - INFO - Selected O=C(O)CC(NC(=O)CNC(=O)c1cncc(NC2=NCC(O)CN2)c1)c1cc(Cl)cc(I)c1O → UCB+nov = 1.07
+2025-09-30 00:48:20,669 - INFO -   True f = 0.5471
+2025-09-30 00:48:20,821 - INFO - Iter time: 130.00s
+2025-09-30 00:48:20,821 - INFO - 
+--- Trial 1, Iter 174 (train size=184) ---
+2025-09-30 00:50:32,697 - INFO - eta_t=0.2689 | novelty mean=0.8058, std=0.0435 | UCB range=(0.1940, 0.8641) | novelty_z range=(-16.104,2.605)
+2025-09-30 00:50:32,698 - INFO - Selected CC1(CC#CC(O)(C(F)(F)F)C(F)(F)F)CCC(C=CC=C2CC(O)CC(O)C2)C1(C)C → UCB+nov = 1.067
+2025-09-30 00:50:32,700 - INFO -   True f = 0.1092
+2025-09-30 00:50:32,852 - INFO - Iter time: 132.03s
+2025-09-30 00:50:32,853 - INFO - 
+--- Trial 1, Iter 175 (train size=185) ---
+2025-09-30 00:52:43,384 - INFO - eta_t=0.2688 | novelty mean=0.8058, std=0.0435 | UCB range=(0.1940, 0.8641) | novelty_z range=(-16.109,2.606)
+2025-09-30 00:52:43,384 - INFO - Selected CCC(N=C(O)C(CCCNC(=N)N)N=C(O)C(C)N=C(C)O)C(=N)O → UCB+nov = 1.064
+2025-09-30 00:52:43,386 - INFO -   True f = 0.4998
+2025-09-30 00:52:43,542 - INFO - Iter time: 130.69s
+2025-09-30 00:52:43,542 - INFO - 
+--- Trial 1, Iter 176 (train size=186) ---
+2025-09-30 00:55:00,453 - INFO - eta_t=0.2688 | novelty mean=0.8057, std=0.0436 | UCB range=(0.1935, 0.8675) | novelty_z range=(-16.088,2.603)
+2025-09-30 00:55:00,453 - INFO - Selected COC(=O)C=CC(=O)NCC(N)C(=O)OC(C)C(N)=O → UCB+nov = 1.068
+2025-09-30 00:55:00,455 - INFO -   True f = 0.4014
+2025-09-30 00:55:00,612 - INFO - Iter time: 137.07s
+2025-09-30 00:55:00,612 - INFO - 
+--- Trial 1, Iter 177 (train size=187) ---
+2025-09-30 00:57:14,844 - INFO - eta_t=0.2687 | novelty mean=0.8057, std=0.0436 | UCB range=(0.1937, 0.8692) | novelty_z range=(-16.077,2.602)
+2025-09-30 00:57:14,844 - INFO - Selected NC(=O)CC(N)c1cn(C(CC(N)=O)C(=O)N2CCNCC2)nn1 → UCB+nov = 1.064
+2025-09-30 00:57:14,846 - INFO -   True f = 0.5033
+2025-09-30 00:57:15,005 - INFO - Iter time: 134.39s
+2025-09-30 00:57:15,006 - INFO - 
+--- Trial 1, Iter 178 (train size=188) ---
+2025-09-30 00:59:31,877 - INFO - eta_t=0.2687 | novelty mean=0.8057, std=0.0436 | UCB range=(0.1934, 0.8770) | novelty_z range=(-16.075,2.603)
+2025-09-30 00:59:31,877 - INFO - Selected Nc1nc(C#CC(O)C2(O)CCCC2)cn2nc(-c3ccco3)nc12 → UCB+nov = 1.063
+2025-09-30 00:59:31,879 - INFO -   True f = 0.5285
+2025-09-30 00:59:32,039 - INFO - Iter time: 137.03s
+2025-09-30 00:59:32,039 - INFO - 
+--- Trial 1, Iter 179 (train size=189) ---
+2025-09-30 01:01:45,453 - INFO - eta_t=0.2686 | novelty mean=0.8056, std=0.0436 | UCB range=(0.1934, 0.8809) | novelty_z range=(-16.073,2.605)
+2025-09-30 01:01:45,453 - INFO - Selected NC1=NC(OCc2cncs2)c2[nH]cnc2N1 → UCB+nov = 1.064
+2025-09-30 01:01:45,455 - INFO -   True f = 0.3754
+2025-09-30 01:01:45,615 - INFO - Iter time: 133.58s
+2025-09-30 01:01:45,616 - INFO - 
+--- Trial 1, Iter 180 (train size=190) ---
+2025-09-30 01:04:02,504 - INFO - eta_t=0.2686 | novelty mean=0.8056, std=0.0436 | UCB range=(0.1934, 0.8813) | novelty_z range=(-16.075,2.606)
+2025-09-30 01:04:02,504 - INFO - Selected Nc1nc2nc(C(=O)NCc3c[nH]nn3)cnc2c(=O)[nH]1 → UCB+nov = 1.065
+2025-09-30 01:04:02,506 - INFO -   True f = 0.3766
+2025-09-30 01:04:02,669 - INFO - Iter time: 137.05s
+2025-09-30 01:04:02,670 - INFO - 
+--- Trial 1, Iter 181 (train size=191) ---
+2025-09-30 01:06:19,498 - INFO - eta_t=0.2685 | novelty mean=0.8056, std=0.0436 | UCB range=(0.1934, 0.8788) | novelty_z range=(-16.072,2.606)
+2025-09-30 01:06:19,499 - INFO - Selected CCc1cc(-c2nc(-c3cc(C)c(OCC(O)CNC(=O)CO)c(CC)c3)no2)cnc1N(CC)CC → UCB+nov = 1.064
+2025-09-30 01:06:19,501 - INFO -   True f = 0.5891
+2025-09-30 01:06:19,666 - INFO - Iter time: 137.00s
+2025-09-30 01:06:19,666 - INFO - 
+--- Trial 1, Iter 182 (train size=192) ---
+2025-09-30 01:08:37,566 - INFO - eta_t=0.2685 | novelty mean=0.8054, std=0.0437 | UCB range=(0.1932, 0.8784) | novelty_z range=(-16.024,2.602)
+2025-09-30 01:08:37,566 - INFO - Selected O=C(NC(CO)C(=O)O)c1nc(NCC(O)CO)c(C(=O)NC(CO)C(=O)O)nc1NCC(O)CO → UCB+nov = 1.065
+2025-09-30 01:08:37,568 - INFO -   True f = 0.4725
+2025-09-30 01:08:37,734 - INFO - Iter time: 138.07s
+2025-09-30 01:08:37,734 - INFO - 
+--- Trial 1, Iter 183 (train size=193) ---
+2025-09-30 01:10:55,004 - INFO - eta_t=0.2684 | novelty mean=0.8054, std=0.0437 | UCB range=(0.1932, 0.8761) | novelty_z range=(-16.024,2.602)
+2025-09-30 01:10:55,004 - INFO - Selected CCCN(CCC)CCNc1n[n+]([O-])c2cc3c(cc2[n+]1[O-])CCC3 → UCB+nov = 1.065
+2025-09-30 01:10:55,006 - INFO -   True f = 0.5245
+2025-09-30 01:10:55,174 - INFO - Iter time: 137.44s
+2025-09-30 01:10:55,175 - INFO - 
+--- Trial 1, Iter 184 (train size=194) ---
+2025-09-30 01:13:14,793 - INFO - eta_t=0.2684 | novelty mean=0.8054, std=0.0437 | UCB range=(0.1934, 0.8737) | novelty_z range=(-16.021,2.603)
+2025-09-30 01:13:14,793 - INFO - Selected CCCCC(C(=O)N1CCCC1C(=O)Nc1ccc(F)c[n+]1[O-])N(O)C=O → UCB+nov = 1.07
+2025-09-30 01:13:14,795 - INFO -   True f = 0.6199
+2025-09-30 01:13:14,965 - INFO - Iter time: 139.79s
+2025-09-30 01:13:14,965 - INFO - 
+--- Trial 1, Iter 185 (train size=195) ---
+2025-09-30 01:15:37,283 - INFO - eta_t=0.2683 | novelty mean=0.8052, std=0.0437 | UCB range=(0.1937, 0.8747) | novelty_z range=(-16.024,2.607)
+2025-09-30 01:15:37,283 - INFO - Selected CN(CCCC(O)(P(=O)(O)O)P(=O)(O)O)Cc1no[n+]([O-])c1C(N)=O → UCB+nov = 1.074
+2025-09-30 01:15:37,285 - INFO -   True f = 0.4714
+2025-09-30 01:15:37,455 - INFO - Iter time: 142.49s
+2025-09-30 01:15:37,455 - INFO - 
+--- Trial 1, Iter 186 (train size=196) ---
+2025-09-30 01:17:58,092 - INFO - eta_t=0.2683 | novelty mean=0.8052, std=0.0437 | UCB range=(0.1937, 0.8755) | novelty_z range=(-16.020,2.608)
+2025-09-30 01:17:58,092 - INFO - Selected OB(O)c1cc(Br)cnc1F → UCB+nov = 1.071
+2025-09-30 01:17:58,093 - INFO -   True f = 0.0366
+2025-09-30 01:17:58,265 - INFO - Iter time: 140.81s
+2025-09-30 01:17:58,265 - INFO - 
+--- Trial 1, Iter 187 (train size=197) ---
+2025-09-30 01:20:18,212 - INFO - eta_t=0.2682 | novelty mean=0.8052, std=0.0437 | UCB range=(0.1936, 0.8773) | novelty_z range=(-16.022,2.608)
+2025-09-30 01:20:18,213 - INFO - Selected NC(=NCCCC(N)CNCc1ccncc1)N[N+](=O)[O-] → UCB+nov = 1.067
+2025-09-30 01:20:18,214 - INFO -   True f = 0.5114
+2025-09-30 01:20:18,389 - INFO - Iter time: 140.12s
+2025-09-30 01:20:18,389 - INFO - 
+--- Trial 1, Iter 188 (train size=198) ---
+2025-09-30 01:22:39,983 - INFO - eta_t=0.2682 | novelty mean=0.8051, std=0.0437 | UCB range=(0.1935, 0.8796) | novelty_z range=(-16.025,2.610)
+2025-09-30 01:22:39,983 - INFO - Selected Cc1n[nH]c(C(OCC=CBr)C(O)C(O)C(OCC=CBr)C(=O)NC2c3ccccc3CC2O)n1 → UCB+nov = 1.068
+2025-09-30 01:22:39,985 - INFO -   True f = 0.5578
+2025-09-30 01:22:40,162 - INFO - Iter time: 141.77s
+2025-09-30 01:22:40,162 - INFO - 
+--- Trial 1, Iter 189 (train size=199) ---
+2025-09-30 01:25:03,165 - INFO - eta_t=0.2681 | novelty mean=0.8051, std=0.0437 | UCB range=(0.1938, 0.8804) | novelty_z range=(-16.011,2.609)
+2025-09-30 01:25:03,165 - INFO - Selected CN(CCOc1no[n+]([O-])c1S(=O)(=O)c1ccccc1)C(=O)CCC(=O)Nc1ccn(C2OC(CO)C(O)C2(F)F)c(=O)n1 → UCB+nov = 1.068
+2025-09-30 01:25:03,168 - INFO -   True f = 0.589
+2025-09-30 01:25:03,348 - INFO - Iter time: 143.19s
+2025-09-30 01:25:03,348 - INFO - 
+--- Trial 1, Iter 190 (train size=200) ---
+2025-09-30 01:27:26,728 - INFO - eta_t=0.2681 | novelty mean=0.8049, std=0.0437 | UCB range=(0.1937, 0.8828) | novelty_z range=(-16.006,2.613)
+2025-09-30 01:27:26,728 - INFO - Selected S=C(NNC(=S)NC1CC2C=CC1C2)NC1CC2C=CC1C2 → UCB+nov = 1.069
+2025-09-30 01:27:26,730 - INFO -   True f = 0.02356
+2025-09-30 01:27:26,909 - INFO - Iter time: 143.56s
+2025-09-30 01:27:26,909 - INFO - 
+--- Trial 1, Iter 191 (train size=201) ---
+2025-09-30 01:29:50,779 - INFO - eta_t=0.2680 | novelty mean=0.8049, std=0.0437 | UCB range=(0.1938, 0.8839) | novelty_z range=(-16.007,2.613)
+2025-09-30 01:29:50,779 - INFO - Selected Cc1c(C)c(S(=O)(=O)N(CCCN)OCCCN)c(C)c2c1OC(C)(C)C2 → UCB+nov = 1.068
+2025-09-30 01:29:50,781 - INFO -   True f = 0.4777
+2025-09-30 01:29:50,961 - INFO - Iter time: 144.05s
+2025-09-30 01:29:50,961 - INFO - 
+--- Trial 1, Iter 192 (train size=202) ---
+2025-09-30 01:32:18,006 - INFO - eta_t=0.2680 | novelty mean=0.8049, std=0.0437 | UCB range=(0.1935, 0.8832) | novelty_z range=(-16.009,2.614)
+2025-09-30 01:32:18,006 - INFO - Selected O=[N+]([O-])c1cnc(N(CCO)CCO)s1 → UCB+nov = 1.07
+2025-09-30 01:32:18,008 - INFO -   True f = 0.4455
+2025-09-30 01:32:18,190 - INFO - Iter time: 147.23s
+2025-09-30 01:32:18,190 - INFO - 
+--- Trial 1, Iter 193 (train size=203) ---
+2025-09-30 01:34:42,189 - INFO - eta_t=0.2679 | novelty mean=0.8048, std=0.0437 | UCB range=(0.1933, 0.8832) | novelty_z range=(-16.008,2.615)
+2025-09-30 01:34:42,189 - INFO - Selected CC(=O)NCC(=O)N1CCC2(COCc3c(C)nc(N(C)C)nc32)C1 → UCB+nov = 1.069
+2025-09-30 01:34:42,191 - INFO -   True f = 0.4885
+2025-09-30 01:34:42,375 - INFO - Iter time: 144.19s
+2025-09-30 01:34:42,376 - INFO - 
+--- Trial 1, Iter 194 (train size=204) ---
+2025-09-30 01:37:11,795 - INFO - eta_t=0.2679 | novelty mean=0.8048, std=0.0437 | UCB range=(0.1933, 0.8833) | novelty_z range=(-16.019,2.618)
+2025-09-30 01:37:11,795 - INFO - Selected CC(=O)OCC1OC(OCCC(C)C)C=C(C(O)c2ccc([N+](=O)[O-])cc2)C1=O → UCB+nov = 1.069
+2025-09-30 01:37:11,797 - INFO -   True f = 0.6148
+2025-09-30 01:37:11,983 - INFO - Iter time: 149.61s
+2025-09-30 01:37:11,983 - INFO - 
+--- Trial 1, Iter 195 (train size=205) ---
+2025-09-30 01:39:41,303 - INFO - eta_t=0.2679 | novelty mean=0.8045, std=0.0437 | UCB range=(0.1938, 0.8846) | novelty_z range=(-16.019,2.626)
+2025-09-30 01:39:41,303 - INFO - Selected Cc1ccc(S(=O)(=O)N2CC3N(C(=O)OC(C)C)N(C(=O)OC(C)C)CC(OC(=O)Nc4c(C)noc4C)C3(O)C2)cc1 → UCB+nov = 1.072
+2025-09-30 01:39:41,306 - INFO -   True f = 0.5401
+2025-09-30 01:39:41,495 - INFO - Iter time: 149.51s
+2025-09-30 01:39:41,495 - INFO - 
+--- Trial 1, Iter 196 (train size=206) ---
+2025-09-30 01:42:09,426 - INFO - eta_t=0.2678 | novelty mean=0.8043, std=0.0437 | UCB range=(0.1938, 0.8850) | novelty_z range=(-16.013,2.629)
+2025-09-30 01:42:09,427 - INFO - Selected COc1cccc2c1NC(=O)C(N=C(O)C(CCC(F)(F)F)C(CCC(F)(F)F)C(=N)O)N=C2c1ccc(C(F)(F)F)cn1 → UCB+nov = 1.071
+2025-09-30 01:42:09,429 - INFO -   True f = 0.179
+2025-09-30 01:42:09,619 - INFO - Iter time: 148.12s
+2025-09-30 01:42:09,619 - INFO - 
+--- Trial 1, Iter 197 (train size=207) ---
+2025-09-30 01:44:42,729 - INFO - eta_t=0.2678 | novelty mean=0.8041, std=0.0436 | UCB range=(0.1933, 0.8840) | novelty_z range=(-16.040,2.640)
+2025-09-30 01:44:42,729 - INFO - Selected CCN(CC)S(=O)(=O)OCC12OCC3OS(=O)(=O)OC3C1OC(C)(C)O2 → UCB+nov = 1.071
+2025-09-30 01:44:42,731 - INFO -   True f = 0.3603
+2025-09-30 01:44:42,921 - INFO - Iter time: 153.30s
+2025-09-30 01:44:42,921 - INFO - 
+--- Trial 1, Iter 198 (train size=208) ---
+2025-09-30 01:47:11,825 - INFO - eta_t=0.2677 | novelty mean=0.8041, std=0.0437 | UCB range=(0.1932, 0.8840) | novelty_z range=(-16.019,2.637)
+2025-09-30 01:47:11,825 - INFO - Selected O=C(NCCO)C1C(C(=O)Nc2ncc(Br)s2)C2CCC1C21CC1 → UCB+nov = 1.068
+2025-09-30 01:47:11,827 - INFO -   True f = 0.5239
+2025-09-30 01:47:12,021 - INFO - Iter time: 149.10s
+2025-09-30 01:47:12,021 - INFO - 
+--- Trial 1, Iter 199 (train size=209) ---
+2025-09-30 01:49:47,901 - INFO - eta_t=0.2677 | novelty mean=0.8040, std=0.0438 | UCB range=(0.1931, 0.8845) | novelty_z range=(-15.983,2.633)
+2025-09-30 01:49:47,901 - INFO - Selected CCc1cc2c(cc1OS(N)(=O)=O)CCC1C2CCC2(C)C(C(C#N)C#N)CCC12 → UCB+nov = 1.069
+2025-09-30 01:49:47,903 - INFO -   True f = 0.5649
+2025-09-30 01:49:48,099 - INFO - Iter time: 156.08s
