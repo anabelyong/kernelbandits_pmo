@@ -1,7 +1,6 @@
 #!/usr/bin/env python
 """
 Compute NumCircles from BO CSVs for different Tanimoto thresholds.
-Processes both UCB and UCB+aug logs.
 """
 
 import os

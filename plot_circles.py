@@ -1,56 +1,45 @@
 import pandas as pd
 import matplotlib.pyplot as plt
-import numpy as np
 from pathlib import Path
 
 # Path to circle results
 circle_dir = Path("circles_results")
 
-# Methods and trials
-methods = {
-    "ucb": [circle_dir / f"logs_trial{i}_terminal_output_jax_ucb_fex_circles.csv" for i in [1, 2, 3]],
-    "ucb_aug": [circle_dir / f"logs_trial{i}_terminal_output_jax_ucb_aug_fex_circles.csv" for i in [1, 2, 3]],
+# Define betas and methods
+betas = [0.2, 0.4, 0.6, 0.8, 1.0]
+methods = ["BUCB", "UCB"]
+
+# Assign colors (different palette for each method)
+colors = {
+    "BUCB": ["#1f77b4", "#1f77b4", "#1f77b4", "#1f77b4", "#1f77b4"],  # shades of blue
+    "UCB":  ["#d62728", "#d62728", "#d62728", "#d62728", "#d62728"],  # shades of red
 }
+markers = ["o", "s", "D", "^", "v"]
 
-# Load all results
-all_results = {}
-for method, files in methods.items():
-    dfs = []
-    for f in files:
-        if f.exists():
-            dfs.append(pd.read_csv(f))
-        else:
-            print(f"[WARN] Missing file: {f}")
-    all_results[method] = dfs
-
-# Compute mean ± std for each threshold
-mean_std_results = {}
-for method, dfs in all_results.items():
-    merged = pd.concat(dfs, keys=range(len(dfs)), names=["trial"])
-    grouped = merged.groupby("Threshold")["NumCircles"]
-    mean = grouped.mean()
-    std = grouped.std()
-    mean_std_results[method] = (mean, std)
-
-# Plot
 plt.figure(figsize=(8, 6))
 
-colors = {"ucb": "blue", "ucb_aug": "magenta"}
-labels = {"ucb": "UCB", "ucb_aug": "UCB+Aug"}
+for method in methods:
+    for i, beta in enumerate(betas):
+        fname = circle_dir / f"{method}_beta_{beta}_circles.csv"
+        if not fname.exists():
+            print(f"[WARN] Missing file: {fname}")
+            continue
 
-for method, (mean, std) in mean_std_results.items():
-    thresholds = mean.index
-    plt.errorbar(
-        thresholds, mean, yerr=std,
-        label=labels[method], color=colors[method],
-        marker="o", capsize=3
-    )
+        df = pd.read_csv(fname)
+        plt.plot(
+            df["Threshold"], df["NumCircles"],
+            label=f"{method} β={beta}",
+            color=colors[method][i % len(colors[method])],
+            marker=markers[i % len(markers)],
+            linewidth=2
+        )
 
 plt.xlabel("Tanimoto Threshold")
-plt.ylabel("#Circles")
-plt.title("Fexofenadine: #Circles across thresholds")
+plt.ylabel("NumCircles")
+plt.title("#Circles across thresholds (UCB vs BUCB)")
 plt.legend()
-plt.grid(True)
-plt.yscale("log")  
+plt.grid(True, linestyle="--", alpha=0.6)
 
-plt.savefig("fexofenadine_circles.pdf", format="pdf", bbox_inches="tight")
+# Save as PDF
+plt.savefig("circles_results/circles_across_thresholds.pdf", format="pdf", bbox_inches="tight")
+print("Saved plot to circles_results/circles_across_thresholds.pdf")
