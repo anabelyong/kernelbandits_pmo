@@ -1,206 +1,156 @@
 #!/usr/bin/env python
 """
-Compute PMO-metrics from BO logs with trial aggregation.
-
-Metrics:
-  - PRIMARY: AUC Top-K (full run) and (optionally) AUC Top-K@B across a budget grid
-  - SECONDARY: Final Top-K, Top-1, Best-so-far at specified budgets
-Also plots:
-  - Running Top-K curves (averaged across trials per method)
-  - AUC-Top-K@B vs. Budget (if --auc-grid is provided)
+Analyze a single BO results CSV.
+Computes running Top-K curve and AUC-Top-K for the first 100 molecules (20 rounds × 5).
+Lets you manually specify the CSV path to inspect a single run.
+Automatically names outputs by trial ID.
 """
-import argparse
+
+import os
 import numpy as np
 import pandas as pd
-from pathlib import Path
-from typing import List
-import matplotlib.pyplot as plt
-from collections import defaultdict
+import re
 
-# ----------------- IO & helpers -----------------
-def load_scores(csv_path: str) -> np.ndarray:
+# ====== CONFIG ======
+OUT_DIR = "auc_results_bucb_tanimoto_constraint"
+K = 5
+N_ROUNDS = 20
+MOLECULES_PER_ROUND = 5
+N_MOLECULES = N_ROUNDS * MOLECULES_PER_ROUND  # = 100
+os.makedirs(OUT_DIR, exist_ok=True)
+
+
+# ====== HELPER FUNCTIONS ======
+def load_truef(csv_path):
+    """Load 'True f' or 'f_true' column."""
     df = pd.read_csv(csv_path)
-    if "True f" in df.columns:
-        col = "True f"
+    cols = [c.lower().strip().replace(" ", "_") for c in df.columns]
+    df.columns = cols
+    if "true_f" in df.columns:
+        return np.asarray(df["true_f"], dtype=float)
+    elif "f_true" in df.columns:
+        return np.asarray(df["f_true"], dtype=float)
     else:
-        for c in ["true_f", "y", "score", "f", "value", "objective"]:
-            if c in df.columns:
-                col = c
-                break
-        else:
-            raise ValueError(f"{csv_path} must contain a score column. "
-                             f"Available: {list(df.columns)}")
-    y = np.asarray(df[col], dtype=float)
-    if np.isnan(y).any():
-        y = np.nan_to_num(y, nan=-np.inf)
-    return y
+        raise ValueError(f"No 'True f' column found in {csv_path}")
 
-def best_so_far(y: np.ndarray) -> np.ndarray:
-    return np.maximum.accumulate(y)
 
-def topk_running_mean(y: np.ndarray, K: int) -> np.ndarray:
-    T = len(y)
-    out = np.empty(T, dtype=float)
+def topk_running_mean(y, k):
+    """Compute running mean of top-K values seen so far."""
     running = []
-    for t in range(T):
-        running.append(y[t])
+    out = np.empty(len(y), dtype=float)
+    for t, val in enumerate(y):
+        running.append(val)
         arr = np.sort(running)[::-1]
-        k = min(K, t + 1)
-        out[t] = arr[:k].mean()
+        out[t] = arr[: min(k, len(arr))].mean()
     return out
 
-def auc_topk(y: np.ndarray, K: int) -> float:
-    return float(topk_running_mean(y, K).mean())
 
-def auc_topk_at_budget(y: np.ndarray, K: int, B: int) -> float:
-    B = min(B, len(y))
-    if B <= 0:
-        return np.nan
-    return float(topk_running_mean(y[:B], K).mean())
+def auc_topk(y, k):
+    """Mean (area under) the running Top-K curve."""
+    curve = topk_running_mean(y, k)
+    return float(np.mean(curve))
 
-def final_topk(y: np.ndarray, K: int) -> float:
+
+def final_topk(y, k):
+    """Mean of the top-K values at the end."""
     arr = np.sort(y)[::-1]
-    return float(arr[:min(K, len(arr))].mean())
+    return float(arr[: min(k, len(arr))].mean())
 
-def summarize_at_budget(y: np.ndarray, budget: int, K_list: List[int]) -> dict:
-    y_bud = y[: min(len(y), budget)]
-    bsf = best_so_far(y_bud)[-1]
-    out = {
-        "evals": len(y_bud),
-        "best_so_far": float(bsf),
-        "Top1": float(np.sort(y_bud)[::-1][0]),
-    }
-    for K in K_list:
-        out[f"Top{K}"] = final_topk(y_bud, K)
-    return out
 
-def parse_budget_grid(s: str) -> list[int]:
-    if ":" in s:
-        start, end, step = [int(x) for x in s.split(":")]
-        return list(range(start, end + 1, step))
+def extract_trial_id(csv_path):
+    """
+    Try to extract the trial ID from the file path.
+    Examples:
+        logs_bucb_beta_1.0/trial_3/beta_1.00/logs_terminal_output_jax_bucb.csv
+        → trial_3
+    """
+    match = re.search(r"(trial_\d+)", csv_path)
+    if match:
+        return match.group(1)
     else:
-        return [int(x) for x in s.split(",") if x.strip()]
+        return "trial_unknown"
 
-# ----------------- Plotting -----------------
-def plot_running_topk(curves: dict[str, np.ndarray], K: int, out_pdf: str):
-    plt.figure(figsize=(7,4.5))
-    for label, curve in curves.items():
-        x = np.arange(1, len(curve)+1)
-        plt.plot(x, curve, linewidth=1.8, label=label)
-    plt.xlabel("Evaluations")
-    plt.ylabel(f"Running Top-{K} mean")
-    plt.title(f"Running Top-{K} vs. evaluations (averaged)")
-    plt.legend()
-    plt.tight_layout()
-    plt.savefig(out_pdf)
-    print(f"Saved plot: {out_pdf}")
 
-def plot_auc_vs_budget(df_auc: pd.DataFrame, K: int, out_pdf: str):
-    plt.figure(figsize=(7,4.5))
-    for label in sorted(df_auc["method"].unique()):
-        sub = df_auc[df_auc["method"] == label]
-        x = sub["budget"].to_numpy()
-        y = sub[f"AUC_Top{K}@B"].to_numpy()
-        y_std = sub[f"AUC_Top{K}@B_std"].to_numpy()
-        plt.plot(x, y, marker="o", linewidth=1.8, label=label)
-        plt.fill_between(x, y - y_std, y + y_std, alpha=0.2)
-    plt.xlabel("Budget (evaluations)")
-    plt.ylabel(f"AUC-Top-{K} (prefix mean)")
-    plt.title(f"AUC-Top-{K} vs. budget (mean ± std)")
-    plt.legend()
-    plt.tight_layout()
-    plt.savefig(out_pdf)
-    print(f"Saved plot: {out_pdf}")
+def process_csv(csv_path):
+    """Compute metrics for one CSV file."""
+    y = load_truef(csv_path)
 
-def average_curves(curves: list[np.ndarray]) -> np.ndarray:
-    max_len = max(len(c) for c in curves)
-    padded = []
-    for c in curves:
-        pad = np.full(max_len, np.nan)
-        pad[:len(c)] = c
-        padded.append(pad)
-    stacked = np.vstack(padded)
-    return np.nanmean(stacked, axis=0)
+    # Take the first 100 molecules (20 rounds × 5)
+    if len(y) >= N_MOLECULES:
+        y = y[:N_MOLECULES]
 
-# ----------------- Main -----------------
+    curve = topk_running_mean(y, K)
+    auc_val = auc_topk(y, K)
+    final_val = final_topk(y, K)
+
+    return dict(
+        file=os.path.basename(csv_path),
+        auc_topk=auc_val,
+        final_topk=final_val,
+        num_evals=len(y),
+        curve=curve
+    )
+
+
+# ====== MAIN ======
 def main():
-    p = argparse.ArgumentParser(description="PMO-style metrics and plots for BO logs (with trial aggregation).")
-    p.add_argument("--csv", nargs="+", required=True, help="CSV files to compare.")
-    p.add_argument("--labels", nargs="+", default=None,
-                   help="Labels (methods). Same length as --csv, can repeat (e.g. BUCB BUCB BUCB BUCB+MI BUCB+MI BUCB+MI).")
-    p.add_argument("--K", type=int, default=10)
-    p.add_argument("--budgets", type=str, default="50,100,200")
-    p.add_argument("--auc-grid", type=str, default=None)
-    p.add_argument("--plot", action="store_true")
-    p.add_argument("--out", type=str, default="bo_metrics_summary.csv")
-    args = p.parse_args()
+    print("\n=== Single CSV Top-K Analysis ===")
+    csv_path = input("Enter relative or full path to your CSV file: ").strip()
 
-    budgets = [int(x) for x in args.budgets.split(",")]
-    paths = [Path(c) for c in args.csv]
-    labels = args.labels or [p.stem for p in paths]
-    if len(labels) != len(paths):
-        raise ValueError("Number of --labels must match number of --csv files.")
+    # Resolve to absolute path for clarity
+    abs_path = os.path.abspath(csv_path)
+    print(f"\nResolved path: {abs_path}")
 
-    # --- group by method (aggregate trials) ---
-    ys_grouped = defaultdict(list)
-    curves_grouped = defaultdict(list)
-    for label, path in zip(labels, paths):
-        y = load_scores(str(path))
-        ys_grouped[label].append(y)
-        curves_grouped[label].append(topk_running_mean(y, args.K))
+    if not os.path.exists(abs_path):
+        print(f"❌ File not found: {abs_path}")
+        return
 
-    # --- aggregate curves ---
-    agg_curves = {m: average_curves(c_list) for m, c_list in curves_grouped.items()}
+    trial_id = extract_trial_id(abs_path)
+    print(f"Detected trial ID: {trial_id}")
 
-    # --- summary metrics per method ---
-    rows = []
-    for method, y_list in ys_grouped.items():
-        for B in budgets:
-            auc_vals = [auc_topk(y, args.K) for y in y_list]
-            s_vals = [summarize_at_budget(y, B, K_list=[1, args.K]) for y in y_list]
-            rows.append({
-                "method": method,
-                "budget": B,
-                "T_total_mean": np.mean([len(y) for y in y_list]),
-                "AUC_TopK_fullrun_mean": np.mean(auc_vals),
-                "best_so_far@B_mean": np.mean([s["best_so_far"] for s in s_vals]),
-                "Top1@B_mean": np.mean([s["Top1"] for s in s_vals]),
-                f"Top{args.K}@B_mean": np.mean([s[f"Top{args.K}"] for s in s_vals]),
-            })
-    df_out = pd.DataFrame(rows).sort_values(by=["budget","method"]).reset_index(drop=True)
-    print("\n=== Aggregated Summary ===")
-    print(df_out.to_string(index=False))
-    df_out.to_csv(args.out, index=False)
-    print(f"\nWrote aggregated summary CSV to: {args.out}")
+    print(f"✅ Found file, processing...\n")
 
-    # --- AUC grid (optional) ---
-    if args.auc_grid:
-        grid = parse_budget_grid(args.auc_grid)
-        auc_rows = []
-        for method, y_list in ys_grouped.items():
-            for B in grid:
-                auc_vals = [auc_topk_at_budget(y, args.K, B) for y in y_list]
-                auc_rows.append({
-                    "method": method,
-                    "budget": B,
-                    f"AUC_Top{args.K}@B": np.mean(auc_vals),
-                    f"AUC_Top{args.K}@B_std": np.std(auc_vals, ddof=1) if len(auc_vals) > 1 else 0.0,
-                })
-        df_auc = pd.DataFrame(auc_rows).sort_values(["budget","method"]).reset_index(drop=True)
-        print("\n=== Aggregated AUC-TopK@B Grid ===")
-        print(df_auc.to_string(index=False))
-        auc_out = Path(args.out).with_name(Path(args.out).stem + f"_aucgrid.csv")
-        df_auc.to_csv(auc_out, index=False)
-        print(f"\nWrote aggregated AUC grid CSV to: {auc_out}")
-    else:
-        df_auc = None
+    try:
+        res = process_csv(abs_path)
+    except Exception as e:
+        print(f"❌ Error processing {abs_path}: {e}")
+        return
 
-    # --- Plots ---
-    if args.plot:
-        prefix = Path(args.out).with_suffix("").as_posix()
-        plot_running_topk(agg_curves, args.K, out_pdf=f"{prefix}_running_topK_curves_K{args.K}.pdf")
-        if df_auc is not None:
-            plot_auc_vs_budget(df_auc, args.K, out_pdf=f"{prefix}_auc_topK_vs_budget_K{args.K}.pdf")
+    # Build running curve table
+    n = len(res["curve"])
+    rounds = np.arange(0, n / MOLECULES_PER_ROUND, 1 / MOLECULES_PER_ROUND)
+    df_curve = pd.DataFrame({
+        "Molecule_index": np.arange(1, n + 1),
+        "Round": rounds[:n],
+        f"Top{K}_running_mean": res["curve"]
+    })
+
+    # Output filenames based on trial
+    base_name = f"logs_terminal_output_jax_bucb_beta_1.0_rho_0.75_{trial_id}"
+    out_curve_path = os.path.join(OUT_DIR, f"{base_name}_running_top{K}.csv")
+    out_summary_path = os.path.join(OUT_DIR, f"{base_name}_summary_top{K}.csv")
+
+    # Save outputs
+    df_curve.to_csv(out_curve_path, index=False)
+    pd.DataFrame([{
+        "Trial": trial_id,
+        "File": res["file"],
+        f"AUC_Top{K}": res["auc_topk"],
+        f"Final_Top{K}": res["final_topk"],
+        "Num_evals": res["num_evals"]
+    }]).to_csv(out_summary_path, index=False)
+
+    # Print results
+    print("✅ Results:")
+    print(f"Trial: {trial_id}")
+    print(f"File: {res['file']}")
+    print(f"Num evaluations: {res['num_evals']}")
+    print(f"Final Top-{K}: {res['final_topk']:.4f}")
+    print(f"AUC Top-{K}: {res['auc_topk']:.4f}")
+    print(f"\nSaved running curve → {out_curve_path}")
+    print(f"Saved summary → {out_summary_path}")
+    print("\n✅ Done.\n")
+
 
 if __name__ == "__main__":
     main()

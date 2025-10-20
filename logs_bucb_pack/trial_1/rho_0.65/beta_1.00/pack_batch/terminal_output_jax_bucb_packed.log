@@ -1,0 +1,416 @@
+2025-10-10 13:17:35,961 - INFO - 
+--- Round 0 | trial=1 | sqrt_beta=1.0000 (beta=1.0000) | rho=0.65 | pack=batch | train size=10 ---
+2025-10-10 13:18:28,994 - INFO - [bucb] step 1/5: rho=0.65 -> masked 0 / 999990 items
+2025-10-10 13:18:29,002 - INFO - [bucb] pick 1/5: min-d_batch=1.000, min-d_hist=0.652
+2025-10-10 13:18:34,434 - INFO - [bucb] step 2/5: rho=0.65 -> masked 168 / 999990 items
+2025-10-10 13:18:34,441 - INFO - [bucb] pick 2/5: min-d_batch=0.823, min-d_hist=0.629
+2025-10-10 13:18:42,925 - INFO - [bucb] step 3/5: rho=0.65 -> masked 280 / 999990 items
+2025-10-10 13:18:42,932 - INFO - [bucb] pick 3/5: min-d_batch=0.834, min-d_hist=0.713
+2025-10-10 13:18:54,196 - INFO - [bucb] step 4/5: rho=0.65 -> masked 325 / 999990 items
+2025-10-10 13:18:54,203 - INFO - [bucb] pick 4/5: min-d_batch=0.805, min-d_hist=0.743
+2025-10-10 13:19:08,014 - INFO - [bucb] step 5/5: rho=0.65 -> masked 363 / 999990 items
+2025-10-10 13:19:08,021 - INFO - [bucb] pick 5/5: min-d_batch=0.887, min-d_hist=0.597
+2025-10-10 13:19:10,768 - INFO - [round 0] pick 1/5: CCOC(=O)c1ccc(NC(=O)c2[nH]cnc2C(=O)NC(C)C(=O)OC(C)(C)C)cc1 | UCB=1.275 | mu=0.3671 | std=0.9083 | f=0.4818 | min-d_batch=1.000 | min-d_hist=0.652
+2025-10-10 13:19:10,782 - INFO - [round 0] pick 2/5: CCCCc1nc(Cl)c(CO)n1Cc1ccc(NC(=O)C(CCCC)n2cccc2C(=O)OC)cc1 | UCB=1.265 | mu=0.3638 | std=0.9008 | f=0.4682 | min-d_batch=0.823 | min-d_hist=0.629
+2025-10-10 13:19:10,795 - INFO - [round 0] pick 3/5: COC(=O)c1ccc(C2CC(C3CCCC3C(=O)NCc3ccc(OC(F)(F)F)cc3)=NO2)cc1 | UCB=1.26 | mu=0.3385 | std=0.9212 | f=0.5356 | min-d_batch=0.834 | min-d_hist=0.713
+2025-10-10 13:19:10,808 - INFO - [round 0] pick 4/5: COC(=O)C(CCCCN)NC(=O)c1ccc(NC(=O)C(N)CC(C)C)c(N)c1 | UCB=1.254 | mu=0.3089 | std=0.9449 | f=0.5645 | min-d_batch=0.805 | min-d_hist=0.743
+2025-10-10 13:19:10,822 - INFO - [round 0] pick 5/5: CCc1nc(C2CCCN(C(=O)C(C)(C)NS(C)(=O)=O)C2)no1 | UCB=1.212 | mu=0.307 | std=0.905 | f=0.4708 | min-d_batch=0.887 | min-d_hist=0.597
+2025-10-10 13:19:10,836 - INFO - Round 0 done in 94.87s; train size=15
+2025-10-10 13:19:10,836 - INFO - 
+--- Round 1 | trial=1 | sqrt_beta=1.0000 (beta=1.0000) | rho=0.65 | pack=batch | train size=15 ---
+2025-10-10 13:20:26,693 - INFO - [bucb] step 1/5: rho=0.65 -> masked 0 / 999985 items
+2025-10-10 13:20:26,700 - INFO - [bucb] pick 1/5: min-d_batch=1.000, min-d_hist=0.724
+2025-10-10 13:20:31,997 - INFO - [bucb] step 2/5: rho=0.65 -> masked 88 / 999985 items
+2025-10-10 13:20:32,004 - INFO - [bucb] pick 2/5: min-d_batch=0.836, min-d_hist=0.664
+2025-10-10 13:20:41,023 - INFO - [bucb] step 3/5: rho=0.65 -> masked 120 / 999985 items
+2025-10-10 13:20:41,030 - INFO - [bucb] pick 3/5: min-d_batch=0.809, min-d_hist=0.665
+2025-10-10 13:20:52,472 - INFO - [bucb] step 4/5: rho=0.65 -> masked 217 / 999985 items
+2025-10-10 13:20:52,479 - INFO - [bucb] pick 4/5: min-d_batch=0.789, min-d_hist=0.650
+2025-10-10 13:21:06,172 - INFO - [bucb] step 5/5: rho=0.65 -> masked 263 / 999985 items
+2025-10-10 13:21:06,179 - INFO - [bucb] pick 5/5: min-d_batch=0.847, min-d_hist=0.819
+2025-10-10 13:21:09,077 - INFO - [round 1] pick 1/5: COC(=O)c1ccc(CNC(=O)CSC(C)C(=O)Nc2cc(C)on2)cc1 | UCB=1.316 | mu=0.4081 | std=0.9075 | f=0.5158 | min-d_batch=1.000 | min-d_hist=0.724
+2025-10-10 13:21:09,092 - INFO - [round 1] pick 2/5: CC(c1c[nH]c2ccccc12)C(NC(=O)C1CCCN(C(=O)c2ccc3[nH]cnc3c2)C1)C(=O)NC(CCCCN)C(=O)OC(C)(C)C | UCB=1.304 | mu=0.4047 | std=0.8995 | f=0.6128 | min-d_batch=0.836 | min-d_hist=0.664
+2025-10-10 13:21:09,107 - INFO - [round 1] pick 3/5: COCCCNC(=O)c1ccc(CN(C(=O)Nc2ccc(OC(F)(F)F)cc2)C2CCC(C(C)(C)C)CC2)cc1 | UCB=1.306 | mu=0.4083 | std=0.8981 | f=0.1233 | min-d_batch=0.809 | min-d_hist=0.665
+2025-10-10 13:21:09,123 - INFO - [round 1] pick 4/5: CCCC(NC(=O)c1ccc(OC)c(Cl)c1)C(=O)OC | UCB=1.289 | mu=0.3817 | std=0.9075 | f=0.1673 | min-d_batch=0.789 | min-d_hist=0.650
+2025-10-10 13:21:09,137 - INFO - [round 1] pick 5/5: CC1CCC(C(=O)O)=C(NC(=O)C(N)Cc2nc(-c3ccc(O)cn3)no2)C1 | UCB=1.249 | mu=0.2968 | std=0.9518 | f=0.5336 | min-d_batch=0.847 | min-d_hist=0.819
+2025-10-10 13:21:09,152 - INFO - Round 1 done in 118.32s; train size=20
+2025-10-10 13:21:09,152 - INFO - 
+--- Round 2 | trial=1 | sqrt_beta=1.0000 (beta=1.0000) | rho=0.65 | pack=batch | train size=20 ---
+2025-10-10 13:22:51,199 - INFO - [bucb] step 1/5: rho=0.65 -> masked 0 / 999980 items
+2025-10-10 13:22:51,206 - INFO - [bucb] pick 1/5: min-d_batch=1.000, min-d_hist=0.715
+2025-10-10 13:22:56,587 - INFO - [bucb] step 2/5: rho=0.65 -> masked 40 / 999980 items
+2025-10-10 13:22:56,594 - INFO - [bucb] pick 2/5: min-d_batch=0.840, min-d_hist=0.756
+2025-10-10 13:23:05,071 - INFO - [bucb] step 3/5: rho=0.65 -> masked 99 / 999980 items
+2025-10-10 13:23:05,078 - INFO - [bucb] pick 3/5: min-d_batch=0.821, min-d_hist=0.734
+2025-10-10 13:23:16,304 - INFO - [bucb] step 4/5: rho=0.65 -> masked 289 / 999980 items
+2025-10-10 13:23:16,311 - INFO - [bucb] pick 4/5: min-d_batch=0.843, min-d_hist=0.760
+2025-10-10 13:23:30,403 - INFO - [bucb] step 5/5: rho=0.65 -> masked 415 / 999980 items
+2025-10-10 13:23:30,410 - INFO - [bucb] pick 5/5: min-d_batch=0.810, min-d_hist=0.729
+2025-10-10 13:23:33,238 - INFO - [round 2] pick 1/5: CC(C)(C)OC(=O)NC(CCCCN)C(=O)Nc1ccc(C(=O)O)c(-c2ccc(O)cc2)c1 | UCB=1.311 | mu=0.4169 | std=0.8942 | f=0.6491 | min-d_batch=1.000 | min-d_hist=0.715
+2025-10-10 13:23:33,253 - INFO - [round 2] pick 2/5: CCCCn1c(SC(C)C(=O)NCC2CCCO2)nc2cc(C(=O)OC)ccc2c1=O | UCB=1.305 | mu=0.3892 | std=0.9155 | f=0.5737 | min-d_batch=0.840 | min-d_hist=0.756
+2025-10-10 13:23:33,268 - INFO - [round 2] pick 3/5: CC(=O)Nc1ccc(C(=O)N2CCCC(c3cc(C(=O)NCc4ccc(F)cc4)no3)C2)cc1 | UCB=1.303 | mu=0.4128 | std=0.8907 | f=0.634 | min-d_batch=0.821 | min-d_hist=0.734
+2025-10-10 13:23:33,283 - INFO - [round 2] pick 4/5: CSCCC(NC(=O)C(N)CC(C)C)C(=O)N1CCCC1C(=O)NC(Cc1cnc[nH]1)C(N)=O | UCB=1.274 | mu=0.3293 | std=0.9449 | f=0.5154 | min-d_batch=0.843 | min-d_hist=0.760
+2025-10-10 13:23:33,298 - INFO - [round 2] pick 5/5: COC(=O)c1ccc(-c2noc(CN(Cc3nccn3C)C(C)C)n2)cc1 | UCB=1.292 | mu=0.3748 | std=0.9174 | f=0.5168 | min-d_batch=0.810 | min-d_hist=0.729
+2025-10-10 13:23:33,314 - INFO - Round 2 done in 144.16s; train size=25
+2025-10-10 13:23:33,314 - INFO - 
+--- Round 3 | trial=1 | sqrt_beta=1.0000 (beta=1.0000) | rho=0.65 | pack=batch | train size=25 ---
+2025-10-10 13:25:39,252 - INFO - [bucb] step 1/5: rho=0.65 -> masked 0 / 999975 items
+2025-10-10 13:25:39,259 - INFO - [bucb] pick 1/5: min-d_batch=1.000, min-d_hist=0.741
+2025-10-10 13:25:44,815 - INFO - [bucb] step 2/5: rho=0.65 -> masked 201 / 999975 items
+2025-10-10 13:25:44,822 - INFO - [bucb] pick 2/5: min-d_batch=0.866, min-d_hist=0.632
+2025-10-10 13:25:53,414 - INFO - [bucb] step 3/5: rho=0.65 -> masked 372 / 999975 items
+2025-10-10 13:25:53,422 - INFO - [bucb] pick 3/5: min-d_batch=0.784, min-d_hist=0.716
+2025-10-10 13:26:04,511 - INFO - [bucb] step 4/5: rho=0.65 -> masked 514 / 999975 items
+2025-10-10 13:26:04,518 - INFO - [bucb] pick 4/5: min-d_batch=0.804, min-d_hist=0.732
+2025-10-10 13:26:18,781 - INFO - [bucb] step 5/5: rho=0.65 -> masked 562 / 999975 items
+2025-10-10 13:26:18,789 - INFO - [bucb] pick 5/5: min-d_batch=0.842, min-d_hist=0.727
+2025-10-10 13:26:21,658 - INFO - [round 3] pick 1/5: CC(N)c1nc(C(=O)N2CCCC2C(=O)NC(Cc2ccc(O)cc2)C(=O)O)co1 | UCB=1.359 | mu=0.4543 | std=0.9047 | f=0.6027 | min-d_batch=1.000 | min-d_hist=0.741
+2025-10-10 13:26:21,675 - INFO - [round 3] pick 2/5: Cc1cc(=O)oc2cc(NC(=O)C(CCCCN)NC(=O)C(CC(C)C)NC(=O)C(NC(=O)OC(C)(C)C)C(C)C)ccc12 | UCB=1.335 | mu=0.4481 | std=0.8871 | f=0.5647 | min-d_batch=0.866 | min-d_hist=0.632
+2025-10-10 13:26:21,691 - INFO - [round 3] pick 3/5: COC(=O)c1ccc(C(=O)N2CCCC(Nc3ccc(C(C)C)cc3)C2)nc1 | UCB=1.35 | mu=0.4628 | std=0.887 | f=0.367 | min-d_batch=0.784 | min-d_hist=0.716
+2025-10-10 13:26:21,708 - INFO - [round 3] pick 4/5: CCOC(=O)NC(CCCCN)C(=O)c1noc(Cc2ccc(C(=O)NC3Cc4ccccc4C3)cc2)n1 | UCB=1.346 | mu=0.447 | std=0.8989 | f=0.6022 | min-d_batch=0.804 | min-d_hist=0.732
+2025-10-10 13:26:21,726 - INFO - [round 3] pick 5/5: CCCCn1c(SCc2ccc(C(=O)OC)o2)nc2cc(S(N)(=O)=O)ccc21 | UCB=1.302 | mu=0.3782 | std=0.9234 | f=0.5447 | min-d_batch=0.842 | min-d_hist=0.727
+2025-10-10 13:26:21,746 - INFO - Round 3 done in 168.43s; train size=30
+2025-10-10 13:26:21,746 - INFO - 
+--- Round 4 | trial=1 | sqrt_beta=1.0000 (beta=1.0000) | rho=0.65 | pack=batch | train size=30 ---
+2025-10-10 13:28:49,234 - INFO - [bucb] step 1/5: rho=0.65 -> masked 0 / 999970 items
+2025-10-10 13:28:49,241 - INFO - [bucb] pick 1/5: min-d_batch=1.000, min-d_hist=0.697
+2025-10-10 13:28:55,041 - INFO - [bucb] step 2/5: rho=0.65 -> masked 54 / 999970 items
+2025-10-10 13:28:55,048 - INFO - [bucb] pick 2/5: min-d_batch=0.835, min-d_hist=0.756
+2025-10-10 13:29:03,485 - INFO - [bucb] step 3/5: rho=0.65 -> masked 267 / 999970 items
+2025-10-10 13:29:03,492 - INFO - [bucb] pick 3/5: min-d_batch=0.764, min-d_hist=0.754
+2025-10-10 13:29:15,577 - INFO - [bucb] step 4/5: rho=0.65 -> masked 302 / 999970 items
+2025-10-10 13:29:15,584 - INFO - [bucb] pick 4/5: min-d_batch=0.833, min-d_hist=0.703
+2025-10-10 13:29:30,002 - INFO - [bucb] step 5/5: rho=0.65 -> masked 465 / 999970 items
+2025-10-10 13:29:30,009 - INFO - [bucb] pick 5/5: min-d_batch=0.817, min-d_hist=0.690
+2025-10-10 13:29:33,074 - INFO - [round 4] pick 1/5: Cc1ccc(S(=O)(=O)NCC(=O)N2CCCC2C(=O)NC(CCCCN)C(=O)Nc2ccc([N+](=O)[O-])cc2)cc1 | UCB=1.379 | mu=0.4952 | std=0.8841 | f=0.6659 | min-d_batch=1.000 | min-d_hist=0.697
+2025-10-10 13:29:33,093 - INFO - [round 4] pick 2/5: CC(=O)NC(Cc1ccc(OP(=O)(O)O)cc1)C(=O)NC(CCC(N)=O)c1nc(CCC(C)C)no1 | UCB=1.362 | mu=0.4492 | std=0.9124 | f=0.5584 | min-d_batch=0.835 | min-d_hist=0.756
+2025-10-10 13:29:33,111 - INFO - [round 4] pick 3/5: CCCCCc1ccc(-c2cc3cn(C4CC(O)C(COC(=O)C(NC(=O)C5CCCN5C(=O)C(N)CCCCN)C(C)C)O4)c(=O)nc3o2)cc1 | UCB=1.378 | mu=0.469 | std=0.9087 | f=0.6153 | min-d_batch=0.764 | min-d_hist=0.754
+2025-10-10 13:29:33,128 - INFO - [round 4] pick 4/5: COC(=O)c1ccc(NC(=O)CSc2nc(N)c(NC(=O)c3ccc(Br)o3)c(O)n2)cc1 | UCB=1.346 | mu=0.4521 | std=0.8937 | f=0.4935 | min-d_batch=0.833 | min-d_hist=0.703
+2025-10-10 13:29:33,146 - INFO - [round 4] pick 5/5: COC(=O)C(Cc1c[nH]c(C2CCC2)n1)NC(=O)C(Cc1c[nH]c2ccccc12)NC(=O)OC(C)(C)C | UCB=1.346 | mu=0.4469 | std=0.8991 | f=0.5447 | min-d_batch=0.817 | min-d_hist=0.690
+2025-10-10 13:29:33,165 - INFO - Round 4 done in 191.42s; train size=35
+2025-10-10 13:29:33,165 - INFO - 
+--- Round 5 | trial=1 | sqrt_beta=1.0000 (beta=1.0000) | rho=0.65 | pack=batch | train size=35 ---
+2025-10-10 13:32:31,252 - INFO - [bucb] step 1/5: rho=0.65 -> masked 0 / 999965 items
+2025-10-10 13:32:31,259 - INFO - [bucb] pick 1/5: min-d_batch=1.000, min-d_hist=0.736
+2025-10-10 13:32:37,277 - INFO - [bucb] step 2/5: rho=0.65 -> masked 131 / 999965 items
+2025-10-10 13:32:37,285 - INFO - [bucb] pick 2/5: min-d_batch=0.848, min-d_hist=0.738
+2025-10-10 13:32:45,758 - INFO - [bucb] step 3/5: rho=0.65 -> masked 322 / 999965 items
+2025-10-10 13:32:45,765 - INFO - [bucb] pick 3/5: min-d_batch=0.806, min-d_hist=0.759
+2025-10-10 13:32:57,367 - INFO - [bucb] step 4/5: rho=0.65 -> masked 333 / 999965 items
+2025-10-10 13:32:57,374 - INFO - [bucb] pick 4/5: min-d_batch=0.817, min-d_hist=0.743
+2025-10-10 13:33:11,480 - INFO - [bucb] step 5/5: rho=0.65 -> masked 571 / 999965 items
+2025-10-10 13:33:11,487 - INFO - [bucb] pick 5/5: min-d_batch=0.771, min-d_hist=0.693
+2025-10-10 13:33:14,529 - INFO - [round 5] pick 1/5: COC(=O)c1ccc2nc(C(=O)C(NC(=O)C3CCCN3C(=O)C(NC(=O)c3ccc(S(N)(=O)=O)cc3)C(C)C)C(C)C)oc2c1 | UCB=1.4 | mu=0.5139 | std=0.8858 | f=0.5583 | min-d_batch=1.000 | min-d_hist=0.736
+2025-10-10 13:33:14,550 - INFO - [round 5] pick 2/5: COc1ccc(CNC(=O)C(CC2CCCCC2)NC(=O)NC(CCCCN)C(=O)O)cc1 | UCB=1.385 | mu=0.4962 | std=0.8892 | f=0.6105 | min-d_batch=0.848 | min-d_hist=0.738
+2025-10-10 13:33:14,569 - INFO - [round 5] pick 3/5: CCCCC(NC(=O)OC(Cc1nnc(-c2ccc(F)cc2)o1)C(C)(C)C)C(=O)C(=O)NC1CCCNC1=O | UCB=1.378 | mu=0.4687 | std=0.9095 | f=0.538 | min-d_batch=0.806 | min-d_hist=0.759
+2025-10-10 13:33:14,589 - INFO - [round 5] pick 4/5: Cc1noc(NS(=O)(=O)c2ccc(NC(=O)CN)cc2-c2ccc(CC(C)C)cc2)c1C | UCB=1.351 | mu=0.4399 | std=0.9108 | f=0.5586 | min-d_batch=0.817 | min-d_hist=0.743
+2025-10-10 13:33:14,608 - INFO - [round 5] pick 5/5: Cc1cc(O)cc(C)c1CC(N)C(=O)N1Cc2ccccc2CC1C(=O)NC(CCCCN)C(N)=O | UCB=1.38 | mu=0.4955 | std=0.8846 | f=0.6127 | min-d_batch=0.771 | min-d_hist=0.693
+2025-10-10 13:33:14,628 - INFO - Round 5 done in 221.46s; train size=40
+2025-10-10 13:33:14,628 - INFO - 
+--- Round 6 | trial=1 | sqrt_beta=1.0000 (beta=1.0000) | rho=0.65 | pack=batch | train size=40 ---
+2025-10-10 13:36:42,678 - INFO - [bucb] step 1/5: rho=0.65 -> masked 0 / 999960 items
+2025-10-10 13:36:42,685 - INFO - [bucb] pick 1/5: min-d_batch=1.000, min-d_hist=0.609
+2025-10-10 13:36:48,603 - INFO - [bucb] step 2/5: rho=0.65 -> masked 372 / 999960 items
+2025-10-10 13:36:48,610 - INFO - [bucb] pick 2/5: min-d_batch=0.798, min-d_hist=0.690
+2025-10-10 13:36:57,188 - INFO - [bucb] step 3/5: rho=0.65 -> masked 670 / 999960 items
+2025-10-10 13:36:57,195 - INFO - [bucb] pick 3/5: min-d_batch=0.843, min-d_hist=0.778
+2025-10-10 13:37:08,593 - INFO - [bucb] step 4/5: rho=0.65 -> masked 710 / 999960 items
+2025-10-10 13:37:08,600 - INFO - [bucb] pick 4/5: min-d_batch=0.822, min-d_hist=0.766
+2025-10-10 13:37:22,817 - INFO - [bucb] step 5/5: rho=0.65 -> masked 749 / 999960 items
+2025-10-10 13:37:22,825 - INFO - [bucb] pick 5/5: min-d_batch=0.835, min-d_hist=0.805
+2025-10-10 13:37:25,866 - INFO - [round 6] pick 1/5: CCC(C)C(NC(=O)C(Cc1ccc(O)cc1)NC(=O)C1CCCN1C(=O)C(N)CCCCN)C(=O)OCCC(C)C | UCB=1.399 | mu=0.5834 | std=0.8159 | f=0.585 | min-d_batch=1.000 | min-d_hist=0.609
+2025-10-10 13:37:25,888 - INFO - [round 6] pick 2/5: COc1ccc2c(c1)c(CC(=O)NC(CCCCN)C(=O)O)c(C)n2C(=O)c1ccc(Cl)cc1 | UCB=1.393 | mu=0.5231 | std=0.8702 | f=0.6232 | min-d_batch=0.798 | min-d_hist=0.690
+2025-10-10 13:37:25,909 - INFO - [round 6] pick 3/5: CC(C)C(NS(=O)(=O)c1ccc2c(c1)oc1ccc(-c3noc(C4CCC4)n3)cc12)C(=O)O | UCB=1.358 | mu=0.4419 | std=0.9157 | f=0.5614 | min-d_batch=0.843 | min-d_hist=0.778
+2025-10-10 13:37:25,930 - INFO - [round 6] pick 4/5: Cc1nc[nH]c1CC(NC(=O)C1OC1C(=O)O)C(=O)Nc1nc(-c2ccc(F)cc2)cs1 | UCB=1.367 | mu=0.4516 | std=0.9152 | f=0.4943 | min-d_batch=0.822 | min-d_hist=0.766
+2025-10-10 13:37:25,952 - INFO - [round 6] pick 5/5: CCCCCC(=O)N1CC2(CC(c3cccc(NC(=O)C4CCC(=O)N4)c3)=NO2)CC1C(N)=O | UCB=1.349 | mu=0.4188 | std=0.9299 | f=0.6263 | min-d_batch=0.835 | min-d_hist=0.805
+2025-10-10 13:37:25,974 - INFO - Round 6 done in 251.35s; train size=45
+2025-10-10 13:37:25,974 - INFO - 
+--- Round 7 | trial=1 | sqrt_beta=1.0000 (beta=1.0000) | rho=0.65 | pack=batch | train size=45 ---
+2025-10-10 13:41:03,886 - INFO - [bucb] step 1/5: rho=0.65 -> masked 0 / 999955 items
+2025-10-10 13:41:03,894 - INFO - [bucb] pick 1/5: min-d_batch=1.000, min-d_hist=0.685
+2025-10-10 13:41:09,788 - INFO - [bucb] step 2/5: rho=0.65 -> masked 81 / 999955 items
+2025-10-10 13:41:09,795 - INFO - [bucb] pick 2/5: min-d_batch=0.804, min-d_hist=0.734
+2025-10-10 13:41:18,566 - INFO - [bucb] step 3/5: rho=0.65 -> masked 122 / 999955 items
+2025-10-10 13:41:18,574 - INFO - [bucb] pick 3/5: min-d_batch=0.792, min-d_hist=0.735
+2025-10-10 13:41:30,030 - INFO - [bucb] step 4/5: rho=0.65 -> masked 259 / 999955 items
+2025-10-10 13:41:30,037 - INFO - [bucb] pick 4/5: min-d_batch=0.833, min-d_hist=0.712
+2025-10-10 13:41:44,072 - INFO - [bucb] step 5/5: rho=0.65 -> masked 1189 / 999955 items
+2025-10-10 13:41:44,079 - INFO - [bucb] pick 5/5: min-d_batch=0.833, min-d_hist=0.750
+2025-10-10 13:41:47,115 - INFO - [round 7] pick 1/5: Cc1cc(C)c(S(=O)(=O)N2CCCC2C(=O)NC(Cc2ccc(NC(=O)CCCCNC(=N)N)cc2)C(=O)O)c(C)c1 | UCB=1.409 | mu=0.5369 | std=0.8724 | f=0.6324 | min-d_batch=1.000 | min-d_hist=0.685
+2025-10-10 13:41:47,140 - INFO - [round 7] pick 2/5: CCCCCCC1C(=O)NC(C(=O)NC(CCCCN)C(N)=O)Cc2ccc(cc2)OCCCC1C(=O)NO | UCB=1.401 | mu=0.5048 | std=0.8958 | f=0.5855 | min-d_batch=0.804 | min-d_hist=0.734
+2025-10-10 13:41:47,163 - INFO - [round 7] pick 3/5: CC(C)c1cc(NC(=O)C2CCCN2C(=O)Nc2cn(C(N)=O)c3ccccc23)on1 | UCB=1.39 | mu=0.4914 | std=0.8988 | f=0.5857 | min-d_batch=0.792 | min-d_hist=0.735
+2025-10-10 13:41:47,186 - INFO - [round 7] pick 4/5: COc1ccc(-c2noc(CNS(=O)(=O)c3ccc(NC(C)=O)cc3)n2)cc1 | UCB=1.365 | mu=0.4962 | std=0.869 | f=0.5176 | min-d_batch=0.833 | min-d_hist=0.712
+2025-10-10 13:41:47,210 - INFO - [round 7] pick 5/5: COC(=O)C(CCCCN)n1cc(-c2cc(C(=O)N3CCNCC3)cc(-c3cn(C(CC(C)C)C(=O)O)nn3)c2)nn1 | UCB=1.366 | mu=0.4456 | std=0.9203 | f=0.6126 | min-d_batch=0.833 | min-d_hist=0.750
+2025-10-10 13:41:47,234 - INFO - Round 7 done in 261.26s; train size=50
+2025-10-10 13:41:47,234 - INFO - 
+--- Round 8 | trial=1 | sqrt_beta=1.0000 (beta=1.0000) | rho=0.65 | pack=batch | train size=50 ---
+2025-10-10 13:46:04,829 - INFO - [bucb] step 1/5: rho=0.65 -> masked 0 / 999950 items
+2025-10-10 13:46:04,837 - INFO - [bucb] pick 1/5: min-d_batch=1.000, min-d_hist=0.688
+2025-10-10 13:46:10,656 - INFO - [bucb] step 2/5: rho=0.65 -> masked 67 / 999950 items
+2025-10-10 13:46:10,663 - INFO - [bucb] pick 2/5: min-d_batch=0.830, min-d_hist=0.698
+2025-10-10 13:46:18,864 - INFO - [bucb] step 3/5: rho=0.65 -> masked 173 / 999950 items
+2025-10-10 13:46:18,871 - INFO - [bucb] pick 3/5: min-d_batch=0.806, min-d_hist=0.718
+2025-10-10 13:46:29,868 - INFO - [bucb] step 4/5: rho=0.65 -> masked 286 / 999950 items
+2025-10-10 13:46:29,876 - INFO - [bucb] pick 4/5: min-d_batch=0.822, min-d_hist=0.782
+2025-10-10 13:46:44,310 - INFO - [bucb] step 5/5: rho=0.65 -> masked 294 / 999950 items
+2025-10-10 13:46:44,317 - INFO - [bucb] pick 5/5: min-d_batch=0.794, min-d_hist=0.785
+2025-10-10 13:46:47,399 - INFO - [round 8] pick 1/5: Cc1ccc(F)cc1CC(N)CC(=O)N1CCCC1C(=O)NCc1ccc(OC(C(=O)O)C(C)C)cc1 | UCB=1.414 | mu=0.5493 | std=0.865 | f=0.6652 | min-d_batch=1.000 | min-d_hist=0.688
+2025-10-10 13:46:47,425 - INFO - [round 8] pick 2/5: Cc1nc(-c2ccc(CCC(=O)NC(CCC(=O)O)C(=O)NC(CCC(=O)O)C(N)=O)cc2)no1 | UCB=1.403 | mu=0.5109 | std=0.8921 | f=0.5829 | min-d_batch=0.830 | min-d_hist=0.698
+2025-10-10 13:46:47,450 - INFO - [round 8] pick 3/5: COc1ccc2ccc(S(=O)(=O)NC(CCCCN)C(=O)N3CCC(C)CC3)cc2c1 | UCB=1.395 | mu=0.5163 | std=0.8787 | f=0.6658 | min-d_batch=0.806 | min-d_hist=0.718
+2025-10-10 13:46:47,476 - INFO - [round 8] pick 4/5: CCCCC(C(=O)Nc1ccc2c(C)c(CC(=O)O)c(=O)oc2c1)n1cc(C(C)(NC(=O)c2ccsc2)C2CCCCC2)nn1 | UCB=1.389 | mu=0.4833 | std=0.9057 | f=0.3338 | min-d_batch=0.822 | min-d_hist=0.782
+2025-10-10 13:46:47,502 - INFO - [round 8] pick 5/5: CCC(C)C(C(=O)NC1CCc2cccc3c2N(C1=O)C(C(=O)NCc1cc(O)no1)C3)N(C)C(C)=O | UCB=1.386 | mu=0.4718 | std=0.9145 | f=0.5652 | min-d_batch=0.794 | min-d_hist=0.785
+2025-10-10 13:46:47,529 - INFO - Round 8 done in 300.29s; train size=55
+2025-10-10 13:46:47,529 - INFO - 
+--- Round 9 | trial=1 | sqrt_beta=1.0000 (beta=1.0000) | rho=0.65 | pack=batch | train size=55 ---
+2025-10-10 13:51:21,851 - INFO - [bucb] step 1/5: rho=0.65 -> masked 0 / 999945 items
+2025-10-10 13:51:21,858 - INFO - [bucb] pick 1/5: min-d_batch=1.000, min-d_hist=0.682
+2025-10-10 13:51:27,154 - INFO - [bucb] step 2/5: rho=0.65 -> masked 33 / 999945 items
+2025-10-10 13:51:27,161 - INFO - [bucb] pick 2/5: min-d_batch=0.825, min-d_hist=0.761
+2025-10-10 13:51:35,357 - INFO - [bucb] step 3/5: rho=0.65 -> masked 188 / 999945 items
+2025-10-10 13:51:35,364 - INFO - [bucb] pick 3/5: min-d_batch=0.808, min-d_hist=0.676
+2025-10-10 13:51:46,882 - INFO - [bucb] step 4/5: rho=0.65 -> masked 234 / 999945 items
+2025-10-10 13:51:46,890 - INFO - [bucb] pick 4/5: min-d_batch=0.838, min-d_hist=0.737
+2025-10-10 13:52:00,831 - INFO - [bucb] step 5/5: rho=0.65 -> masked 339 / 999945 items
+2025-10-10 13:52:00,839 - INFO - [bucb] pick 5/5: min-d_batch=0.823, min-d_hist=0.757
+2025-10-10 13:52:03,714 - INFO - [round 9] pick 1/5: CC(=O)Nc1ccc(OP(=O)(Oc2ccc(NC(C)=O)cc2)C2CCCN2C(=O)C(N)CCCCN)cc1 | UCB=1.415 | mu=0.5606 | std=0.8549 | f=0.6334 | min-d_batch=1.000 | min-d_hist=0.682
+2025-10-10 13:52:03,741 - INFO - [round 9] pick 2/5: CC(=O)N1CCc2cc(S(=O)(=O)NC(CC(C)C)C(=O)Nc3cc(C(=O)O)ccc3C)ccc21 | UCB=1.407 | mu=0.5145 | std=0.8926 | f=0.5645 | min-d_batch=0.825 | min-d_hist=0.761
+2025-10-10 13:52:03,769 - INFO - [round 9] pick 3/5: CC(C)C(NC(=O)C1CC(=O)NCC(=O)NCCCC(NC(=O)C(CCCCN)NC(=O)C(N)Cc2ccc(O)cc2)C(=O)NC(C(C)O)C(=O)N1)C(=O)O | UCB=1.41 | mu=0.5288 | std=0.8816 | f=0.528 | min-d_batch=0.808 | min-d_hist=0.676
+2025-10-10 13:52:03,798 - INFO - [round 9] pick 4/5: CCCCCCC(=O)N1CCCC(c2nc(-c3cccc(OC)c3)no2)C1 | UCB=1.376 | mu=0.4854 | std=0.8909 | f=0.2813 | min-d_batch=0.838 | min-d_hist=0.737
+2025-10-10 13:52:03,826 - INFO - [round 9] pick 5/5: COC(=O)NC(CNC(=O)CC1CC(c2ccc(C(=N)N)cc2)=NO1)C(=O)O | UCB=1.386 | mu=0.4876 | std=0.8988 | f=0.5548 | min-d_batch=0.823 | min-d_hist=0.757
+2025-10-10 13:52:03,855 - INFO - Round 9 done in 316.33s; train size=60
+2025-10-10 13:52:03,855 - INFO - 
+--- Round 10 | trial=1 | sqrt_beta=1.0000 (beta=1.0000) | rho=0.65 | pack=batch | train size=60 ---
+2025-10-10 13:57:00,473 - INFO - [bucb] step 1/5: rho=0.65 -> masked 0 / 999940 items
+2025-10-10 13:57:00,480 - INFO - [bucb] pick 1/5: min-d_batch=1.000, min-d_hist=0.660
+2025-10-10 13:57:06,198 - INFO - [bucb] step 2/5: rho=0.65 -> masked 410 / 999940 items
+2025-10-10 13:57:06,205 - INFO - [bucb] pick 2/5: min-d_batch=0.838, min-d_hist=0.745
+2025-10-10 13:57:14,966 - INFO - [bucb] step 3/5: rho=0.65 -> masked 468 / 999940 items
+2025-10-10 13:57:14,973 - INFO - [bucb] pick 3/5: min-d_batch=0.828, min-d_hist=0.718
+2025-10-10 13:57:26,714 - INFO - [bucb] step 4/5: rho=0.65 -> masked 518 / 999940 items
+2025-10-10 13:57:26,721 - INFO - [bucb] pick 4/5: min-d_batch=0.804, min-d_hist=0.688
+2025-10-10 13:57:41,196 - INFO - [bucb] step 5/5: rho=0.65 -> masked 535 / 999940 items
+2025-10-10 13:57:41,204 - INFO - [bucb] pick 5/5: min-d_batch=0.816, min-d_hist=0.772
+2025-10-10 13:57:44,209 - INFO - [round 10] pick 1/5: N=C(N)c1ccc(CNC(=O)C2CCCN2C(=O)C(CCCCN)NS(=O)(=O)Cc2ccccc2)cc1 | UCB=1.419 | mu=0.5846 | std=0.834 | f=0.6424 | min-d_batch=1.000 | min-d_hist=0.660
+2025-10-10 13:57:44,240 - INFO - [round 10] pick 2/5: Cc1cc(C(=O)NC(C(=O)CC(Cc2ccc(F)cc2)C(=O)NC(C=CS(C)(=O)=O)CC2CCNC2=O)C(C)C)no1 | UCB=1.398 | mu=0.5081 | std=0.8894 | f=0.5633 | min-d_batch=0.838 | min-d_hist=0.745
+2025-10-10 13:57:44,270 - INFO - [round 10] pick 3/5: COc1cc(NC(C)CCCNC(=O)CCC(NC(=O)C(N)CCCCN)C(=O)O)c2nc(C(C)(C)C)ccc2c1 | UCB=1.397 | mu=0.5104 | std=0.8866 | f=0.6294 | min-d_batch=0.828 | min-d_hist=0.718
+2025-10-10 13:57:44,301 - INFO - [round 10] pick 4/5: COC(=O)C(C)NC(=O)C1CCCN1C(=O)c1cc(-c2nc3ccc([N+](=O)[O-])cc3[nH]2)ccc1O | UCB=1.398 | mu=0.5171 | std=0.8807 | f=0.6218 | min-d_batch=0.804 | min-d_hist=0.688
+2025-10-10 13:57:44,332 - INFO - [round 10] pick 5/5: NCCC(NC(=O)c1ccc(-c2cccc(NC(=O)c3nncs3)c2)o1)C(=O)N1CCNCC1 | UCB=1.388 | mu=0.4812 | std=0.907 | f=0.615 | min-d_batch=0.816 | min-d_hist=0.772
+2025-10-10 13:57:44,364 - INFO - Round 10 done in 340.51s; train size=65
+2025-10-10 13:57:44,364 - INFO - 
+--- Round 11 | trial=1 | sqrt_beta=1.0000 (beta=1.0000) | rho=0.65 | pack=batch | train size=65 ---
+2025-10-10 14:03:15,517 - INFO - [bucb] step 1/5: rho=0.65 -> masked 0 / 999935 items
+2025-10-10 14:03:15,522 - INFO - [bucb] pick 1/5: min-d_batch=1.000, min-d_hist=0.678
+2025-10-10 14:03:21,445 - INFO - [bucb] step 2/5: rho=0.65 -> masked 182 / 999935 items
+2025-10-10 14:03:21,452 - INFO - [bucb] pick 2/5: min-d_batch=0.853, min-d_hist=0.719
+2025-10-10 14:03:30,112 - INFO - [bucb] step 3/5: rho=0.65 -> masked 273 / 999935 items
+2025-10-10 14:03:30,120 - INFO - [bucb] pick 3/5: min-d_batch=0.797, min-d_hist=0.708
+2025-10-10 14:03:41,618 - INFO - [bucb] step 4/5: rho=0.65 -> masked 296 / 999935 items
+2025-10-10 14:03:41,626 - INFO - [bucb] pick 4/5: min-d_batch=0.818, min-d_hist=0.772
+2025-10-10 14:03:56,022 - INFO - [bucb] step 5/5: rho=0.65 -> masked 443 / 999935 items
+2025-10-10 14:03:56,029 - INFO - [bucb] pick 5/5: min-d_batch=0.825, min-d_hist=0.696
+2025-10-10 14:03:58,664 - INFO - [round 11] pick 1/5: COC(=O)C1CCCCN1C(=O)C(Cc1cccc(C(=N)N)c1)NS(=O)(=O)c1cccc(NC(=O)CCN)c1 | UCB=1.426 | mu=0.5548 | std=0.8714 | f=0.6311 | min-d_batch=1.000 | min-d_hist=0.678
+2025-10-10 14:03:58,698 - INFO - [round 11] pick 2/5: CCn1c(=O)c2nc(-c3ccc(OCC(=O)NCCNC(=O)C(N)CCCCN)cc3)[nH]c2n(CC)c1=O | UCB=1.405 | mu=0.5063 | std=0.8985 | f=0.5545 | min-d_batch=0.853 | min-d_hist=0.719
+2025-10-10 14:03:58,732 - INFO - [round 11] pick 3/5: CC(C)CC(NC(=O)C1CCCN1c1nc2ccccc2c(=O)o1)C(=O)NCC(N)=O | UCB=1.416 | mu=0.5406 | std=0.8751 | f=0.5828 | min-d_batch=0.797 | min-d_hist=0.708
+2025-10-10 14:03:58,767 - INFO - [round 11] pick 4/5: CS(=O)(=O)c1ccc(C(CC(=O)O)NC(=O)CCCCc2ccc3c(n2)NCCC3)cc1 | UCB=1.401 | mu=0.4903 | std=0.9104 | f=0.6445 | min-d_batch=0.818 | min-d_hist=0.772
+2025-10-10 14:03:58,808 - INFO - [round 11] pick 5/5: CC(NC(=O)C=Cc1ccco1)C(=O)NC(CCCCN)C(=O)O | UCB=1.394 | mu=0.5083 | std=0.886 | f=0.5607 | min-d_batch=0.825 | min-d_hist=0.696
+2025-10-10 14:03:58,842 - INFO - Round 11 done in 374.48s; train size=70
+2025-10-10 14:03:58,842 - INFO - 
+--- Round 12 | trial=1 | sqrt_beta=1.0000 (beta=1.0000) | rho=0.65 | pack=batch | train size=70 ---
+2025-10-10 14:09:55,549 - INFO - [bucb] step 1/5: rho=0.65 -> masked 0 / 999930 items
+2025-10-10 14:09:55,554 - INFO - [bucb] pick 1/5: min-d_batch=1.000, min-d_hist=0.758
+2025-10-10 14:10:01,419 - INFO - [bucb] step 2/5: rho=0.65 -> masked 177 / 999930 items
+2025-10-10 14:10:01,426 - INFO - [bucb] pick 2/5: min-d_batch=0.824, min-d_hist=0.645
+2025-10-10 14:10:10,042 - INFO - [bucb] step 3/5: rho=0.65 -> masked 262 / 999930 items
+2025-10-10 14:10:10,050 - INFO - [bucb] pick 3/5: min-d_batch=0.832, min-d_hist=0.713
+2025-10-10 14:10:21,662 - INFO - [bucb] step 4/5: rho=0.65 -> masked 313 / 999930 items
+2025-10-10 14:10:21,669 - INFO - [bucb] pick 4/5: min-d_batch=0.783, min-d_hist=0.688
+2025-10-10 14:10:36,199 - INFO - [bucb] step 5/5: rho=0.65 -> masked 327 / 999930 items
+2025-10-10 14:10:36,207 - INFO - [bucb] pick 5/5: min-d_batch=0.831, min-d_hist=0.774
+2025-10-10 14:10:39,257 - INFO - [round 12] pick 1/5: CCCC(=O)NC(C(=O)NCCS(N)(=O)=O)c1nc2ccc(-c3ccc(C(=O)N4CCOCC4)cc3)cc2s1 | UCB=1.428 | mu=0.5341 | std=0.894 | f=0.6269 | min-d_batch=1.000 | min-d_hist=0.758
+2025-10-10 14:10:39,293 - INFO - [round 12] pick 2/5: Cc1ccc2cc(S(=O)(=O)NC(CCCN=C(N)N)C(=O)N3CCC(C(C)C)CC3C(=O)O)ccc2c1 | UCB=1.427 | mu=0.5595 | std=0.8678 | f=0.6513 | min-d_batch=0.824 | min-d_hist=0.645
+2025-10-10 14:10:39,330 - INFO - [round 12] pick 3/5: CC(=O)NC(CCCCN)C(=O)NC(Cc1c(Sc2ncccc2[N+](=O)[O-])[nH]c2ccccc12)C(N)=O | UCB=1.416 | mu=0.5458 | std=0.8701 | f=0.575 | min-d_batch=0.832 | min-d_hist=0.713
+2025-10-10 14:10:39,367 - INFO - [round 12] pick 4/5: Cn1c(=O)c(Cc2ccc(C(=N)N)cc2)nc2cc(C3(C(=O)N4CCCC4C(=O)NCC(=O)O)CC3)ccc21 | UCB=1.419 | mu=0.5465 | std=0.8724 | f=0.6461 | min-d_batch=0.783 | min-d_hist=0.688
+2025-10-10 14:10:39,405 - INFO - [round 12] pick 5/5: COC(=O)CCC(=O)OC(C)CC1CCC(C(C)Cn2cc(-c3cccc(NC(C)=O)c3)nn2)O1 | UCB=1.378 | mu=0.4673 | std=0.9104 | f=0.5858 | min-d_batch=0.831 | min-d_hist=0.774
+2025-10-10 14:10:39,444 - INFO - Round 12 done in 400.60s; train size=75
+2025-10-10 14:10:39,444 - INFO - 
+--- Round 13 | trial=1 | sqrt_beta=1.0000 (beta=1.0000) | rho=0.65 | pack=batch | train size=75 ---
+2025-10-10 14:16:51,535 - INFO - [bucb] step 1/5: rho=0.65 -> masked 0 / 999925 items
+2025-10-10 14:16:51,540 - INFO - [bucb] pick 1/5: min-d_batch=1.000, min-d_hist=0.711
+2025-10-10 14:16:57,478 - INFO - [bucb] step 2/5: rho=0.65 -> masked 39 / 999925 items
+2025-10-10 14:16:57,485 - INFO - [bucb] pick 2/5: min-d_batch=0.832, min-d_hist=0.624
+2025-10-10 14:17:05,946 - INFO - [bucb] step 3/5: rho=0.65 -> masked 104 / 999925 items
+2025-10-10 14:17:05,954 - INFO - [bucb] pick 3/5: min-d_batch=0.810, min-d_hist=0.724
+2025-10-10 14:17:16,929 - INFO - [bucb] step 4/5: rho=0.65 -> masked 140 / 999925 items
+2025-10-10 14:17:16,936 - INFO - [bucb] pick 4/5: min-d_batch=0.803, min-d_hist=0.773
+2025-10-10 14:17:31,189 - INFO - [bucb] step 5/5: rho=0.65 -> masked 287 / 999925 items
+2025-10-10 14:17:31,197 - INFO - [bucb] pick 5/5: min-d_batch=0.803, min-d_hist=0.753
+2025-10-10 14:17:34,250 - INFO - [round 13] pick 1/5: CC(C)CC(NC(=O)C1CCNCC1)C(=O)NC(CCc1ccccc1)C(=O)c1nc2cc(S(N)(=O)=O)ccc2o1 | UCB=1.432 | mu=0.5656 | std=0.8663 | f=0.5762 | min-d_batch=1.000 | min-d_hist=0.711
+2025-10-10 14:17:34,291 - INFO - [round 13] pick 2/5: Cc1oc(-c2ccc(NC(=O)CCCCN)cc2)cc1C(=O)NC(CCCNC(=N)N)C(=O)O | UCB=1.419 | mu=0.5785 | std=0.8403 | f=0.625 | min-d_batch=0.832 | min-d_hist=0.624
+2025-10-10 14:17:34,331 - INFO - [round 13] pick 3/5: Cc1nc(NC(=O)N2CCCC2C(N)=O)sc1-c1ccc(S(C)(=O)=O)cc1 | UCB=1.419 | mu=0.5432 | std=0.8761 | f=0.569 | min-d_batch=0.810 | min-d_hist=0.724
+2025-10-10 14:17:34,372 - INFO - [round 13] pick 4/5: CC(C)NC(=O)NCc1cccnc1N1CCN(C(=O)C(Cc2ccc(Cl)cc2Cl)NC(=O)CCN)CC1 | UCB=1.423 | mu=0.5175 | std=0.906 | f=0.6022 | min-d_batch=0.803 | min-d_hist=0.773
+2025-10-10 14:17:34,414 - INFO - [round 13] pick 5/5: N=C(N)c1ccc2cc(OC(=O)c3ccc(CN4CCCC4C(O)=NC(CS(=O)(=O)O)C(=O)O)o3)ccc2c1 | UCB=1.409 | mu=0.5091 | std=0.9003 | f=0.6483 | min-d_batch=0.803 | min-d_hist=0.753
+2025-10-10 14:17:34,456 - INFO - Round 13 done in 415.01s; train size=80
+2025-10-10 14:17:34,456 - INFO - 
+--- Round 14 | trial=1 | sqrt_beta=1.0000 (beta=1.0000) | rho=0.65 | pack=batch | train size=80 ---
+2025-10-10 14:24:19,779 - INFO - [bucb] step 1/5: rho=0.65 -> masked 0 / 999920 items
+2025-10-10 14:24:19,784 - INFO - [bucb] pick 1/5: min-d_batch=1.000, min-d_hist=0.699
+2025-10-10 14:24:25,252 - INFO - [bucb] step 2/5: rho=0.65 -> masked 64 / 999920 items
+2025-10-10 14:24:25,260 - INFO - [bucb] pick 2/5: min-d_batch=0.847, min-d_hist=0.682
+2025-10-10 14:24:33,648 - INFO - [bucb] step 3/5: rho=0.65 -> masked 297 / 999920 items
+2025-10-10 14:24:33,656 - INFO - [bucb] pick 3/5: min-d_batch=0.814, min-d_hist=0.694
+2025-10-10 14:24:44,664 - INFO - [bucb] step 4/5: rho=0.65 -> masked 405 / 999920 items
+2025-10-10 14:24:44,672 - INFO - [bucb] pick 4/5: min-d_batch=0.799, min-d_hist=0.722
+2025-10-10 14:24:59,005 - INFO - [bucb] step 5/5: rho=0.65 -> masked 418 / 999920 items
+2025-10-10 14:24:59,012 - INFO - [bucb] pick 5/5: min-d_batch=0.827, min-d_hist=0.739
+2025-10-10 14:25:01,859 - INFO - [round 14] pick 1/5: CC(Cc1cc(C(=O)Oc2ccc(C(=N)N)cc2)co1)C(=O)NC(CS(=O)(=O)O)C(=O)O | UCB=1.437 | mu=0.5693 | std=0.8673 | f=0.5592 | min-d_batch=1.000 | min-d_hist=0.699
+2025-10-10 14:25:01,903 - INFO - [round 14] pick 2/5: NCCCC(NC(=O)CCCc1c[nH]c2ccccc12)C(=O)N1CCCC1C(=O)O | UCB=1.424 | mu=0.5697 | std=0.8544 | f=0.6334 | min-d_batch=0.847 | min-d_hist=0.682
+2025-10-10 14:25:01,947 - INFO - [round 14] pick 3/5: CC(C(=O)NCCN)N1CCC(NS(=O)(=O)c2ccc3cc(Cl)ccc3c2)C1=O | UCB=1.425 | mu=0.5354 | std=0.8891 | f=0.5908 | min-d_batch=0.814 | min-d_hist=0.694
+2025-10-10 14:25:01,992 - INFO - [round 14] pick 4/5: COC(=O)c1ccc(CNC(=O)NC(CCC(=O)N2CCN(c3cccc(NC4=NCCCN4)c3)CC2)C(=O)O)cc1 | UCB=1.422 | mu=0.5485 | std=0.8734 | f=0.6681 | min-d_batch=0.799 | min-d_hist=0.722
+2025-10-10 14:25:02,037 - INFO - [round 14] pick 5/5: Cc1cc(-c2nc3cc(F)ccc3s2)ccc1NC(=O)C(N)CCCCN | UCB=1.394 | mu=0.5025 | std=0.8919 | f=0.6004 | min-d_batch=0.827 | min-d_hist=0.739
+2025-10-10 14:25:02,083 - INFO - Round 14 done in 447.63s; train size=85
+2025-10-10 14:25:02,083 - INFO - 
+--- Round 15 | trial=1 | sqrt_beta=1.0000 (beta=1.0000) | rho=0.65 | pack=batch | train size=85 ---
+2025-10-10 14:32:15,504 - INFO - [bucb] step 1/5: rho=0.65 -> masked 0 / 999915 items
+2025-10-10 14:32:15,509 - INFO - [bucb] pick 1/5: min-d_batch=1.000, min-d_hist=0.743
+2025-10-10 14:32:21,211 - INFO - [bucb] step 2/5: rho=0.65 -> masked 342 / 999915 items
+2025-10-10 14:32:21,219 - INFO - [bucb] pick 2/5: min-d_batch=0.790, min-d_hist=0.707
+2025-10-10 14:32:29,887 - INFO - [bucb] step 3/5: rho=0.65 -> masked 374 / 999915 items
+2025-10-10 14:32:29,894 - INFO - [bucb] pick 3/5: min-d_batch=0.848, min-d_hist=0.764
+2025-10-10 14:32:41,493 - INFO - [bucb] step 4/5: rho=0.65 -> masked 434 / 999915 items
+2025-10-10 14:32:41,500 - INFO - [bucb] pick 4/5: min-d_batch=0.836, min-d_hist=0.765
+2025-10-10 14:32:56,680 - INFO - [bucb] step 5/5: rho=0.65 -> masked 490 / 999915 items
+2025-10-10 14:32:56,687 - INFO - [bucb] pick 5/5: min-d_batch=0.825, min-d_hist=0.740
+2025-10-10 14:32:59,645 - INFO - [round 15] pick 1/5: Nc1nc2cc3c(cc2[nH]1)N(Cc1ccc(C(=O)NC(CCC(=O)O)C(=O)O)cc1)CCC3 | UCB=1.442 | mu=0.5636 | std=0.8787 | f=0.6235 | min-d_batch=1.000 | min-d_hist=0.743
+2025-10-10 14:32:59,693 - INFO - [round 15] pick 2/5: CC(C)c1ccc(S(=O)(=O)NC(CNC(=O)c2ccc(CCC(=O)NC3=NCCCN3)s2)C(=O)O)cc1 | UCB=1.439 | mu=0.5643 | std=0.8744 | f=0.5738 | min-d_batch=0.790 | min-d_hist=0.707
+2025-10-10 14:32:59,740 - INFO - [round 15] pick 3/5: CC(NC(=O)CNC(=O)CN)C(=O)N1CCCC1C(=O)N1CCC(c2noc3cc(F)ccc23)CC1 | UCB=1.416 | mu=0.5153 | std=0.9005 | f=0.5901 | min-d_batch=0.848 | min-d_hist=0.764
+2025-10-10 14:32:59,789 - INFO - [round 15] pick 4/5: Cc1cc(C)c2cccc(OCc3c(Cl)ccc(S(=O)(=O)NC4(C(=O)N5CCN(C(=O)C(N)CCCCN)CC5)CCOCC4)c3Cl)c2n1 | UCB=1.414 | mu=0.5091 | std=0.905 | f=0.5749 | min-d_batch=0.836 | min-d_hist=0.765
+2025-10-10 14:32:59,839 - INFO - [round 15] pick 5/5: CC(O)C(N)C(=O)N1CC(C(=O)NCCCCN)C(C(=O)NCCc2ccc3ccccc3c2)C1 | UCB=1.423 | mu=0.5308 | std=0.8922 | f=0.6352 | min-d_batch=0.825 | min-d_hist=0.740
+2025-10-10 14:32:59,890 - INFO - Round 15 done in 477.81s; train size=90
+2025-10-10 14:32:59,891 - INFO - 
+--- Round 16 | trial=1 | sqrt_beta=1.0000 (beta=1.0000) | rho=0.65 | pack=batch | train size=90 ---
+2025-10-10 14:40:39,894 - INFO - [bucb] step 1/5: rho=0.65 -> masked 0 / 999910 items
+2025-10-10 14:40:39,899 - INFO - [bucb] pick 1/5: min-d_batch=1.000, min-d_hist=0.705
+2025-10-10 14:40:45,702 - INFO - [bucb] step 2/5: rho=0.65 -> masked 56 / 999910 items
+2025-10-10 14:40:45,709 - INFO - [bucb] pick 2/5: min-d_batch=0.837, min-d_hist=0.707
+2025-10-10 14:40:54,614 - INFO - [bucb] step 3/5: rho=0.65 -> masked 71 / 999910 items
+2025-10-10 14:40:54,622 - INFO - [bucb] pick 3/5: min-d_batch=0.831, min-d_hist=0.777
+2025-10-10 14:41:06,662 - INFO - [bucb] step 4/5: rho=0.65 -> masked 306 / 999910 items
+2025-10-10 14:41:06,669 - INFO - [bucb] pick 4/5: min-d_batch=0.837, min-d_hist=0.732
+2025-10-10 14:41:21,471 - INFO - [bucb] step 5/5: rho=0.65 -> masked 493 / 999910 items
+2025-10-10 14:41:21,478 - INFO - [bucb] pick 5/5: min-d_batch=0.805, min-d_hist=0.734
+2025-10-10 14:41:24,560 - INFO - [round 16] pick 1/5: O=C(CCNC(=O)C1CCCN1C(=O)NS(=O)(=O)c1ccc(F)cc1)NC(Cc1c[nH]cn1)C(=O)O | UCB=1.438 | mu=0.5817 | std=0.8559 | f=0.5786 | min-d_batch=1.000 | min-d_hist=0.705
+2025-10-10 14:41:24,613 - INFO - [round 16] pick 2/5: COc1cccc(CCNC(=O)NC(Cc2cc(Br)c(O)c(Br)c2)C(=O)NC(CCCCN)C(=O)N2CCN(c3ccncc3)CC2)c1 | UCB=1.434 | mu=0.5677 | std=0.8663 | f=0.6205 | min-d_batch=0.837 | min-d_hist=0.707
+2025-10-10 14:41:24,665 - INFO - [round 16] pick 3/5: CCC1(OC(=O)C(C)NC(=O)CCC(N)C(=O)O)C(=O)OCc2c1cc1n(c2=O)Cc2cc3ccccc3nc2-1 | UCB=1.423 | mu=0.5168 | std=0.9065 | f=0.599 | min-d_batch=0.831 | min-d_hist=0.777
+2025-10-10 14:41:24,718 - INFO - [round 16] pick 4/5: CCc1ccc(N(C(=O)c2snc(C(N)=O)c2N)C(C(=O)NCC2CCCO2)c2ccco2)cc1 | UCB=1.415 | mu=0.5142 | std=0.9012 | f=0.6009 | min-d_batch=0.837 | min-d_hist=0.732
+2025-10-10 14:41:24,772 - INFO - [round 16] pick 5/5: Cc1noc(C)c1S(=O)(=O)NC(CCC(=O)N1CCC2(CC1)CCN(c1ccc(C(=N)N)cc1)C2=O)C(=O)O | UCB=1.432 | mu=0.5485 | std=0.8835 | f=0.6415 | min-d_batch=0.805 | min-d_hist=0.734
+2025-10-10 14:41:24,827 - INFO - Round 16 done in 504.94s; train size=95
+2025-10-10 14:41:24,827 - INFO - 
+--- Round 17 | trial=1 | sqrt_beta=1.0000 (beta=1.0000) | rho=0.65 | pack=batch | train size=95 ---
+2025-10-10 14:49:18,620 - INFO - [bucb] step 1/5: rho=0.65 -> masked 0 / 999905 items
+2025-10-10 14:49:18,625 - INFO - [bucb] pick 1/5: min-d_batch=1.000, min-d_hist=0.751
+2025-10-10 14:49:24,586 - INFO - [bucb] step 2/5: rho=0.65 -> masked 21 / 999905 items
+2025-10-10 14:49:24,593 - INFO - [bucb] pick 2/5: min-d_batch=0.811, min-d_hist=0.680
+2025-10-10 14:49:33,351 - INFO - [bucb] step 3/5: rho=0.65 -> masked 55 / 999905 items
+2025-10-10 14:49:33,359 - INFO - [bucb] pick 3/5: min-d_batch=0.815, min-d_hist=0.749
+2025-10-10 14:49:44,708 - INFO - [bucb] step 4/5: rho=0.65 -> masked 683 / 999905 items
+2025-10-10 14:49:44,715 - INFO - [bucb] pick 4/5: min-d_batch=0.834, min-d_hist=0.739
+2025-10-10 14:49:59,184 - INFO - [bucb] step 5/5: rho=0.65 -> masked 707 / 999905 items
+2025-10-10 14:49:59,191 - INFO - [bucb] pick 5/5: min-d_batch=0.820, min-d_hist=0.761
+2025-10-10 14:50:02,318 - INFO - [round 17] pick 1/5: CN1CCN(C2=Nc3cc(SCC(NC(=O)C(N)CCC(=O)O)C(=O)NCC(=O)O)ccc3Nc3ccccc32)CC1 | UCB=1.442 | mu=0.5479 | std=0.894 | f=0.6607 | min-d_batch=1.000 | min-d_hist=0.751
+2025-10-10 14:50:02,380 - INFO - [round 17] pick 2/5: CC1CC(C(=O)N(C)C(CCCCN)C(=O)O)N(C(=O)C(CCc2ccc(O)cc2)NC(=O)C(O)Cc2ccc(O)cc2)C1 | UCB=1.434 | mu=0.5641 | std=0.87 | f=0.6601 | min-d_batch=0.811 | min-d_hist=0.680
+2025-10-10 14:50:02,439 - INFO - [round 17] pick 3/5: Cc1ccc(S(=O)(=O)NC(CCC(N)=O)C(=O)NCc2ccc3c(c2)OCO3)c(C)c1 | UCB=1.432 | mu=0.5416 | std=0.89 | f=0.5502 | min-d_batch=0.815 | min-d_hist=0.749
+2025-10-10 14:50:02,500 - INFO - [round 17] pick 4/5: CC(C)NC(=O)C1CCC(n2c(=NC(=O)c3ccc(F)cc3)[nH]c3ccc(CN4CCCC4C(N)=O)cc32)CC1 | UCB=1.418 | mu=0.5287 | std=0.8896 | f=0.6273 | min-d_batch=0.834 | min-d_hist=0.739
+2025-10-10 14:50:02,578 - INFO - [round 17] pick 5/5: N=C(N)NCCCC(NC(=O)CN1CCN(S(=O)(=O)c2cccc3nonc23)CC1=O)C(=O)c1nccs1 | UCB=1.415 | mu=0.5053 | std=0.9101 | f=0.568 | min-d_batch=0.820 | min-d_hist=0.761
+2025-10-10 14:50:02,638 - INFO - Round 17 done in 517.81s; train size=100
+2025-10-10 14:50:02,639 - INFO - 
+--- Round 18 | trial=1 | sqrt_beta=1.0000 (beta=1.0000) | rho=0.65 | pack=batch | train size=100 ---
+2025-10-10 14:58:46,058 - INFO - [bucb] step 1/5: rho=0.65 -> masked 0 / 999900 items
+2025-10-10 14:58:46,063 - INFO - [bucb] pick 1/5: min-d_batch=1.000, min-d_hist=0.665
+2025-10-10 14:58:52,319 - INFO - [bucb] step 2/5: rho=0.65 -> masked 143 / 999900 items
+2025-10-10 14:58:52,326 - INFO - [bucb] pick 2/5: min-d_batch=0.870, min-d_hist=0.742
+2025-10-10 14:59:01,266 - INFO - [bucb] step 3/5: rho=0.65 -> masked 720 / 999900 items
+2025-10-10 14:59:01,274 - INFO - [bucb] pick 3/5: min-d_batch=0.819, min-d_hist=0.748
+2025-10-10 14:59:13,436 - INFO - [bucb] step 4/5: rho=0.65 -> masked 739 / 999900 items
+2025-10-10 14:59:13,443 - INFO - [bucb] pick 4/5: min-d_batch=0.830, min-d_hist=0.753
+2025-10-10 14:59:27,638 - INFO - [bucb] step 5/5: rho=0.65 -> masked 759 / 999900 items
+2025-10-10 14:59:27,646 - INFO - [bucb] pick 5/5: min-d_batch=0.820, min-d_hist=0.759
+2025-10-10 14:59:30,644 - INFO - [round 18] pick 1/5: CC(O)C(Nc1ccc(O)c2c1C(=O)c1ccccc1C2=O)C(=O)NC(CCCCN)C(=O)N1CCCC1C(=O)NC(CCCNC(=N)N)C(=O)O | UCB=1.441 | mu=0.6045 | std=0.8361 | f=0.596 | min-d_batch=1.000 | min-d_hist=0.665
+2025-10-10 14:59:30,722 - INFO - [round 18] pick 2/5: CN(CC(=O)Nc1cccc(F)c1)C(=O)CCc1nc2cc(S(=O)(=O)N3CCOCC3)ccc2n1C | UCB=1.43 | mu=0.5385 | std=0.8915 | f=0.6218 | min-d_batch=0.870 | min-d_hist=0.742
+2025-10-10 14:59:30,784 - INFO - [round 18] pick 3/5: CC(C)CC(N=C(N)N)C(=O)NCC(=O)N1CCC(c2cc(-c3ccc(OCc4ccc(C(=O)O)cc4)c(Cl)c3Cl)nn2C)CC1 | UCB=1.434 | mu=0.5461 | std=0.8881 | f=0.5958 | min-d_batch=0.819 | min-d_hist=0.748
+2025-10-10 14:59:30,848 - INFO - [round 18] pick 4/5: NC(CCCCNC(=O)C(=O)c1c[nH]c2cc(O)ccc12)C(=O)O | UCB=1.406 | mu=0.5033 | std=0.9031 | f=0.6248 | min-d_batch=0.830 | min-d_hist=0.753
+2025-10-10 14:59:30,913 - INFO - [round 18] pick 5/5: CC(=O)NCC1CN(c2ccc(N3CCN(C(=O)c4cc(C(N)=O)no4)CC3)c(F)c2)C(=O)O1 | UCB=1.41 | mu=0.506 | std=0.904 | f=0.5612 | min-d_batch=0.820 | min-d_hist=0.759
+2025-10-10 14:59:30,977 - INFO - Round 18 done in 568.34s; train size=105
+2025-10-10 14:59:30,977 - INFO - 
+--- Round 19 | trial=1 | sqrt_beta=1.0000 (beta=1.0000) | rho=0.65 | pack=batch | train size=105 ---
+2025-10-10 15:08:50,805 - INFO - [bucb] step 1/5: rho=0.65 -> masked 0 / 999895 items
+2025-10-10 15:08:50,810 - INFO - [bucb] pick 1/5: min-d_batch=1.000, min-d_hist=0.756
+2025-10-10 15:08:56,547 - INFO - [bucb] step 2/5: rho=0.65 -> masked 64 / 999895 items
+2025-10-10 15:08:56,555 - INFO - [bucb] pick 2/5: min-d_batch=0.812, min-d_hist=0.752
+2025-10-10 15:09:05,057 - INFO - [bucb] step 3/5: rho=0.65 -> masked 67 / 999895 items
+2025-10-10 15:09:05,064 - INFO - [bucb] pick 3/5: min-d_batch=0.803, min-d_hist=0.732
+2025-10-10 15:09:16,393 - INFO - [bucb] step 4/5: rho=0.65 -> masked 310 / 999895 items
+2025-10-10 15:09:16,401 - INFO - [bucb] pick 4/5: min-d_batch=0.834, min-d_hist=0.728
+2025-10-10 15:09:30,597 - INFO - [bucb] step 5/5: rho=0.65 -> masked 324 / 999895 items
+2025-10-10 15:09:30,605 - INFO - [bucb] pick 5/5: min-d_batch=0.833, min-d_hist=0.754
+2025-10-10 15:09:33,513 - INFO - [round 19] pick 1/5: CN(C(=O)Cc1ccc(Cl)c(Cl)c1)C(CN1CCCC1)c1cccc(NC(=O)C(N)CC(=O)O)c1 | UCB=1.445 | mu=0.5566 | std=0.8886 | f=0.666 | min-d_batch=1.000 | min-d_hist=0.756
+2025-10-10 15:09:33,581 - INFO - [round 19] pick 2/5: NCCCCC1C(=O)Nc2ccc(O)cc2C(=O)N1C(C(=O)NCC(=O)O)c1cccnc1 | UCB=1.44 | mu=0.5408 | std=0.8991 | f=0.6331 | min-d_batch=0.812 | min-d_hist=0.752
+2025-10-10 15:09:33,648 - INFO - [round 19] pick 3/5: CC(OC(=O)CCC(=O)N1CCN(S(=O)(=O)c2ccc3ccccc3c2)CC1)C(=O)NC(N)=O | UCB=1.437 | mu=0.5609 | std=0.8764 | f=0.6583 | min-d_batch=0.803 | min-d_hist=0.732
+2025-10-10 15:09:33,718 - INFO - [round 19] pick 4/5: CC(C)(C)OC(=O)NCCCCC(NC(=O)Cn1c2c(c3cc(Br)ccc31)CCC(C(=O)O)C2)C(=O)O | UCB=1.424 | mu=0.5427 | std=0.8816 | f=0.6124 | min-d_batch=0.834 | min-d_hist=0.728
+2025-10-10 15:09:33,788 - INFO - [round 19] pick 5/5: CC(c1nc2cc(C(N)=O)ccc2[nH]1)c1nc2cc(C(=O)C(CP(=O)(O)O)C(=O)O)ccc2n1C | UCB=1.425 | mu=0.5249 | std=0.9003 | f=0.5258 | min-d_batch=0.833 | min-d_hist=0.754
+2025-10-10 15:09:33,860 - INFO - Round 19 done in 602.88s; train size=110
+2025-10-10 15:09:33,860 - INFO - 
+--- Round 20 | trial=1 | sqrt_beta=1.0000 (beta=1.0000) | rho=0.65 | pack=batch | train size=110 ---
+2025-10-10 15:18:57,415 - INFO - [bucb] step 1/5: rho=0.65 -> masked 0 / 999890 items
+2025-10-10 15:18:57,420 - INFO - [bucb] pick 1/5: min-d_batch=1.000, min-d_hist=0.742
+2025-10-10 15:19:03,033 - INFO - [bucb] step 2/5: rho=0.65 -> masked 46 / 999890 items
+2025-10-10 15:19:03,041 - INFO - [bucb] pick 2/5: min-d_batch=0.818, min-d_hist=0.728
+2025-10-10 15:19:11,452 - INFO - [bucb] step 3/5: rho=0.65 -> masked 82 / 999890 items
+2025-10-10 15:19:11,460 - INFO - [bucb] pick 3/5: min-d_batch=0.824, min-d_hist=0.669
+2025-10-10 15:19:22,890 - INFO - [bucb] step 4/5: rho=0.65 -> masked 102 / 999890 items
+2025-10-10 15:19:22,897 - INFO - [bucb] pick 4/5: min-d_batch=0.816, min-d_hist=0.650
+2025-10-10 15:19:37,104 - INFO - [bucb] step 5/5: rho=0.65 -> masked 264 / 999890 items
+2025-10-10 15:19:37,111 - INFO - [bucb] pick 5/5: min-d_batch=0.811, min-d_hist=0.769
+2025-10-10 15:19:40,045 - INFO - [round 20] pick 1/5: Cc1cccc(C(CCCCNS(=O)(=O)c2ccc(O)c(C(=O)O)c2)C(=O)NC(C=O)CC(=O)O)c1 | UCB=1.448 | mu=0.5677 | std=0.8799 | f=0.6646 | min-d_batch=1.000 | min-d_hist=0.742
+2025-10-10 15:19:40,119 - INFO - [round 20] pick 2/5: CC(=O)c1cc(NC(=O)NCCCC2CC(Cc3ccc(F)cc3)CCN2CC(N)=O)cc(C(C)=O)c1 | UCB=1.446 | mu=0.5615 | std=0.8849 | f=0.6937 | min-d_batch=0.818 | min-d_hist=0.728
+2025-10-10 15:19:40,193 - INFO - [round 20] pick 3/5: CC(O)C(NC(=O)c1cc2c([nH]c3ccccc32)c(CCC(=O)N2CCCC2C(=O)O)n1)C(=O)O | UCB=1.44 | mu=0.5802 | std=0.8601 | f=0.6171 | min-d_batch=0.824 | min-d_hist=0.669
+2025-10-10 15:19:40,268 - INFO - [round 20] pick 4/5: CC(C)c1cc(C(C)C)c(S(=O)(=O)NC(Cc2cccc(C(=N)N)c2)C(=O)N2CCN(C(=O)CCCN)CC2)c(C(C)C)c1 | UCB=1.444 | mu=0.582 | std=0.8624 | f=0.6146 | min-d_batch=0.816 | min-d_hist=0.650
+2025-10-10 15:19:40,344 - INFO - [round 20] pick 5/5: CSCCC(N)C(=O)NCC(=O)NC1CC(C(=O)NO)N(S(=O)(=O)c2ccc(Cl)cc2)C1 | UCB=1.429 | mu=0.5273 | std=0.9018 | f=0.5163 | min-d_batch=0.811 | min-d_hist=0.769
+2025-10-10 15:19:40,419 - INFO - Round 20 done in 606.56s; train size=115
+2025-10-10 15:19:40,419 - INFO - 
+--- Round 21 | trial=1 | sqrt_beta=1.0000 (beta=1.0000) | rho=0.65 | pack=batch | train size=115 ---
+2025-10-10 15:29:58,034 - INFO - [bucb] step 1/5: rho=0.65 -> masked 0 / 999885 items
+2025-10-10 15:29:58,039 - INFO - [bucb] pick 1/5: min-d_batch=1.000, min-d_hist=0.746
+2025-10-10 15:30:03,916 - INFO - [bucb] step 2/5: rho=0.65 -> masked 189 / 999885 items
+2025-10-10 15:30:03,923 - INFO - [bucb] pick 2/5: min-d_batch=0.820, min-d_hist=0.677
+2025-10-10 15:30:12,748 - INFO - [bucb] step 3/5: rho=0.65 -> masked 302 / 999885 items
+2025-10-10 15:30:12,756 - INFO - [bucb] pick 3/5: min-d_batch=0.838, min-d_hist=0.681
+2025-10-10 15:30:24,670 - INFO - [bucb] step 4/5: rho=0.65 -> masked 334 / 999885 items
+2025-10-10 15:30:24,678 - INFO - [bucb] pick 4/5: min-d_batch=0.831, min-d_hist=0.700
+2025-10-10 15:30:39,340 - INFO - [bucb] step 5/5: rho=0.65 -> masked 443 / 999885 items
+2025-10-10 15:30:39,348 - INFO - [bucb] pick 5/5: min-d_batch=0.817, min-d_hist=0.745
+2025-10-10 15:30:42,425 - INFO - [round 21] pick 1/5: CCCCC1=NC2(CCN(C(=O)C(N)CC(=O)O)CC2)C(=O)N1Cc1ccc(-c2ccccc2C(=O)O)cc1 | UCB=1.453 | mu=0.5783 | std=0.875 | f=0.7015 | min-d_batch=1.000 | min-d_hist=0.746
+2025-10-10 15:30:42,504 - INFO - [round 21] pick 2/5: CN(C)c1cccc2c(S(=O)(=O)NC(CCCN=C(N)N)C(=O)N(CC(=O)O)CC3CCCO3)cccc12 | UCB=1.443 | mu=0.5589 | std=0.8836 | f=0.6565 | min-d_batch=0.820 | min-d_hist=0.677
+2025-10-10 15:30:42,583 - INFO - [round 21] pick 3/5: CN1CCc2nc(C(=O)N3CCN(S(=O)(=O)c4ccc5cc(Cl)ccc5c4)CC3C(=O)NCC(N)=O)sc2C1 | UCB=1.431 | mu=0.555 | std=0.8756 | f=0.5878 | min-d_batch=0.838 | min-d_hist=0.681
+2025-10-10 15:30:42,663 - INFO - [round 21] pick 4/5: COc1cc2nccc(SCC(NC(=O)CCC(N)C(=O)O)C(=O)NCC(=O)O)c2cc1C(N)=O | UCB=1.433 | mu=0.5579 | std=0.8753 | f=0.5798 | min-d_batch=0.831 | min-d_hist=0.700
+2025-10-10 15:30:42,757 - INFO - [round 21] pick 5/5: Cn1c(CN2C(=O)CN(c3ccc(F)cc3)C2=O)nc2ccc(C(=O)NC(C#N)CCCCN)cc21 | UCB=1.423 | mu=0.5318 | std=0.8911 | f=0.5995 | min-d_batch=0.817 | min-d_hist=0.745
+2025-10-10 15:30:42,840 - INFO - Round 21 done in 662.42s; train size=120
+2025-10-10 15:30:42,840 - INFO - 
+--- Round 22 | trial=1 | sqrt_beta=1.0000 (beta=1.0000) | rho=0.65 | pack=batch | train size=120 ---
+2025-10-10 15:41:19,006 - INFO - [bucb] step 1/5: rho=0.65 -> masked 0 / 999880 items
+2025-10-10 15:41:19,011 - INFO - [bucb] pick 1/5: min-d_batch=1.000, min-d_hist=0.711
+2025-10-10 15:41:24,976 - INFO - [bucb] step 2/5: rho=0.65 -> masked 80 / 999880 items
+2025-10-10 15:41:24,983 - INFO - [bucb] pick 2/5: min-d_batch=0.816, min-d_hist=0.730
+2025-10-10 15:41:33,718 - INFO - [bucb] step 3/5: rho=0.65 -> masked 129 / 999880 items
+2025-10-10 15:41:33,726 - INFO - [bucb] pick 3/5: min-d_batch=0.823, min-d_hist=0.762
+2025-10-10 15:41:45,273 - INFO - [bucb] step 4/5: rho=0.65 -> masked 133 / 999880 items
+2025-10-10 15:41:45,281 - INFO - [bucb] pick 4/5: min-d_batch=0.810, min-d_hist=0.734
+2025-10-10 15:41:59,390 - INFO - [bucb] step 5/5: rho=0.65 -> masked 143 / 999880 items
+2025-10-10 15:41:59,398 - INFO - [bucb] pick 5/5: min-d_batch=0.833, min-d_hist=0.793
+2025-10-10 15:42:02,370 - INFO - [round 22] pick 1/5: CNC(=O)C(Cc1ccc2ccccc2c1)N1CCN(C(=O)C(Cc2ccc(F)cc2)NC(C)=O)C(CCCN=C(N)N)C1=O | UCB=1.46 | mu=0.5943 | std=0.8657 | f=0.6585 | min-d_batch=1.000 | min-d_hist=0.711
+2025-10-10 15:42:02,457 - INFO - [round 22] pick 2/5: CS(=O)(=O)Nc1cc(C(O)CNCC2CCN(c3ccc(C(=O)NC(CC(=O)O)C(=O)O)cc3)CC2)ccc1O | UCB=1.453 | mu=0.5795 | std=0.8739 | f=0.6855 | min-d_batch=0.816 | min-d_hist=0.730
+2025-10-10 15:42:02,542 - INFO - [round 22] pick 3/5: CC(C(=O)O)c1cc(CN)ccc1NC(=O)CC1CCc2cc(Cl)cc3[nH]c(C(=O)O)c1c23 | UCB=1.43 | mu=0.5241 | std=0.9063 | f=0.6007 | min-d_batch=0.823 | min-d_hist=0.762
+2025-10-10 15:42:02,630 - INFO - [round 22] pick 4/5: CCOC(=O)C(=C(COC(=O)C(N)CCCCN)c1ccc(S(C)(=O)=O)cc1)c1ccc(F)c(F)c1 | UCB=1.443 | mu=0.5745 | std=0.8687 | f=0.6142 | min-d_batch=0.810 | min-d_hist=0.734
+2025-10-10 15:42:02,718 - INFO - [round 22] pick 5/5: NC(=O)CCC(N)C(=O)NC1CCN(c2nc3c(cc2F)c(=O)c(C(=O)O)cn3C2CC2)C1 | UCB=1.424 | mu=0.5108 | std=0.9128 | f=0.5815 | min-d_batch=0.833 | min-d_hist=0.793
+2025-10-10 15:42:02,808 - INFO - Round 22 done in 679.97s; train size=125
+2025-10-10 15:42:02,809 - INFO - 
+--- Round 23 | trial=1 | sqrt_beta=1.0000 (beta=1.0000) | rho=0.65 | pack=batch | train size=125 ---
