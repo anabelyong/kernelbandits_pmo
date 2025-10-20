@@ -1,0 +1,182 @@
+2025-10-10 16:31:04,860 - INFO - === Starting BUCB Bayesian Optimization Trial 2 (beta=5.00, sqrt_beta=2.24) ===
+2025-10-10 16:31:35,632 - INFO - 
+--- Trial 2, beta=5.00, Round 0 (train size=10) ---
+f1 shape: (5,)
+2025-10-10 16:31:43,213 - INFO - [round 0] pick 1/5: CC(C)(NC(=O)CN1C(=O)c2ccccc2C1=O)C(=O)NCCCCC(NC(=O)CC(O)(C(F)(F)F)C(F)(F)F)C(=O)O | UCB=2.362 | f=0.5631
+2025-10-10 16:31:43,214 - INFO - [round 0] pick 2/5: O=C(Nc1ccncc1)Nc1nc2nn(CCCOCc3ccccc3)cc2c2nc(-c3ccco3)nn12 | UCB=2.351 | f=0.554
+2025-10-10 16:31:43,215 - INFO - [round 0] pick 3/5: Cn1cnnc1SCC(=O)N1CCC2C1C(=O)N2S(=O)(=O)O | UCB=2.338 | f=0.4465
+2025-10-10 16:31:43,216 - INFO - [round 0] pick 4/5: Cc1[nH]c(C=C2C(=O)Nc3ncc(Br)cc32)c(C)c1C(=O)O | UCB=2.337 | f=0.4615
+2025-10-10 16:31:43,217 - INFO - [round 0] pick 5/5: O=C(OCCNC(=O)N1CC1)OCCNC(=O)N1CC1 | UCB=2.331 | f=0.4134
+2025-10-10 16:31:43,219 - INFO - Round 0 done in 7.59s; train size=15
+2025-10-10 16:31:43,219 - INFO - 
+--- Trial 2, beta=5.00, Round 1 (train size=15) ---
+f1 shape: (5,)
+2025-10-10 16:31:53,762 - INFO - [round 1] pick 1/5: CCOC(=O)c1c(C)[nH]c(C(=O)Cn2c(=O)c3c(ncn3CC)n(Cc3ccccc3)c2=O)c1C | UCB=2.432 | f=0.5145
+2025-10-10 16:31:53,763 - INFO - [round 1] pick 2/5: N=C(N)NCCCC(NC(=O)OCCCCCn1cnc2c(O)ncnc21)C(=O)O | UCB=2.428 | f=0.5444
+2025-10-10 16:31:53,765 - INFO - [round 1] pick 3/5: Cn1nnnc1SCC1=C(C(=O)O)N2C(=O)C(NC(=O)C[S+](O)CC(F)(F)F)C2SC1 | UCB=2.412 | f=0.4607
+2025-10-10 16:31:53,767 - INFO - [round 1] pick 4/5: O=C(O)C(=O)CC(=O)c1ccco1 | UCB=2.401 | f=0.3911
+2025-10-10 16:31:53,769 - INFO - [round 1] pick 5/5: O=C1c2ccccc2C(=O)N1CCOC(=Nc1ccc(Cl)cc1Cl)SSC(=Nc1ccc(Cl)cc1Cl)OCCN1C(=O)c2ccccc2C1=O | UCB=2.403 | f=0.008659
+2025-10-10 16:31:53,771 - INFO - Round 1 done in 10.55s; train size=20
+2025-10-10 16:31:53,771 - INFO - 
+--- Trial 2, beta=5.00, Round 2 (train size=20) ---
+f1 shape: (5,)
+2025-10-10 16:32:07,169 - INFO - [round 2] pick 1/5: COc1c(C)cnc(Cn2cnc3c(SCC(NC(=O)CCC(N)C(=O)O)C(=O)NCC(=O)O)nc(N)nc32)c1C | UCB=2.464 | f=0.5133
+2025-10-10 16:32:07,172 - INFO - [round 2] pick 2/5: CCOC(=O)C1CSC(c2ccccc2)N1C(=O)c1cn(CCCCCCCO)nn1 | UCB=2.444 | f=0.6151
+2025-10-10 16:32:07,175 - INFO - [round 2] pick 3/5: CC(C)(CC(=O)O)CC(=O)NCCN1CCNC1=O | UCB=2.444 | f=0.4889
+2025-10-10 16:32:07,178 - INFO - [round 2] pick 4/5: O=C(Nc1nnc(S)s1)NC(Cc1c(F)c(F)c(F)c(F)c1F)C(=O)N1CCN(c2ccccn2)CC1 | UCB=2.428 | f=0.5152
+2025-10-10 16:32:07,181 - INFO - [round 2] pick 5/5: CC(=O)OCCOCn1c(=O)[nH]c(=O)c2c1no[n+]2[O-] | UCB=2.419 | f=0.3702
+2025-10-10 16:32:07,187 - INFO - Round 2 done in 13.42s; train size=25
+2025-10-10 16:32:07,187 - INFO - 
+--- Trial 2, beta=5.00, Round 3 (train size=25) ---
+f1 shape: (5,)
+2025-10-10 16:32:23,381 - INFO - [round 3] pick 1/5: N=C(N)NCCCc1cn(CC(=O)NC(CC(=O)O)c2ccccc2)nn1 | UCB=2.49 | f=0.5674
+2025-10-10 16:32:23,384 - INFO - [round 3] pick 2/5: CCOC(=O)NC(=O)c1cn(CCN2CCN(C(=O)CCCCCCCCCCNc3ncnc4c3ncn4C3OC(CO)C(O)C3O)CC2)c(=O)[nH]c1=O | UCB=2.471 | f=0.551
+2025-10-10 16:32:23,388 - INFO - [round 3] pick 3/5: C=CCn1c(SCC(=O)NCCO)nc2sc(C)c(C)c2c1=O | UCB=2.462 | f=0.4453
+2025-10-10 16:32:23,392 - INFO - [round 3] pick 4/5: CCOC(=O)CC(C(=O)O)n1ccnc1 | UCB=2.467 | f=0.4052
+2025-10-10 16:32:23,397 - INFO - [round 3] pick 5/5: Nc1nc(C(=NOCCF)C(=O)NC2C(=O)N3C(C(=O)O)=C(Sc4nnc(O)c(O)n4)CCC23)cs1 | UCB=2.457 | f=0.4954
+2025-10-10 16:32:23,401 - INFO - Round 3 done in 16.21s; train size=30
+2025-10-10 16:32:23,401 - INFO - 
+--- Trial 2, beta=5.00, Round 4 (train size=30) ---
+f1 shape: (5,)
+2025-10-10 16:32:42,460 - INFO - [round 4] pick 1/5: CCOC(=O)N1CCN(C(=O)C(CCC(=O)O)NC(=O)c2cc(NCCCO)nc(-c3ccccc3)n2)CC1 | UCB=2.501 | f=0.617
+2025-10-10 16:32:42,465 - INFO - [round 4] pick 2/5: CC(C)c1nnc(NC(=O)CCCCCN2C(=O)C3C4C=CC(C4)C3C2=O)s1 | UCB=2.486 | f=0.5585
+2025-10-10 16:32:42,470 - INFO - [round 4] pick 3/5: O=C(O)CNC(=O)Nc1ncnc2[nH]ncc12 | UCB=2.473 | f=0.401
+2025-10-10 16:32:42,475 - INFO - [round 4] pick 4/5: Cc1cn(Cc2cn(CCCC(F)(F)P(=O)(O)O)nn2)c(=O)[nH]c1=O | UCB=2.476 | f=0.4871
+2025-10-10 16:32:42,481 - INFO - [round 4] pick 5/5: NCCCC(N)CC(=O)NCCCC(N)CC(=O)NC1C(NC2=NC3C(=O)NCC(O)C3N2)OC(CO)C(OC(N)=O)C1O | UCB=2.466 | f=0.4773
+2025-10-10 16:32:42,489 - INFO - Round 4 done in 19.09s; train size=35
+2025-10-10 16:32:42,489 - INFO - 
+--- Trial 2, beta=5.00, Round 5 (train size=35) ---
+f1 shape: (5,)
+2025-10-10 16:33:04,540 - INFO - [round 5] pick 1/5: Nc1nc2[nH]c(CCCCCC(=O)NC(CCC(=O)O)C(=O)O)cc2c(=O)[nH]1 | UCB=2.517 | f=0.5628
+2025-10-10 16:33:04,547 - INFO - [round 5] pick 2/5: CC(C)(CCCC(=O)N1CCc2c(n(Cc3cnc(C(F)(F)F)s3)c3ncccc23)C1)C(=O)O | UCB=2.501 | f=0.5756
+2025-10-10 16:33:04,553 - INFO - [round 5] pick 3/5: O=C(Nc1nc(=O)n(C2OC(C(=O)O)C(O)C2O)cc1F)OCc1ccccc1 | UCB=2.498 | f=0.4861
+2025-10-10 16:33:04,561 - INFO - [round 5] pick 4/5: CCOCCCNC(=O)c1nn(CC)cc1Br | UCB=2.483 | f=0.06423
+2025-10-10 16:33:04,568 - INFO - [round 5] pick 5/5: NC(=O)CC(N)c1cn(C(CC(N)=O)C(=O)N2CCNCC2)nn1 | UCB=2.473 | f=0.5033
+2025-10-10 16:33:04,576 - INFO - Round 5 done in 22.09s; train size=40
+2025-10-10 16:33:04,576 - INFO - 
+--- Trial 2, beta=5.00, Round 6 (train size=40) ---
+f1 shape: (5,)
+2025-10-10 16:33:29,074 - INFO - [round 6] pick 1/5: CCC(C(=O)NC(CC(=O)O)C(=O)CCCc1ccccc1)n1cc(C(C)(C)C)nc(Nc2nnn[nH]2)c1=O | UCB=2.517 | f=0.5721
+2025-10-10 16:33:29,082 - INFO - [round 6] pick 2/5: NC(=O)C1CCN(C(=O)CCCCCn2c(=O)[nH]c3ccsc3c2=O)CC1 | UCB=2.514 | f=0.5755
+2025-10-10 16:33:29,091 - INFO - [round 6] pick 3/5: O=C(CC1(O)C2C3CC4C5C3C1C5C(O)(CC(=O)NC(Cc1c[nH]cn1)C(=O)O)C42)NC(Cc1c[nH]cn1)C(=O)O | UCB=2.495 | f=0.5243
+2025-10-10 16:33:29,100 - INFO - [round 6] pick 4/5: NCC1CN(c2c(F)cc3c(=O)c(C(=O)O)cn(CCF)c3c2F)CCO1 | UCB=2.486 | f=0.5615
+2025-10-10 16:33:29,110 - INFO - [round 6] pick 5/5: NS(=O)(=O)c1nnc(NC(=O)CNCC(=O)O)s1 | UCB=2.485 | f=0.3377
+2025-10-10 16:33:29,121 - INFO - Round 6 done in 24.54s; train size=45
+2025-10-10 16:33:29,121 - INFO - 
+--- Trial 2, beta=5.00, Round 7 (train size=45) ---
+f1 shape: (5,)
+2025-10-10 16:33:56,543 - INFO - [round 7] pick 1/5: NCCCC(NC(=O)CC(N)Cc1c[nH]c2ccccc12)C(=O)N1CCCC1C(=O)O | UCB=2.527 | f=0.6242
+2025-10-10 16:33:56,554 - INFO - [round 7] pick 2/5: CC(O)C1C(=O)N2C(C(=O)O)=C(SCCc3cn(CCCCC(=O)O)nn3)C(C)C12 | UCB=2.521 | f=0.5271
+2025-10-10 16:33:56,565 - INFO - [round 7] pick 3/5: Nc1ncnc2c1ncn2C1OC(CNS(=O)(=O)NC(=O)CCCCC2SCC3NC(=O)NC32)C(O)C1F | UCB=2.502 | f=0.4736
+2025-10-10 16:33:56,576 - INFO - [round 7] pick 4/5: O=C(c1cc(Cc2nnc(O)c3c2NCCC3)ccc1F)N1CCN(CCO)CC1 | UCB=2.485 | f=0.6245
+2025-10-10 16:33:56,588 - INFO - [round 7] pick 5/5: CNC(=O)C(CO)NC(=O)c1c(I)c(NC(=O)COC)c(I)c(C(=O)O)c1I | UCB=2.488 | f=0.4266
+2025-10-10 16:33:56,601 - INFO - Round 7 done in 27.48s; train size=50
+2025-10-10 16:33:56,601 - INFO - 
+--- Trial 2, beta=5.00, Round 8 (train size=50) ---
+f1 shape: (5,)
+2025-10-10 16:34:28,151 - INFO - [round 8] pick 1/5: O=C(NCCCC(=O)N1CCN(c2cc3c(cc2F)c(=O)c(C(=O)O)cn3C2CC2)CC1)c1cnccn1 | UCB=2.536 | f=0.6494
+2025-10-10 16:34:28,165 - INFO - [round 8] pick 2/5: NC(CCn1c2c(c(=O)n(CCC(N)C(=O)O)c1=O)CCC2)C(=O)O | UCB=2.532 | f=0.5066
+2025-10-10 16:34:28,178 - INFO - [round 8] pick 3/5: COC(=O)C(Cc1ccccn1)NC(=O)CCCCCCCC(=O)NO | UCB=2.509 | f=0.6024
+2025-10-10 16:34:28,192 - INFO - [round 8] pick 4/5: CC(=O)NC1C(O)CC(Oc2ccc(-n3cc(CSc4nnc(C(C)(C)C)[nH]4)nn3)cc2C(F)F)(C(=O)O)OC1C(O)C(O)CO | UCB=2.505 | f=0.5358
+2025-10-10 16:34:28,207 - INFO - [round 8] pick 5/5: N=C(N)NCCCC1NC(=O)C2COCCN2C(=O)C(Cc2ccc(O)c(I)c2)NC(=O)C(CC(=O)O)NC(=O)CNC1=O | UCB=2.52 | f=0.5318
+2025-10-10 16:34:28,223 - INFO - Round 8 done in 31.62s; train size=55
+2025-10-10 16:34:28,223 - INFO - 
+--- Trial 2, beta=5.00, Round 9 (train size=55) ---
+f1 shape: (5,)
+2025-10-10 16:35:01,777 - INFO - [round 9] pick 1/5: O=C(Cc1cccnc1)NC(CNC(=O)C1CCCn2c(C=CC3CCNCC3)nnc21)C(=O)O | UCB=2.547 | f=0.5859
+2025-10-10 16:35:01,793 - INFO - [round 9] pick 2/5: CC(C)Cc1nn(C)c(=O)c2c(SCCCO)n(Cc3ccnc(NCCCCCNC(=O)C(N)CCC(N)=O)c3)cc12 | UCB=2.542 | f=0.5993
+2025-10-10 16:35:01,809 - INFO - [round 9] pick 3/5: O=C(O)c1ccccc1CCCCc1c(C(=O)O)[nH]c(=O)[nH]c1=O | UCB=2.539 | f=0.5448
+2025-10-10 16:35:01,827 - INFO - [round 9] pick 4/5: CC(C)(C)OC(=O)N1CCN(C(=O)N2C(=O)C(CCCN=C(N)N)C2C(=O)O)CC1 | UCB=2.51 | f=0.4975
+2025-10-10 16:35:01,845 - INFO - [round 9] pick 5/5: CCCSc1nc(NC2CC2c2ccc(F)c(F)c2)c2nnn(C3CC(OCCOC(=O)CCC)C(O)C3O)c2n1 | UCB=2.493 | f=0.5361
+2025-10-10 16:35:01,863 - INFO - Round 9 done in 33.64s; train size=60
+2025-10-10 16:35:01,863 - INFO - 
+--- Trial 2, beta=5.00, Round 10 (train size=60) ---
+f1 shape: (5,)
+2025-10-10 16:35:39,103 - INFO - [round 10] pick 1/5: O=C(O)CN1C(=O)C(NC(CCCCNCCO)C(=O)O)CCc2ccccc21 | UCB=2.544 | f=0.6368
+2025-10-10 16:35:39,122 - INFO - [round 10] pick 2/5: CN1C(=O)CC(C(=O)NC(Cc2c[nH]cn2)C(=O)N2CSC=C2C(N)=O)NC1=O | UCB=2.532 | f=0.4802
+2025-10-10 16:35:39,141 - INFO - [round 10] pick 3/5: COC(=O)N1CCC(n2c(=O)n(Cc3nc(C)c(C)n3CCCCO)c3cnccc32)CC1 | UCB=2.536 | f=0.5978
+2025-10-10 16:35:39,161 - INFO - [round 10] pick 4/5: O=C(CC12CC3CC(CC(C3)C1)C2)NCC(=O)N1CCN(Cc2cccc(C(=O)O)c2)CC1 | UCB=2.527 | f=0.613
+2025-10-10 16:35:39,182 - INFO - [round 10] pick 5/5: CCCCCCCC(=O)SCCC=CC1CC(=O)NCc2nc(cs2)-c2nnn(n2)CC(=O)NC(C(C)C)C(=O)O1 | UCB=2.518 | f=0.5353
+2025-10-10 16:35:39,205 - INFO - Round 10 done in 37.34s; train size=65
+2025-10-10 16:35:39,205 - INFO - 
+--- Trial 2, beta=5.00, Round 11 (train size=65) ---
+f1 shape: (5,)
+2025-10-10 16:36:17,846 - INFO - [round 11] pick 1/5: CCCCS(=O)(=O)NC(CCC(=O)N1CCC2(CC1)CCN(c1ccncc1)CC2)C(=O)O | UCB=2.554 | f=0.6183
+2025-10-10 16:36:17,868 - INFO - [round 11] pick 2/5: O=C(O)CCCSCCN1C(=O)OCC1C=CC(O)Cc1cccc(F)c1 | UCB=2.548 | f=0.6427
+2025-10-10 16:36:17,891 - INFO - [round 11] pick 3/5: O=C(NCCCCCNC(=O)C1=NOC2(C=C(Br)C(=O)C(Br)C2O)C1)C1=NOC2(C=C(Br)C(=O)C(Br)C2O)C1 | UCB=2.53 | f=0.5421
+2025-10-10 16:36:17,915 - INFO - [round 11] pick 4/5: COc1c(N2CC3CCCNC3C2)c(F)cc2c(=O)c(C(=O)SCC(=O)NC(P(=O)(O)O)P(=O)(O)O)cn(C3CC3)c12 | UCB=2.527 | f=0.5487
+2025-10-10 16:36:17,939 - INFO - [round 11] pick 5/5: N=C(O)c1nn(CC(=O)N2C(C(O)=NCCC(F)(F)F)CC3CC32)c2cnccc12 | UCB=2.527 | f=0.5755
+2025-10-10 16:36:17,964 - INFO - Round 11 done in 38.76s; train size=70
+2025-10-10 16:36:17,964 - INFO - 
+--- Trial 2, beta=5.00, Round 12 (train size=70) ---
+f1 shape: (5,)
+2025-10-10 16:37:00,836 - INFO - [round 12] pick 1/5: O=C(O)CC(CO)NC(=O)c1ccc2c(c1)C(=O)N(CCC1CCNCC1)C2 | UCB=2.562 | f=0.6418
+2025-10-10 16:37:00,862 - INFO - [round 12] pick 2/5: C=CCCC(=O)N1CC(C(C)OC(=O)CCCc2ccncc2)C1=O | UCB=2.553 | f=0.4019
+2025-10-10 16:37:00,888 - INFO - [round 12] pick 3/5: C#CCOCCOCCOCCNc1nc(N2CCOCC2)nc(N2CCN(C(=O)C(CCC(=O)O)n3cc(C(N)Cc4ccc(O)cc4)nn3)CC2)n1 | UCB=2.531 | f=0.564
+2025-10-10 16:37:00,915 - INFO - [round 12] pick 4/5: CC(=O)NCC1CN(c2cc(F)c(C3C4CN(C(=O)CO)CC43)c(F)c2)C(=O)O1 | UCB=2.546 | f=0.5542
+2025-10-10 16:37:00,943 - INFO - [round 12] pick 5/5: CCCCCCC=NOCCCCCn1cncc1CC(NC(=O)C(CC(C)C)NC(=O)C1CCCN1C(C)=O)C(=O)NC(CO)C(=O)NC(C(N)=O)C(C)OP(=O)(O)O | UCB=2.515 | f=0.5208
+2025-10-10 16:37:00,973 - INFO - Round 12 done in 43.01s; train size=75
+2025-10-10 16:37:00,973 - INFO - 
+--- Trial 2, beta=5.00, Round 13 (train size=75) ---
+f1 shape: (5,)
+2025-10-10 16:37:45,688 - INFO - [round 13] pick 1/5: CCCC(=O)NC(Cc1ccc(OP(=O)(O)O)cc1)C(=O)NCCCN1CCCNC1=O | UCB=2.561 | f=0.6101
+2025-10-10 16:37:45,718 - INFO - [round 13] pick 2/5: CCC(=O)N1CCc2c(nc(C)n2C2CC3CCC(C2)N3CCC(NC(C)=O)c2cccc(F)c2)C1 | UCB=2.555 | f=0.329
+2025-10-10 16:37:45,748 - INFO - [round 13] pick 3/5: O=C(O)CCCCCCC1Cc2cc(O)cc(O)c2C(=O)O1 | UCB=2.539 | f=0.6428
+2025-10-10 16:37:45,779 - INFO - [round 13] pick 4/5: O=C(CC1NCCC1O)Cn1cnc2ncccc2c1=O | UCB=2.542 | f=0.5689
+2025-10-10 16:37:45,811 - INFO - [round 13] pick 5/5: CCC(C)C(=O)OC1CC(C)CC2C=CC(C)C(C=CC(=O)CC(O)CC(=O)O)C21 | UCB=2.514 | f=0.569
+2025-10-10 16:37:45,844 - INFO - Round 13 done in 44.87s; train size=80
+2025-10-10 16:37:45,844 - INFO - 
+--- Trial 2, beta=5.00, Round 14 (train size=80) ---
+f1 shape: (5,)
+2025-10-10 16:38:33,167 - INFO - [round 14] pick 1/5: N=C(N)c1ccc(C(=O)NCC(=O)N2CCN(CCC(=O)O)C(=O)C2CC(=O)O)cc1 | UCB=2.565 | f=0.5994
+2025-10-10 16:38:33,204 - INFO - [round 14] pick 2/5: CCCCCCNC1CC(=O)OC1C(O)C(=O)NC(CC(C)C)C1Cc2cccc(O)c2C(=O)O1 | UCB=2.558 | f=0.595
+2025-10-10 16:38:33,238 - INFO - [round 14] pick 3/5: NCCCC(Cc1cn(C2CC3CCC2C3)cn1)C(=O)O | UCB=2.542 | f=0.5086
+2025-10-10 16:38:33,273 - INFO - [round 14] pick 4/5: Cn1c(Cc2nc3cc(F)c(F)cc3[nH]2)nc2ccc(C(=O)NC(CP(=O)(O)O)C(=O)O)cc21 | UCB=2.54 | f=0.5116
+2025-10-10 16:38:33,309 - INFO - [round 14] pick 5/5: COCCCN1CC(C)N(C(=O)N2Cc3c([nH][nH]c3=NC(=O)c3cnccn3)C2(C)C)CC1C | UCB=2.528 | f=0.5471
+2025-10-10 16:38:33,348 - INFO - Round 14 done in 47.50s; train size=85
+2025-10-10 16:38:33,348 - INFO - 
+--- Trial 2, beta=5.00, Round 15 (train size=85) ---
+f1 shape: (5,)
+2025-10-10 16:39:24,964 - INFO - [round 15] pick 1/5: O=C(NCC(NS(=O)(=O)c1c(Cl)cccc1Cl)C(=O)O)C1=NOC(CCCCNc2ncc[nH]2)C1 | UCB=2.567 | f=0.5407
+2025-10-10 16:39:25,003 - INFO - [round 15] pick 2/5: NCCCCCCOc1ccc2c(c1)CCN(CC(=O)O)C2=O | UCB=2.562 | f=0.6221
+2025-10-10 16:39:25,041 - INFO - [round 15] pick 3/5: CCCCC=CC(=O)NC(Cc1cc(F)cc(F)c1)C(=O)NC1C(=O)N2CCCC2C(=O)N2CCCCC2C(=O)NC(C)C(=O)N2CCCC2C(=O)OC1C | UCB=2.539 | f=0.5253
+2025-10-10 16:39:25,081 - INFO - [round 15] pick 4/5: O=C(O)C1CCN1CC(O)Cn1ccnc1[N+](=O)[O-] | UCB=2.539 | f=0.5311
+2025-10-10 16:39:25,121 - INFO - [round 15] pick 5/5: C=C(CCC12OC(c3nnc(S)n3C)C(O)(C(=O)O)C(C(=O)O)(O1)C(OC(=O)C=CC(C)CC(C)CC)C2O)C(C(C)=O)C(C)Cc1ccccc1 | UCB=2.538 | f=0.5572
+2025-10-10 16:39:25,163 - INFO - Round 15 done in 51.81s; train size=90
+2025-10-10 16:39:25,163 - INFO - 
+--- Trial 2, beta=5.00, Round 16 (train size=90) ---
+f1 shape: (5,)
+2025-10-10 16:40:19,140 - INFO - [round 16] pick 1/5: CC(=O)C(CC(=O)O)C1CC2c3c(c4ccccc4n3C)CC(C1CO)N2C | UCB=2.566 | f=0.5336
+2025-10-10 16:40:19,191 - INFO - [round 16] pick 2/5: CCCCCC(C=Cc1ncccc1OCCCCCC(=O)O)=NNC1=NCCN1 | UCB=2.556 | f=0.6164
+2025-10-10 16:40:19,243 - INFO - [round 16] pick 3/5: O=C(O)CN1CCN(CC(=O)O)CCN(CC(Cc2ccc([N+](=O)[O-])cc2)N(CC(=O)O)CC(=O)O)CC1 | UCB=2.556 | f=0.629
+2025-10-10 16:40:19,288 - INFO - [round 16] pick 4/5: COC12C(COC(N)=O)C3=C(C(=O)C(CSCCO)=C(N)C3=O)N1CC1NC12 | UCB=2.526 | f=0.4882
+2025-10-10 16:40:19,340 - INFO - [round 16] pick 5/5: N=C1C(=Cc2ccc(O)c(O)c2)C(=O)N=C2SC(CC(=O)N3CCCC3)=NN12 | UCB=2.539 | f=0.5831
+2025-10-10 16:40:19,392 - INFO - Round 16 done in 54.23s; train size=95
+2025-10-10 16:40:19,392 - INFO - 
+--- Trial 2, beta=5.00, Round 17 (train size=95) ---
+f1 shape: (5,)
+2025-10-10 16:41:17,250 - INFO - [round 17] pick 1/5: O=C(O)CN(C(=O)CCCOc1ccc2[nH]c3nc(O)nc-3cc2c1)C1CCCCC1 | UCB=2.572 | f=0.649
+2025-10-10 16:41:17,298 - INFO - [round 17] pick 2/5: CC(=CCCC(C)(O)CCCC1=CC(=O)N(CC(=O)O)C1)CCCC(C)C=C1OC(=O)C(C)=C1O | UCB=2.563 | f=0.6096
+2025-10-10 16:41:17,347 - INFO - [round 17] pick 3/5: NCC(N)CC(=O)N1CCN(C(=O)CCn2cccc(O)c2=O)CC1 | UCB=2.563 | f=0.596
+2025-10-10 16:41:17,396 - INFO - [round 17] pick 4/5: O=C(NCCCCCCN1CC(O)C(O)C(O)C1CO)c1cccnc1 | UCB=2.548 | f=0.6271
+2025-10-10 16:41:17,446 - INFO - [round 17] pick 5/5: CC(C)C(=O)Nc1nc2c(ncn2C2CC(OC(=O)NC(CCC(=O)O)C(=O)O)C(COC(=O)NC(CCC(=O)O)C(=O)O)O2)c(=O)[nH]1 | UCB=2.544 | f=0.5014
+2025-10-10 16:41:17,497 - INFO - Round 17 done in 58.10s; train size=100
+2025-10-10 16:41:17,497 - INFO - 
+--- Trial 2, beta=5.00, Round 18 (train size=100) ---
+f1 shape: (5,)
+2025-10-10 16:42:17,487 - INFO - [round 18] pick 1/5: CCCCCCCC(CC(=O)NC1CCCCN(O)C1=O)OC(=O)C(CCCCN(O)C=O)NC(=O)c1coc(-c2ccccc2O)n1 | UCB=2.577 | f=0.6016
+2025-10-10 16:42:17,540 - INFO - [round 18] pick 2/5: CC(C)c1csc(CCc2ccn3c(=O)c(C=CC(=O)O)c(N4CCC(O)C4)nc3c2)n1 | UCB=2.567 | f=0.6288
+2025-10-10 16:42:17,594 - INFO - [round 18] pick 3/5: C=CC1C(=CCc2cc(C(=O)[O-])c[n+](CCCC(=O)O)c2)C(C(=O)OC)=COC1OC1OC(CO)C(O)C(O)C1O | UCB=2.554 | f=0.6097
+2025-10-10 16:42:17,648 - INFO - [round 18] pick 4/5: O=C(C1CCOC1)N1CCC(CCCCN=C(O)N2Cc3ccncc3C2)CC1 | UCB=2.55 | f=0.4763
+2025-10-10 16:42:17,704 - INFO - [round 18] pick 5/5: NC(CCP(=O)(O)CCC1C=CC=CC1)C(=O)O | UCB=2.534 | f=0.5285
+2025-10-10 16:42:17,763 - INFO - Round 18 done in 60.27s; train size=105
+2025-10-10 16:42:17,763 - INFO - 
+--- Trial 2, beta=5.00, Round 19 (train size=105) ---
+f1 shape: (5,)
+2025-10-10 16:43:19,502 - INFO - [round 19] pick 1/5: CC(C)OC(=O)c1c(O)cc(OCCCN2CCOCC2)cc1C=CCN1C(=O)C=CC1=O | UCB=2.58 | f=0.6692
+2025-10-10 16:43:19,561 - INFO - [round 19] pick 2/5: Nc1nc(O)c2c(n1)NCC(CCc1ccc(C(=O)NC(CCC(=O)O)C(=O)O)s1)S2 | UCB=2.571 | f=0.5341
+2025-10-10 16:43:19,621 - INFO - [round 19] pick 3/5: CCCCN(CCCC)C(=O)CN1CC(c2ccc3c(c2)OCO3)C(C(=O)O)C1CCc1ccoc1 | UCB=2.565 | f=0.6243
+2025-10-10 16:43:19,681 - INFO - [round 19] pick 4/5: O=C(O)CCCCCCN1C(=O)CCC1C=CC(O)C1CCCCC1 | UCB=2.557 | f=0.491
+2025-10-10 16:43:19,743 - INFO - [round 19] pick 5/5: NC(=O)Cn1c(=O)ccn(C2CC(O)C(CO)O2)c1=O | UCB=2.556 | f=0.5042
+2025-10-10 16:43:19,808 - INFO - Round 19 done in 62.05s; train size=110
+2025-10-10 16:43:19,810 - INFO - === Completed Trial ===

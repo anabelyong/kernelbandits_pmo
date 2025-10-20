@@ -1,0 +1,803 @@
+2025-10-10 13:29:53,897 - INFO - === Starting UCB Bayesian Optimization Trial 1 (beta=1.00) ===
+An NVIDIA GPU may be present on this machine, but a CUDA-enabled jaxlib is not installed. Falling back to cpu.
+2025-10-10 13:30:24,104 - INFO - 
+--- Trial 1, Beta=1.0, Iter 0 ---
+2025-10-10 13:30:30,297 - INFO - Selected SMILES: CC1OC(OCC2OC(Oc3ccc4c(=O)c(-c5ccc6c(c5)OCO6)coc4c3)C(O)C(O)C2O)C(O)C(O)C1O
+2025-10-10 13:30:30,297 - INFO -   UCB value: 1.1658
+f1 shape: (1,)
+2025-10-10 13:30:30,300 - INFO -   True f: 0.5702
+2025-10-10 13:30:30,317 - INFO -   Best so far: 0.5702
+2025-10-10 13:30:30,317 - INFO -   Iter time: 6.21s
+2025-10-10 13:30:30,319 - INFO - 
+--- Trial 1, Beta=1.0, Iter 1 ---
+2025-10-10 13:30:36,911 - INFO - Selected SMILES: COc1ccc(C2CC(=O)c3c(O)cc(OC4OC(COC5OC(C)C(O)C(O)C5O)C(O)C(O)C4O)cc3O2)cc1OC
+2025-10-10 13:30:36,911 - INFO -   UCB value: 1.2021
+f1 shape: (1,)
+2025-10-10 13:30:36,914 - INFO -   True f: 0.5612
+2025-10-10 13:30:36,931 - INFO -   Best so far: 0.5702
+2025-10-10 13:30:36,931 - INFO -   Iter time: 6.61s
+2025-10-10 13:30:36,931 - INFO - 
+--- Trial 1, Beta=1.0, Iter 2 ---
+2025-10-10 13:30:44,220 - INFO - Selected SMILES: COc1cc(O)c2c(=O)c3c(O)c(OC4OC(CO)C(O)C(O)C4OC4OC(C)C(O)C(O)C4O)ccc3oc2c1
+2025-10-10 13:30:44,220 - INFO -   UCB value: 1.2184
+f1 shape: (1,)
+2025-10-10 13:30:44,223 - INFO -   True f: 0.5220
+2025-10-10 13:30:44,240 - INFO -   Best so far: 0.5702
+2025-10-10 13:30:44,240 - INFO -   Iter time: 7.31s
+2025-10-10 13:30:44,240 - INFO - 
+--- Trial 1, Beta=1.0, Iter 3 ---
+2025-10-10 13:30:51,729 - INFO - Selected SMILES: CC1OC(OCC2OC(Oc3c(-c4ccc(O)c(O)c4)oc4c(O)cc(O)cc4c3=O)C(O)C(O)C2O)C(O)C(O)C1O
+2025-10-10 13:30:51,729 - INFO -   UCB value: 1.2330
+f1 shape: (1,)
+2025-10-10 13:30:51,732 - INFO -   True f: 0.5198
+2025-10-10 13:30:51,749 - INFO -   Best so far: 0.5702
+2025-10-10 13:30:51,749 - INFO -   Iter time: 7.51s
+2025-10-10 13:30:51,749 - INFO - 
+--- Trial 1, Beta=1.0, Iter 4 ---
+2025-10-10 13:30:59,887 - INFO - Selected SMILES: COc1cc(OC2OC(COC3OCC(O)C(O)C3O)C(O)C(O)C2O)c2c(=O)c3c(OC)c(O)ccc3oc2c1OC
+2025-10-10 13:30:59,887 - INFO -   UCB value: 1.2384
+f1 shape: (1,)
+2025-10-10 13:30:59,890 - INFO -   True f: 0.5211
+2025-10-10 13:30:59,908 - INFO -   Best so far: 0.5702
+2025-10-10 13:30:59,908 - INFO -   Iter time: 8.16s
+2025-10-10 13:30:59,908 - INFO - 
+--- Trial 1, Beta=1.0, Iter 5 ---
+2025-10-10 13:31:08,605 - INFO - Selected SMILES: O=C(O)C1Cc2cc(O)c(OC3OC(COC4OC(CO)C(O)C(O)C4O)C(O)C(O)C3O)cc2N1C(=O)C=Cc1ccc(O)cc1
+2025-10-10 13:31:08,605 - INFO -   UCB value: 1.2420
+f1 shape: (1,)
+2025-10-10 13:31:08,608 - INFO -   True f: 0.5833
+2025-10-10 13:31:08,627 - INFO -   Best so far: 0.5833
+2025-10-10 13:31:08,627 - INFO -   Iter time: 8.72s
+2025-10-10 13:31:08,628 - INFO - 
+--- Trial 1, Beta=1.0, Iter 6 ---
+2025-10-10 13:31:17,764 - INFO - Selected SMILES: COc1cc(CCCOC2OC(CO)C(O)C(O)C2O)ccc1OC1OC(CO)C(O)C(O)C1O
+2025-10-10 13:31:17,764 - INFO -   UCB value: 1.2666
+f1 shape: (1,)
+2025-10-10 13:31:17,766 - INFO -   True f: 0.5400
+2025-10-10 13:31:17,784 - INFO -   Best so far: 0.5833
+2025-10-10 13:31:17,784 - INFO -   Iter time: 9.16s
+2025-10-10 13:31:17,784 - INFO - 
+--- Trial 1, Beta=1.0, Iter 7 ---
+2025-10-10 13:31:27,317 - INFO - Selected SMILES: CC1OC(Oc2ccc(O)c(O)c2C(=O)OCc2ccccc2OC2OC(CO)C(O)C(O)C2O)C(O)C(O)C1O
+2025-10-10 13:31:27,317 - INFO -   UCB value: 1.2721
+f1 shape: (1,)
+2025-10-10 13:31:27,320 - INFO -   True f: 0.5506
+2025-10-10 13:31:27,338 - INFO -   Best so far: 0.5833
+2025-10-10 13:31:27,338 - INFO -   Iter time: 9.55s
+2025-10-10 13:31:27,338 - INFO - 
+--- Trial 1, Beta=1.0, Iter 8 ---
+2025-10-10 13:31:37,868 - INFO - Selected SMILES: COc1ccc(CCOC2OC(COC3OC(CO)C(O)C(O)C3O)C(OC(=O)C=Cc3ccc(O)c(OC)c3)C(OC3OC(C)C(O)C(O)C3O)C2O)cc1O
+2025-10-10 13:31:37,869 - INFO -   UCB value: 1.2782
+f1 shape: (1,)
+2025-10-10 13:31:37,872 - INFO -   True f: 0.5471
+2025-10-10 13:31:37,891 - INFO -   Best so far: 0.5833
+2025-10-10 13:31:37,891 - INFO -   Iter time: 10.55s
+2025-10-10 13:31:37,891 - INFO - 
+--- Trial 1, Beta=1.0, Iter 9 ---
+2025-10-10 13:31:48,606 - INFO - Selected SMILES: O=C(c1ccc(O)cc1)c1c(O)cc(OC2OC(CO)C(O)C(O)C2O)c(C2OC(CO)C(O)C(O)C2O)c1O
+2025-10-10 13:31:48,607 - INFO -   UCB value: 1.2749
+f1 shape: (1,)
+2025-10-10 13:31:48,609 - INFO -   True f: 0.5435
+2025-10-10 13:31:48,627 - INFO -   Best so far: 0.5833
+2025-10-10 13:31:48,627 - INFO -   Iter time: 10.74s
+2025-10-10 13:31:48,627 - INFO - 
+--- Trial 1, Beta=1.0, Iter 10 ---
+2025-10-10 13:31:59,945 - INFO - Selected SMILES: NS(=O)(=O)c1ccc(C(=O)OCc2cn(C3OC(CO)C(OC4OC(CO)C(O)C(O)C4O)C(O)C3O)nn2)cc1
+2025-10-10 13:31:59,945 - INFO -   UCB value: 1.2759
+f1 shape: (1,)
+2025-10-10 13:31:59,948 - INFO -   True f: 0.5177
+2025-10-10 13:31:59,965 - INFO -   Best so far: 0.5833
+2025-10-10 13:31:59,965 - INFO -   Iter time: 11.34s
+2025-10-10 13:31:59,966 - INFO - 
+--- Trial 1, Beta=1.0, Iter 11 ---
+2025-10-10 13:32:12,407 - INFO - Selected SMILES: COC(=O)c1cccc(OC2OC(COC3OCC(O)(CO)C3O)C(O)C(O)C2O)c1
+2025-10-10 13:32:12,407 - INFO -   UCB value: 1.2818
+f1 shape: (1,)
+2025-10-10 13:32:12,409 - INFO -   True f: 0.5593
+2025-10-10 13:32:12,427 - INFO -   Best so far: 0.5833
+2025-10-10 13:32:12,427 - INFO -   Iter time: 12.46s
+2025-10-10 13:32:12,427 - INFO - 
+--- Trial 1, Beta=1.0, Iter 12 ---
+2025-10-10 13:32:24,593 - INFO - Selected SMILES: COc1ccc(OC2OC(COC3(C(=O)O)CC(O)C(NC(=O)CO)C(C(O)C(O)CN)O3)C(O)C(O)C2O)cc1
+2025-10-10 13:32:24,593 - INFO -   UCB value: 1.2933
+f1 shape: (1,)
+2025-10-10 13:32:24,596 - INFO -   True f: 0.5356
+2025-10-10 13:32:24,614 - INFO -   Best so far: 0.5833
+2025-10-10 13:32:24,614 - INFO -   Iter time: 12.19s
+2025-10-10 13:32:24,614 - INFO - 
+--- Trial 1, Beta=1.0, Iter 13 ---
+2025-10-10 13:32:37,615 - INFO - Selected SMILES: COc1cc(C(=O)OCC2OC(Oc3ccc(C(C)=O)cc3OC)C(O)C(O)C2O)ccc1O
+2025-10-10 13:32:37,615 - INFO -   UCB value: 1.3011
+f1 shape: (1,)
+2025-10-10 13:32:37,618 - INFO -   True f: 0.5406
+2025-10-10 13:32:37,636 - INFO -   Best so far: 0.5833
+2025-10-10 13:32:37,636 - INFO -   Iter time: 13.02s
+2025-10-10 13:32:37,636 - INFO - 
+--- Trial 1, Beta=1.0, Iter 14 ---
+2025-10-10 13:32:51,538 - INFO - Selected SMILES: COc1ccc(CC2(O)COc3cc(OC)cc(OC4OC(CO)C(O)C(O)C4O)c3C2=O)cc1
+2025-10-10 13:32:51,538 - INFO -   UCB value: 1.3064
+f1 shape: (1,)
+2025-10-10 13:32:51,540 - INFO -   True f: 0.6130
+2025-10-10 13:32:51,558 - INFO -   Best so far: 0.6130
+2025-10-10 13:32:51,558 - INFO -   Iter time: 13.92s
+2025-10-10 13:32:51,558 - INFO - 
+--- Trial 1, Beta=1.0, Iter 15 ---
+2025-10-10 13:33:05,593 - INFO - Selected SMILES: O=C(O)c1cc(C(=O)O)cc(-c2ccc(OC3OC(CO)C(O)C(O)C3O)cc2)c1
+2025-10-10 13:33:05,593 - INFO -   UCB value: 1.3211
+f1 shape: (1,)
+2025-10-10 13:33:05,595 - INFO -   True f: 0.5807
+2025-10-10 13:33:05,614 - INFO -   Best so far: 0.6130
+2025-10-10 13:33:05,614 - INFO -   Iter time: 14.06s
+2025-10-10 13:33:05,615 - INFO - 
+--- Trial 1, Beta=1.0, Iter 16 ---
+2025-10-10 13:33:19,917 - INFO - Selected SMILES: Cc1cc(O)c(C(=O)CCc2ccoc2)c(OC2OC(CO)C(O)C(O)C2O)c1
+2025-10-10 13:33:19,917 - INFO -   UCB value: 1.3223
+f1 shape: (1,)
+2025-10-10 13:33:19,919 - INFO -   True f: 0.5811
+2025-10-10 13:33:19,938 - INFO -   Best so far: 0.6130
+2025-10-10 13:33:19,938 - INFO -   Iter time: 14.32s
+2025-10-10 13:33:19,938 - INFO - 
+--- Trial 1, Beta=1.0, Iter 17 ---
+2025-10-10 13:33:34,796 - INFO - Selected SMILES: COc1ccc(-c2oc3c(CC=C(C)C)c(OC4OC(CO)C(O)C(O)C4O)cc(O)c3c(=O)c2O)cc1
+2025-10-10 13:33:34,796 - INFO -   UCB value: 1.3192
+f1 shape: (1,)
+2025-10-10 13:33:34,798 - INFO -   True f: 0.5755
+2025-10-10 13:33:34,817 - INFO -   Best so far: 0.6130
+2025-10-10 13:33:34,817 - INFO -   Iter time: 14.88s
+2025-10-10 13:33:34,817 - INFO - 
+--- Trial 1, Beta=1.0, Iter 18 ---
+2025-10-10 13:33:50,174 - INFO - Selected SMILES: COc1cc(OC2OC(CO)C(O)C(O)C2O)c(O)cc1-c1coc2cc(O)ccc2c1=O
+2025-10-10 13:33:50,174 - INFO -   UCB value: 1.3211
+f1 shape: (1,)
+2025-10-10 13:33:50,176 - INFO -   True f: 0.5685
+2025-10-10 13:33:50,195 - INFO -   Best so far: 0.6130
+2025-10-10 13:33:50,196 - INFO -   Iter time: 15.38s
+2025-10-10 13:33:50,196 - INFO - 
+--- Trial 1, Beta=1.0, Iter 19 ---
+2025-10-10 13:34:06,619 - INFO - Selected SMILES: O=C(C=Cc1ccc(O)c(O)c1)OC1OC(CO)C(O)C(O)C1O
+2025-10-10 13:34:06,619 - INFO -   UCB value: 1.3192
+f1 shape: (1,)
+2025-10-10 13:34:06,621 - INFO -   True f: 0.5616
+2025-10-10 13:34:06,641 - INFO -   Best so far: 0.6130
+2025-10-10 13:34:06,641 - INFO -   Iter time: 16.45s
+2025-10-10 13:34:06,641 - INFO - 
+--- Trial 1, Beta=1.0, Iter 20 ---
+2025-10-10 13:34:23,792 - INFO - Selected SMILES: CCC(=O)Nc1ccc(Cc2c(OC3OC(CO)C(O)C(O)C3O)n[nH]c2C(C)C)cc1
+2025-10-10 13:34:23,792 - INFO -   UCB value: 1.3244
+f1 shape: (1,)
+2025-10-10 13:34:23,794 - INFO -   True f: 0.5590
+2025-10-10 13:34:23,814 - INFO -   Best so far: 0.6130
+2025-10-10 13:34:23,814 - INFO -   Iter time: 17.17s
+2025-10-10 13:34:23,816 - INFO - 
+--- Trial 1, Beta=1.0, Iter 21 ---
+2025-10-10 13:34:40,410 - INFO - Selected SMILES: CCC(C)C(=O)c1c(O)cc(O)cc1OC1OC(CO)C(O)C(O)C1O
+2025-10-10 13:34:40,410 - INFO -   UCB value: 1.3278
+f1 shape: (1,)
+2025-10-10 13:34:40,412 - INFO -   True f: 0.5257
+2025-10-10 13:34:40,432 - INFO -   Best so far: 0.6130
+2025-10-10 13:34:40,432 - INFO -   Iter time: 16.62s
+2025-10-10 13:34:40,432 - INFO - 
+--- Trial 1, Beta=1.0, Iter 22 ---
+2025-10-10 13:34:58,325 - INFO - Selected SMILES: COc1ccc(SC2OC(COC(C)=O)C(OC3OC(CO)C(O)C(O)C3O)C(OC(C)=O)C2OC(C)=O)cc1
+2025-10-10 13:34:58,326 - INFO -   UCB value: 1.3256
+f1 shape: (1,)
+2025-10-10 13:34:58,328 - INFO -   True f: 0.4828
+2025-10-10 13:34:58,349 - INFO -   Best so far: 0.6130
+2025-10-10 13:34:58,349 - INFO -   Iter time: 17.92s
+2025-10-10 13:34:58,349 - INFO - 
+--- Trial 1, Beta=1.0, Iter 23 ---
+2025-10-10 13:35:16,600 - INFO - Selected SMILES: C=C1CC(OC(=O)Cc2ccc(O)cc2)C2C(=C)C(=O)OC2C2C(C)=C(OC3OC(CO)C(O)C(O)C3O)CC12
+2025-10-10 13:35:16,600 - INFO -   UCB value: 1.3247
+f1 shape: (1,)
+2025-10-10 13:35:16,603 - INFO -   True f: 0.5296
+2025-10-10 13:35:16,624 - INFO -   Best so far: 0.6130
+2025-10-10 13:35:16,625 - INFO -   Iter time: 18.28s
+2025-10-10 13:35:16,625 - INFO - 
+--- Trial 1, Beta=1.0, Iter 24 ---
+2025-10-10 13:35:35,749 - INFO - Selected SMILES: O=C1Nc2cc3c(OC4OC(CO)C(O)C(O)C4O)cccc3c3c4c(cc1c23)OCO4
+2025-10-10 13:35:35,749 - INFO -   UCB value: 1.3266
+f1 shape: (1,)
+2025-10-10 13:35:35,752 - INFO -   True f: 0.5395
+2025-10-10 13:35:35,773 - INFO -   Best so far: 0.6130
+2025-10-10 13:35:35,774 - INFO -   Iter time: 19.15s
+2025-10-10 13:35:35,774 - INFO - 
+--- Trial 1, Beta=1.0, Iter 25 ---
+2025-10-10 13:35:54,970 - INFO - Selected SMILES: CC1(C)Oc2ccc3ccc(=O)oc3c2C(OC2OC(CO)C(O)C(O)C2O)C1O
+2025-10-10 13:35:54,970 - INFO -   UCB value: 1.3289
+f1 shape: (1,)
+2025-10-10 13:35:54,972 - INFO -   True f: 0.5458
+2025-10-10 13:35:54,994 - INFO -   Best so far: 0.6130
+2025-10-10 13:35:54,994 - INFO -   Iter time: 19.22s
+2025-10-10 13:35:54,996 - INFO - 
+--- Trial 1, Beta=1.0, Iter 26 ---
+2025-10-10 13:36:15,159 - INFO - Selected SMILES: COc1ccc(C2CCc3ccc(O)cc3O2)cc1OC1OC(CO)C(O)C(O)C1O
+2025-10-10 13:36:15,159 - INFO -   UCB value: 1.3319
+f1 shape: (1,)
+2025-10-10 13:36:15,161 - INFO -   True f: 0.5984
+2025-10-10 13:36:15,192 - INFO -   Best so far: 0.6130
+2025-10-10 13:36:15,192 - INFO -   Iter time: 20.20s
+2025-10-10 13:36:15,192 - INFO - 
+--- Trial 1, Beta=1.0, Iter 27 ---
+2025-10-10 13:36:35,355 - INFO - Selected SMILES: COc1cc2oc(=O)ccc2cc1OC1OC(CO)C(O)C(O)C1O
+2025-10-10 13:36:35,355 - INFO -   UCB value: 1.3320
+f1 shape: (1,)
+2025-10-10 13:36:35,357 - INFO -   True f: 0.5209
+2025-10-10 13:36:35,380 - INFO -   Best so far: 0.6130
+2025-10-10 13:36:35,380 - INFO -   Iter time: 20.19s
+2025-10-10 13:36:35,380 - INFO - 
+--- Trial 1, Beta=1.0, Iter 28 ---
+2025-10-10 13:36:56,090 - INFO - Selected SMILES: Cc1cc(OC2OC(CO)C(O)C(O)C2O)c2c(CCc3ccc4c(c3)CCO4)n[nH]c2c1
+2025-10-10 13:36:56,090 - INFO -   UCB value: 1.3286
+f1 shape: (1,)
+2025-10-10 13:36:56,093 - INFO -   True f: 0.5882
+2025-10-10 13:36:56,115 - INFO -   Best so far: 0.6130
+2025-10-10 13:36:56,115 - INFO -   Iter time: 20.74s
+2025-10-10 13:36:56,115 - INFO - 
+--- Trial 1, Beta=1.0, Iter 29 ---
+2025-10-10 13:37:17,126 - INFO - Selected SMILES: COc1ccc2cc3[n+](cc2c1OC1OC(CO)C(O)C(O)C1O)CCc1cc2c(cc1-3)OCO2
+2025-10-10 13:37:17,126 - INFO -   UCB value: 1.3308
+f1 shape: (1,)
+2025-10-10 13:37:17,129 - INFO -   True f: 0.5813
+2025-10-10 13:37:17,152 - INFO -   Best so far: 0.6130
+2025-10-10 13:37:17,152 - INFO -   Iter time: 21.04s
+2025-10-10 13:37:17,152 - INFO - 
+--- Trial 1, Beta=1.0, Iter 30 ---
+2025-10-10 13:37:38,838 - INFO - Selected SMILES: CC(=O)C1=C(O)C=C2Oc3c(C(C)=O)c(OC4OC(CO)C(O)C(O)C4O)c(C)c(O)c3C2(C)C1=O
+2025-10-10 13:37:38,838 - INFO -   UCB value: 1.3314
+f1 shape: (1,)
+2025-10-10 13:37:38,840 - INFO -   True f: 0.4971
+2025-10-10 13:37:38,864 - INFO -   Best so far: 0.6130
+2025-10-10 13:37:38,864 - INFO -   Iter time: 21.71s
+2025-10-10 13:37:38,865 - INFO - 
+--- Trial 1, Beta=1.0, Iter 31 ---
+2025-10-10 13:38:01,693 - INFO - Selected SMILES: Cc1cc(=O)c2c(O)cc(OC3OC(COC(=O)C4=CCC(C(C)(C)O)CC4)C(O)C(O)C3O)cc2o1
+2025-10-10 13:38:01,693 - INFO -   UCB value: 1.3314
+f1 shape: (1,)
+2025-10-10 13:38:01,695 - INFO -   True f: 0.5945
+2025-10-10 13:38:01,719 - INFO -   Best so far: 0.6130
+2025-10-10 13:38:01,719 - INFO -   Iter time: 22.85s
+2025-10-10 13:38:01,719 - INFO - 
+--- Trial 1, Beta=1.0, Iter 32 ---
+2025-10-10 13:38:25,471 - INFO - Selected SMILES: Cc1ccc(O)c(C(=O)CCc2ccc3occc3c2)c1OC1OC(CO)C(O)C(O)C1O
+2025-10-10 13:38:25,472 - INFO -   UCB value: 1.3305
+f1 shape: (1,)
+2025-10-10 13:38:25,474 - INFO -   True f: 0.6001
+2025-10-10 13:38:25,498 - INFO -   Best so far: 0.6130
+2025-10-10 13:38:25,498 - INFO -   Iter time: 23.78s
+2025-10-10 13:38:25,498 - INFO - 
+--- Trial 1, Beta=1.0, Iter 33 ---
+2025-10-10 13:38:49,689 - INFO - Selected SMILES: O=c1cc(-c2ccc(O)c(O)c2)oc2cc(OC3OC(CO)C(O)C(O)C3O)cc(O)c12
+2025-10-10 13:38:49,689 - INFO -   UCB value: 1.3330
+f1 shape: (1,)
+2025-10-10 13:38:49,691 - INFO -   True f: 0.5876
+2025-10-10 13:38:49,717 - INFO -   Best so far: 0.6130
+2025-10-10 13:38:49,717 - INFO -   Iter time: 24.22s
+2025-10-10 13:38:49,717 - INFO - 
+--- Trial 1, Beta=1.0, Iter 34 ---
+2025-10-10 13:39:14,067 - INFO - Selected SMILES: COc1ccc(CCc2c(O)ccc(OC3OC(CO)C(O)C(O)C3O)c2C(C)=O)cc1OC
+2025-10-10 13:39:14,067 - INFO -   UCB value: 1.3328
+f1 shape: (1,)
+2025-10-10 13:39:14,069 - INFO -   True f: 0.5945
+2025-10-10 13:39:14,095 - INFO -   Best so far: 0.6130
+2025-10-10 13:39:14,095 - INFO -   Iter time: 24.38s
+2025-10-10 13:39:14,095 - INFO - 
+--- Trial 1, Beta=1.0, Iter 35 ---
+2025-10-10 13:39:39,299 - INFO - Selected SMILES: COc1cc2c(cc1O)-c1ccccc1CC=C2COC1OC(CO)C(O)C(O)C1O
+2025-10-10 13:39:39,299 - INFO -   UCB value: 1.3282
+f1 shape: (1,)
+2025-10-10 13:39:39,301 - INFO -   True f: 0.6168
+2025-10-10 13:39:39,327 - INFO -   Best so far: 0.6168
+2025-10-10 13:39:39,327 - INFO -   Iter time: 25.23s
+2025-10-10 13:39:39,329 - INFO - 
+--- Trial 1, Beta=1.0, Iter 36 ---
+2025-10-10 13:40:05,190 - INFO - Selected SMILES: COc1cc(C2c3c(cc(OC)c(O)c3OC)CC(CO)C2COC2OC(CO)C(O)C(O)C2O)cc(OC)c1O
+2025-10-10 13:40:05,190 - INFO -   UCB value: 1.3360
+f1 shape: (1,)
+2025-10-10 13:40:05,193 - INFO -   True f: 0.5720
+2025-10-10 13:40:05,221 - INFO -   Best so far: 0.6168
+2025-10-10 13:40:05,221 - INFO -   Iter time: 25.89s
+2025-10-10 13:40:05,222 - INFO - 
+--- Trial 1, Beta=1.0, Iter 37 ---
+2025-10-10 13:40:31,725 - INFO - Selected SMILES: C=C(CCO)C(=O)OCC1OC(OCC=Cc2cc(OC)c3c(c2)C(CO)C(c2ccc(O)c(OC)c2)O3)C(O)C(O)C1O
+2025-10-10 13:40:31,725 - INFO -   UCB value: 1.3345
+f1 shape: (1,)
+2025-10-10 13:40:31,728 - INFO -   True f: 0.6197
+2025-10-10 13:40:31,755 - INFO -   Best so far: 0.6197
+2025-10-10 13:40:31,755 - INFO -   Iter time: 26.53s
+2025-10-10 13:40:31,755 - INFO - 
+--- Trial 1, Beta=1.0, Iter 38 ---
+2025-10-10 13:40:59,002 - INFO - Selected SMILES: COc1cc(C2OC3C(OC2COC(=O)c2cc(O)c(O)c(O)c2)OC(CO)C(O)C3O)ccc1O
+2025-10-10 13:40:59,002 - INFO -   UCB value: 1.3426
+f1 shape: (1,)
+2025-10-10 13:40:59,005 - INFO -   True f: 0.5603
+2025-10-10 13:40:59,033 - INFO -   Best so far: 0.6197
+2025-10-10 13:40:59,033 - INFO -   Iter time: 27.28s
+2025-10-10 13:40:59,033 - INFO - 
+--- Trial 1, Beta=1.0, Iter 39 ---
+2025-10-10 13:41:25,388 - INFO - Selected SMILES: COc1cc(C2OCC(Cc3ccc(OC4OC(CO)C(O)C(O)C4O)c(OC)c3)C2CO)ccc1O
+2025-10-10 13:41:25,388 - INFO -   UCB value: 1.3438
+f1 shape: (1,)
+2025-10-10 13:41:25,390 - INFO -   True f: 0.6010
+2025-10-10 13:41:25,418 - INFO -   Best so far: 0.6197
+2025-10-10 13:41:25,418 - INFO -   Iter time: 26.38s
+2025-10-10 13:41:25,418 - INFO - 
+--- Trial 1, Beta=1.0, Iter 40 ---
+2025-10-10 13:41:53,173 - INFO - Selected SMILES: COC(=O)C1=COC(OC2OC(CO)C(O)C(O)C2O)C2C1C(OC(=O)c1cc(OC)c(O)c(OC)c1)CC2(C)OC(C)=O
+2025-10-10 13:41:53,173 - INFO -   UCB value: 1.3392
+f1 shape: (1,)
+2025-10-10 13:41:53,176 - INFO -   True f: 0.5067
+2025-10-10 13:41:53,205 - INFO -   Best so far: 0.6197
+2025-10-10 13:41:53,205 - INFO -   Iter time: 27.79s
+2025-10-10 13:41:53,206 - INFO - 
+--- Trial 1, Beta=1.0, Iter 41 ---
+2025-10-10 13:42:20,619 - INFO - Selected SMILES: COc1cc(C=CCOC2OC(CO)C(O)C(O)C2O)ccc1O
+2025-10-10 13:42:20,619 - INFO -   UCB value: 1.3372
+f1 shape: (1,)
+2025-10-10 13:42:20,621 - INFO -   True f: 0.5466
+2025-10-10 13:42:20,651 - INFO -   Best so far: 0.6197
+2025-10-10 13:42:20,651 - INFO -   Iter time: 27.44s
+2025-10-10 13:42:20,651 - INFO - 
+--- Trial 1, Beta=1.0, Iter 42 ---
+2025-10-10 13:42:49,847 - INFO - Selected SMILES: COc1cc(O)c2c(c1OC)OC(c1cc(O)ccc1OC1OC(COC(C)=O)C(O)C(O)C1O)CC2=O
+2025-10-10 13:42:49,847 - INFO -   UCB value: 1.3374
+f1 shape: (1,)
+2025-10-10 13:42:49,849 - INFO -   True f: 0.5415
+2025-10-10 13:42:49,879 - INFO -   Best so far: 0.6197
+2025-10-10 13:42:49,880 - INFO -   Iter time: 29.23s
+2025-10-10 13:42:49,880 - INFO - 
+--- Trial 1, Beta=1.0, Iter 43 ---
+2025-10-10 13:43:18,755 - INFO - Selected SMILES: COc1ccc(Cc2cc(C3OC(CO)C(O)C(O)C3O)c3c(c2Cl)OCCO3)cc1
+2025-10-10 13:43:18,755 - INFO -   UCB value: 1.3354
+f1 shape: (1,)
+2025-10-10 13:43:18,757 - INFO -   True f: 0.5910
+2025-10-10 13:43:18,787 - INFO -   Best so far: 0.6197
+2025-10-10 13:43:18,787 - INFO -   Iter time: 28.91s
+2025-10-10 13:43:18,787 - INFO - 
+--- Trial 1, Beta=1.0, Iter 44 ---
+2025-10-10 13:43:48,299 - INFO - Selected SMILES: CC(=O)Cc1cc(=O)c2c(C)cc(O)c(C3OC(CO)C(O)C(O)C3O)c2o1
+2025-10-10 13:43:48,299 - INFO -   UCB value: 1.3394
+f1 shape: (1,)
+2025-10-10 13:43:48,301 - INFO -   True f: 0.5250
+2025-10-10 13:43:48,332 - INFO -   Best so far: 0.6197
+2025-10-10 13:43:48,332 - INFO -   Iter time: 29.54s
+2025-10-10 13:43:48,332 - INFO - 
+--- Trial 1, Beta=1.0, Iter 45 ---
+2025-10-10 13:44:18,111 - INFO - Selected SMILES: Cc1onc(-c2c(F)cccc2Cl)c1C(=O)NC1C(OC2CC(O)(CO)CC(O)C2O)OC(CO)C(O)C1O
+2025-10-10 13:44:18,111 - INFO -   UCB value: 1.3380
+f1 shape: (1,)
+2025-10-10 13:44:18,113 - INFO -   True f: 0.5191
+2025-10-10 13:44:18,145 - INFO -   Best so far: 0.6197
+2025-10-10 13:44:18,145 - INFO -   Iter time: 29.81s
+2025-10-10 13:44:18,147 - INFO - 
+--- Trial 1, Beta=1.0, Iter 46 ---
+2025-10-10 13:44:48,237 - INFO - Selected SMILES: [N-]=[N+]=Nc1cccc2c(S(=O)(=O)NCCOC3OC(COC4OC(CO)C(O)C4O)C(O)C3O)cccc12
+2025-10-10 13:44:48,237 - INFO -   UCB value: 1.3376
+f1 shape: (1,)
+2025-10-10 13:44:48,239 - INFO -   True f: 0.5583
+2025-10-10 13:44:48,272 - INFO -   Best so far: 0.6197
+2025-10-10 13:44:48,272 - INFO -   Iter time: 30.12s
+2025-10-10 13:44:48,272 - INFO - 
+--- Trial 1, Beta=1.0, Iter 47 ---
+2025-10-10 13:45:19,495 - INFO - Selected SMILES: CCOC(=O)c1cnc(Cc2cc(C3OC(CO)C(O)C(O)C3O)ccc2Cl)s1
+2025-10-10 13:45:19,495 - INFO -   UCB value: 1.3374
+f1 shape: (1,)
+2025-10-10 13:45:19,497 - INFO -   True f: 0.5637
+2025-10-10 13:45:19,530 - INFO -   Best so far: 0.6197
+2025-10-10 13:45:19,530 - INFO -   Iter time: 31.26s
+2025-10-10 13:45:19,530 - INFO - 
+--- Trial 1, Beta=1.0, Iter 48 ---
+2025-10-10 13:45:50,735 - INFO - Selected SMILES: O=C(O)Cc1cccc(-c2ccc(COC3OC(CO)C(O)C(O)C3O)cc2)c1
+2025-10-10 13:45:50,735 - INFO -   UCB value: 1.3397
+f1 shape: (1,)
+2025-10-10 13:45:50,737 - INFO -   True f: 0.6402
+2025-10-10 13:45:50,771 - INFO -   Best so far: 0.6402
+2025-10-10 13:45:50,771 - INFO -   Iter time: 31.24s
+2025-10-10 13:45:50,771 - INFO - 
+--- Trial 1, Beta=1.0, Iter 49 ---
+2025-10-10 13:46:22,689 - INFO - Selected SMILES: CC(=O)OC1CCC(=O)C2(COC3OC(CO)C(O)C(O)C3O)CCC3C(=O)OC(c4ccoc4)CC3(C)C12
+2025-10-10 13:46:22,690 - INFO -   UCB value: 1.3432
+f1 shape: (1,)
+2025-10-10 13:46:22,692 - INFO -   True f: 0.5675
+2025-10-10 13:46:22,726 - INFO -   Best so far: 0.6402
+2025-10-10 13:46:22,726 - INFO -   Iter time: 31.96s
+2025-10-10 13:46:22,726 - INFO - 
+--- Trial 1, Beta=1.0, Iter 50 ---
+2025-10-10 13:46:55,954 - INFO - Selected SMILES: CN1CCC23c4c5ccc(O)c4OC2C(OC2OC(CO)C(O)C(O)C2O)CCC3C1C5
+2025-10-10 13:46:55,954 - INFO -   UCB value: 1.3456
+f1 shape: (1,)
+2025-10-10 13:46:55,956 - INFO -   True f: 0.5811
+2025-10-10 13:46:55,991 - INFO -   Best so far: 0.6402
+2025-10-10 13:46:55,992 - INFO -   Iter time: 33.27s
+2025-10-10 13:46:55,993 - INFO - 
+--- Trial 1, Beta=1.0, Iter 51 ---
+2025-10-10 13:47:28,738 - INFO - Selected SMILES: C=C1CCC2C(C)(COC3OC(CO)C(O)C(O)C3O)C(O)CCC2(C)C1CCC1=CCOC1=O
+2025-10-10 13:47:28,739 - INFO -   UCB value: 1.3482
+f1 shape: (1,)
+2025-10-10 13:47:28,741 - INFO -   True f: 0.5616
+2025-10-10 13:47:28,776 - INFO -   Best so far: 0.6402
+2025-10-10 13:47:28,776 - INFO -   Iter time: 32.78s
+2025-10-10 13:47:28,776 - INFO - 
+--- Trial 1, Beta=1.0, Iter 52 ---
+2025-10-10 13:48:01,957 - INFO - Selected SMILES: O=C(O)C1=COC(OC2OC(CO)C(O)C(O)C2O)C2C(C(=O)O)=CCC12
+2025-10-10 13:48:01,957 - INFO -   UCB value: 1.3504
+f1 shape: (1,)
+2025-10-10 13:48:01,959 - INFO -   True f: 0.5174
+2025-10-10 13:48:01,995 - INFO -   Best so far: 0.6402
+2025-10-10 13:48:01,995 - INFO -   Iter time: 33.22s
+2025-10-10 13:48:01,995 - INFO - 
+--- Trial 1, Beta=1.0, Iter 53 ---
+2025-10-10 13:48:37,192 - INFO - Selected SMILES: C=C(C)CCC(O)C(C)(O)C1C(O)CC2(C)C3CCc4c(cc(OC5OC(CO)C(O)C(O)C5O)c(O)c4C)C3(C)C(=O)CC12C
+2025-10-10 13:48:37,193 - INFO -   UCB value: 1.3476
+f1 shape: (1,)
+2025-10-10 13:48:37,195 - INFO -   True f: 0.5808
+2025-10-10 13:48:37,232 - INFO -   Best so far: 0.6402
+2025-10-10 13:48:37,232 - INFO -   Iter time: 35.24s
+2025-10-10 13:48:37,232 - INFO - 
+--- Trial 1, Beta=1.0, Iter 54 ---
+2025-10-10 13:49:12,590 - INFO - Selected SMILES: CC(=O)C1=CCC2(C)C3CC=C4C(C=C(OC5OC(CO)C(O)C(O)C5O)C(=O)C4(C)C)C3(C)C(=O)CC12C
+2025-10-10 13:49:12,590 - INFO -   UCB value: 1.3534
+f1 shape: (1,)
+2025-10-10 13:49:12,593 - INFO -   True f: 0.5851
+2025-10-10 13:49:12,631 - INFO -   Best so far: 0.6402
+2025-10-10 13:49:12,631 - INFO -   Iter time: 35.40s
+2025-10-10 13:49:12,631 - INFO - 
+--- Trial 1, Beta=1.0, Iter 55 ---
+2025-10-10 13:49:48,841 - INFO - Selected SMILES: CC1=CC(C2=C(C)CCC(OC3OC(CO)C(O)C(O)C3O)C2(C)C)C(C=C(C)C(=O)O)OC1
+2025-10-10 13:49:48,841 - INFO -   UCB value: 1.3555
+f1 shape: (1,)
+2025-10-10 13:49:48,843 - INFO -   True f: 0.5722
+2025-10-10 13:49:48,882 - INFO -   Best so far: 0.6402
+2025-10-10 13:49:48,882 - INFO -   Iter time: 36.25s
+2025-10-10 13:49:48,884 - INFO - 
+--- Trial 1, Beta=1.0, Iter 56 ---
+2025-10-10 13:50:24,625 - INFO - Selected SMILES: C=C1C2CC2C2(C)C1CC1=C(C)C(=O)OC1(OC1OC(CO)C(O)C(O)C1O)C2O
+2025-10-10 13:50:24,625 - INFO -   UCB value: 1.3566
+f1 shape: (1,)
+2025-10-10 13:50:24,627 - INFO -   True f: 0.5074
+2025-10-10 13:50:24,667 - INFO -   Best so far: 0.6402
+2025-10-10 13:50:24,667 - INFO -   Iter time: 35.78s
+2025-10-10 13:50:24,667 - INFO - 
+--- Trial 1, Beta=1.0, Iter 57 ---
+2025-10-10 13:51:00,932 - INFO - Selected SMILES: CCc1ccc(C2c3cc(C4OC(CO)C(O)C(O)C4O)ccc3CCN2C(C)=O)cc1
+2025-10-10 13:51:00,932 - INFO -   UCB value: 1.3529
+f1 shape: (1,)
+2025-10-10 13:51:00,934 - INFO -   True f: 0.6647
+2025-10-10 13:51:00,973 - INFO -   Best so far: 0.6647
+2025-10-10 13:51:00,973 - INFO -   Iter time: 36.31s
+2025-10-10 13:51:00,974 - INFO - 
+--- Trial 1, Beta=1.0, Iter 58 ---
+2025-10-10 13:51:38,793 - INFO - Selected SMILES: O=C(NC1CC1)c1ccc2[nH]c(C3OC(CO)C(O)C(O)C3O)nc2c1
+2025-10-10 13:51:38,793 - INFO -   UCB value: 1.3644
+f1 shape: (1,)
+2025-10-10 13:51:38,795 - INFO -   True f: 0.5316
+2025-10-10 13:51:38,836 - INFO -   Best so far: 0.6647
+2025-10-10 13:51:38,836 - INFO -   Iter time: 37.86s
+2025-10-10 13:51:38,836 - INFO - 
+--- Trial 1, Beta=1.0, Iter 59 ---
+2025-10-10 13:52:17,181 - INFO - Selected SMILES: OCC1OC(n2cc(Cc3ccc(C4CC4)cc3)c3c(F)cc(F)cc32)C(O)C(O)C1O
+2025-10-10 13:52:17,181 - INFO -   UCB value: 1.3599
+f1 shape: (1,)
+2025-10-10 13:52:17,183 - INFO -   True f: 0.6122
+2025-10-10 13:52:17,224 - INFO -   Best so far: 0.6647
+2025-10-10 13:52:17,224 - INFO -   Iter time: 38.39s
+2025-10-10 13:52:17,224 - INFO - 
+--- Trial 1, Beta=1.0, Iter 60 ---
+2025-10-10 13:52:55,728 - INFO - Selected SMILES: O=C(Nc1cccc(S(=O)(=O)N2CCCC2)c1)C1OC(CO)C(O)C(O)C1O
+2025-10-10 13:52:55,728 - INFO -   UCB value: 1.3606
+f1 shape: (1,)
+2025-10-10 13:52:55,730 - INFO -   True f: 0.5585
+2025-10-10 13:52:55,771 - INFO -   Best so far: 0.6647
+2025-10-10 13:52:55,772 - INFO -   Iter time: 38.55s
+2025-10-10 13:52:55,773 - INFO - 
+--- Trial 1, Beta=1.0, Iter 61 ---
+2025-10-10 13:53:34,945 - INFO - Selected SMILES: Cc1cc2c(c(C)c1CCOC1OC(C(=O)O)C(O)C(O)C1O)C(=O)C(C)C2
+2025-10-10 13:53:34,945 - INFO -   UCB value: 1.3595
+f1 shape: (1,)
+2025-10-10 13:53:34,947 - INFO -   True f: 0.5155
+2025-10-10 13:53:34,989 - INFO -   Best so far: 0.6647
+2025-10-10 13:53:34,989 - INFO -   Iter time: 39.22s
+2025-10-10 13:53:34,989 - INFO - 
+--- Trial 1, Beta=1.0, Iter 62 ---
+2025-10-10 13:54:13,984 - INFO - Selected SMILES: Cc1c(Cc2ccc3c(c2)OCCO3)cc(C2OC(CO)C(O)C(O)C2O)c2c1CCC2
+2025-10-10 13:54:13,984 - INFO -   UCB value: 1.3598
+f1 shape: (1,)
+2025-10-10 13:54:13,987 - INFO -   True f: 0.6191
+2025-10-10 13:54:14,030 - INFO -   Best so far: 0.6647
+2025-10-10 13:54:14,030 - INFO -   Iter time: 39.04s
+2025-10-10 13:54:14,030 - INFO - 
+--- Trial 1, Beta=1.0, Iter 63 ---
+2025-10-10 13:54:54,932 - INFO - Selected SMILES: CCc1ccc(Cc2sc(C3OC(CO)C(O)C(O)C3O)c(C)c2C)cc1
+2025-10-10 13:54:54,932 - INFO -   UCB value: 1.3623
+f1 shape: (1,)
+2025-10-10 13:54:54,934 - INFO -   True f: 0.5579
+2025-10-10 13:54:54,979 - INFO -   Best so far: 0.6647
+2025-10-10 13:54:54,979 - INFO -   Iter time: 40.95s
+2025-10-10 13:54:54,979 - INFO - 
+--- Trial 1, Beta=1.0, Iter 64 ---
+2025-10-10 13:55:35,437 - INFO - Selected SMILES: COc1cc2c(cc1OC)-c1c(cnn1C1OC(CO)C(O)C(O)C1O)CC2
+2025-10-10 13:55:35,437 - INFO -   UCB value: 1.3622
+f1 shape: (1,)
+2025-10-10 13:55:35,439 - INFO -   True f: 0.5284
+2025-10-10 13:55:35,484 - INFO -   Best so far: 0.6647
+2025-10-10 13:55:35,484 - INFO -   Iter time: 40.50s
+2025-10-10 13:55:35,484 - INFO - 
+--- Trial 1, Beta=1.0, Iter 65 ---
+2025-10-10 13:56:16,027 - INFO - Selected SMILES: CC(=O)Oc1ccc(C(=O)NCC2OC(CO)C(O)C(O)C2O)cc1
+2025-10-10 13:56:16,027 - INFO -   UCB value: 1.3593
+f1 shape: (1,)
+2025-10-10 13:56:16,029 - INFO -   True f: 0.5361
+2025-10-10 13:56:16,074 - INFO -   Best so far: 0.6647
+2025-10-10 13:56:16,074 - INFO -   Iter time: 40.59s
+2025-10-10 13:56:16,076 - INFO - 
+--- Trial 1, Beta=1.0, Iter 66 ---
+2025-10-10 13:56:58,351 - INFO - Selected SMILES: O=C(COC1OC(CO)C(O)C(O)C1O)NCc1cn(Cc2ccccc2)nn1
+2025-10-10 13:56:58,351 - INFO -   UCB value: 1.3588
+f1 shape: (1,)
+2025-10-10 13:56:58,353 - INFO -   True f: 0.5376
+2025-10-10 13:56:58,399 - INFO -   Best so far: 0.6647
+2025-10-10 13:56:58,399 - INFO -   Iter time: 42.32s
+2025-10-10 13:56:58,399 - INFO - 
+--- Trial 1, Beta=1.0, Iter 67 ---
+2025-10-10 13:57:39,590 - INFO - Selected SMILES: [N-]=[N+]=NCCOC1CC(C(=O)NCc2ccc(CO)cc2)C(C(=O)NCc2ccc(CO)cc2)CC1OC1OC(CO)C(O)C(O)C1O
+2025-10-10 13:57:39,590 - INFO -   UCB value: 1.3592
+f1 shape: (1,)
+2025-10-10 13:57:39,593 - INFO -   True f: 0.5843
+2025-10-10 13:57:39,641 - INFO -   Best so far: 0.6647
+2025-10-10 13:57:39,641 - INFO -   Iter time: 41.24s
+2025-10-10 13:57:39,641 - INFO - 
+--- Trial 1, Beta=1.0, Iter 68 ---
+2025-10-10 13:58:22,656 - INFO - Selected SMILES: CCOc1ccc(Cc2cc(C3OC(CO)C(O)C(O)C3O)c(OCCCC3(F)COC3)cc2Cl)cc1
+2025-10-10 13:58:22,656 - INFO -   UCB value: 1.3624
+f1 shape: (1,)
+2025-10-10 13:58:22,658 - INFO -   True f: 0.6402
+2025-10-10 13:58:22,706 - INFO -   Best so far: 0.6647
+2025-10-10 13:58:22,706 - INFO -   Iter time: 43.07s
+2025-10-10 13:58:22,706 - INFO - 
+--- Trial 1, Beta=1.0, Iter 69 ---
+2025-10-10 13:59:05,544 - INFO - Selected SMILES: COc1ccc(CC2NCCc3ccc(C4OC(CO)C(O)C(O)C4O)cc32)cc1
+2025-10-10 13:59:05,544 - INFO -   UCB value: 1.3625
+f1 shape: (1,)
+2025-10-10 13:59:05,546 - INFO -   True f: 0.6511
+2025-10-10 13:59:05,594 - INFO -   Best so far: 0.6647
+2025-10-10 13:59:05,594 - INFO -   Iter time: 42.89s
+2025-10-10 13:59:05,594 - INFO - 
+--- Trial 1, Beta=1.0, Iter 70 ---
+2025-10-10 13:59:48,103 - INFO - Selected SMILES: OCC1OC(c2ccc3c(c2)Cc2ccc(cc2)OCC=CCCC3)C(O)C(O)C1O
+2025-10-10 13:59:48,103 - INFO -   UCB value: 1.3622
+f1 shape: (1,)
+2025-10-10 13:59:48,105 - INFO -   True f: 0.6936
+2025-10-10 13:59:48,154 - INFO -   Best so far: 0.6936
+2025-10-10 13:59:48,154 - INFO -   Iter time: 42.56s
+2025-10-10 13:59:48,156 - INFO - 
+--- Trial 1, Beta=1.0, Iter 71 ---
+2025-10-10 14:00:32,254 - INFO - Selected SMILES: OCC1OC(c2ccc(Cl)c(Cc3ccc(OC4CCCCC4)nn3)c2)C(O)C(O)C1O
+2025-10-10 14:00:32,255 - INFO -   UCB value: 1.3702
+f1 shape: (1,)
+2025-10-10 14:00:32,257 - INFO -   True f: 0.6350
+2025-10-10 14:00:32,307 - INFO -   Best so far: 0.6936
+2025-10-10 14:00:32,307 - INFO -   Iter time: 44.15s
+2025-10-10 14:00:32,307 - INFO - 
+--- Trial 1, Beta=1.0, Iter 72 ---
+2025-10-10 14:01:16,635 - INFO - Selected SMILES: CCOc1ccc(Cc2cc(C3OC(CO)C(O)C(O)C3O)cc(-c3ccc(F)cc3)c2C)cc1
+2025-10-10 14:01:16,635 - INFO -   UCB value: 1.3701
+f1 shape: (1,)
+2025-10-10 14:01:16,637 - INFO -   True f: 0.6348
+2025-10-10 14:01:16,688 - INFO -   Best so far: 0.6936
+2025-10-10 14:01:16,688 - INFO -   Iter time: 44.38s
+2025-10-10 14:01:16,688 - INFO - 
+--- Trial 1, Beta=1.0, Iter 73 ---
+2025-10-10 14:02:01,346 - INFO - Selected SMILES: Nc1ccc(-c2noc(C3OC(CO)C(O)C(O)C3O)n2)cc1
+2025-10-10 14:02:01,346 - INFO -   UCB value: 1.3716
+f1 shape: (1,)
+2025-10-10 14:02:01,347 - INFO -   True f: 0.4770
+2025-10-10 14:02:01,399 - INFO -   Best so far: 0.6936
+2025-10-10 14:02:01,399 - INFO -   Iter time: 44.71s
+2025-10-10 14:02:01,399 - INFO - 
+--- Trial 1, Beta=1.0, Iter 74 ---
+2025-10-10 14:02:47,559 - INFO - Selected SMILES: OCC1OC(c2ccc(Cl)c(Cc3ccc(OCC4COC4)cc3)c2)C(O)C(O)C1O
+2025-10-10 14:02:47,560 - INFO -   UCB value: 1.3659
+f1 shape: (1,)
+2025-10-10 14:02:47,562 - INFO -   True f: 0.6478
+2025-10-10 14:02:47,615 - INFO -   Best so far: 0.6936
+2025-10-10 14:02:47,615 - INFO -   Iter time: 46.22s
+2025-10-10 14:02:47,615 - INFO - 
+--- Trial 1, Beta=1.0, Iter 75 ---
+2025-10-10 14:03:33,356 - INFO - Selected SMILES: CC1CCCC=CCCC(=O)CC(O)CC=CC=CC(OC2OC(CO)C(O)C(O)C2O)CC=CC=CC(=O)O1
+2025-10-10 14:03:33,357 - INFO -   UCB value: 1.3654
+f1 shape: (1,)
+2025-10-10 14:03:33,359 - INFO -   True f: 0.6512
+2025-10-10 14:03:33,412 - INFO -   Best so far: 0.6936
+2025-10-10 14:03:33,412 - INFO -   Iter time: 45.80s
+2025-10-10 14:03:33,414 - INFO - 
+--- Trial 1, Beta=1.0, Iter 76 ---
+2025-10-10 14:04:20,856 - INFO - Selected SMILES: CC(=O)OC1CC2(O)C3CCC4=CC(OC5OC(CO)C(O)C(O)C5O)CCC4(C=O)C3CCC2(C)C1c1ccc(=O)oc1
+2025-10-10 14:04:20,856 - INFO -   UCB value: 1.3750
+f1 shape: (1,)
+2025-10-10 14:04:20,859 - INFO -   True f: 0.6266
+2025-10-10 14:04:20,913 - INFO -   Best so far: 0.6936
+2025-10-10 14:04:20,913 - INFO -   Iter time: 47.50s
+2025-10-10 14:04:20,913 - INFO - 
+--- Trial 1, Beta=1.0, Iter 77 ---
+2025-10-10 14:05:08,083 - INFO - Selected SMILES: O=c1ccn(C2OC(COP(=O)(O)OP(=O)(O)OC3OC(CO)C(O)C(O)C3O)CC2O)c(=O)[nH]1
+2025-10-10 14:05:08,083 - INFO -   UCB value: 1.3653
+f1 shape: (1,)
+2025-10-10 14:05:08,085 - INFO -   True f: 0.4513
+2025-10-10 14:05:08,141 - INFO -   Best so far: 0.6936
+2025-10-10 14:05:08,141 - INFO -   Iter time: 47.23s
+2025-10-10 14:05:08,141 - INFO - 
+--- Trial 1, Beta=1.0, Iter 78 ---
+2025-10-10 14:05:57,075 - INFO - Selected SMILES: CC12CC(c3ccoc3)OC(=O)C1=CCC1(C)C2C2OC(=O)C1(OC1OC(CO)C(O)C(O)C1O)C1OC21
+2025-10-10 14:05:57,075 - INFO -   UCB value: 1.3636
+f1 shape: (1,)
+2025-10-10 14:05:57,078 - INFO -   True f: 0.5475
+2025-10-10 14:05:57,134 - INFO -   Best so far: 0.6936
+2025-10-10 14:05:57,134 - INFO -   Iter time: 48.99s
+2025-10-10 14:05:57,134 - INFO - 
+--- Trial 1, Beta=1.0, Iter 79 ---
+2025-10-10 14:06:46,720 - INFO - Selected SMILES: O=C1C=C(c2ccc(O)cc2)C(O)Cc2ccc(OC3OC(CO)C(O)C(O)C3O)cc2O1
+2025-10-10 14:06:46,721 - INFO -   UCB value: 1.3624
+f1 shape: (1,)
+2025-10-10 14:06:46,723 - INFO -   True f: 0.6254
+2025-10-10 14:06:46,779 - INFO -   Best so far: 0.6936
+2025-10-10 14:06:46,779 - INFO -   Iter time: 49.64s
+2025-10-10 14:06:46,779 - INFO - 
+--- Trial 1, Beta=1.0, Iter 80 ---
+2025-10-10 14:07:34,881 - INFO - Selected SMILES: OCC1OC(c2cccc(Cc3ncc(-c4ccco4)s3)c2)C(O)C(O)C1O
+2025-10-10 14:07:34,881 - INFO -   UCB value: 1.3617
+f1 shape: (1,)
+2025-10-10 14:07:34,883 - INFO -   True f: 0.5978
+2025-10-10 14:07:34,941 - INFO -   Best so far: 0.6936
+2025-10-10 14:07:34,941 - INFO -   Iter time: 48.16s
+2025-10-10 14:07:34,943 - INFO - 
+--- Trial 1, Beta=1.0, Iter 81 ---
+2025-10-10 14:08:25,377 - INFO - Selected SMILES: O=[N+]([O-])c1ccc2c(ccn2-c2ccc(OC3OC(CO)C(O)C(O)C3O)c(F)c2)c1
+2025-10-10 14:08:25,378 - INFO -   UCB value: 1.3605
+f1 shape: (1,)
+2025-10-10 14:08:25,380 - INFO -   True f: 0.5732
+2025-10-10 14:08:25,440 - INFO -   Best so far: 0.6936
+2025-10-10 14:08:25,440 - INFO -   Iter time: 50.50s
+2025-10-10 14:08:25,440 - INFO - 
+--- Trial 1, Beta=1.0, Iter 82 ---
+2025-10-10 14:09:15,196 - INFO - Selected SMILES: C=CC1C(=CCc2cc(C(=O)[O-])c[n+](CCCC(=O)O)c2)C(C(=O)OC)=COC1OC1OC(CO)C(O)C(O)C1O
+2025-10-10 14:09:15,196 - INFO -   UCB value: 1.3592
+f1 shape: (1,)
+2025-10-10 14:09:15,199 - INFO -   True f: 0.6097
+2025-10-10 14:09:15,258 - INFO -   Best so far: 0.6936
+2025-10-10 14:09:15,259 - INFO -   Iter time: 49.82s
+2025-10-10 14:09:15,259 - INFO - 
+--- Trial 1, Beta=1.0, Iter 83 ---
+2025-10-10 14:10:05,978 - INFO - Selected SMILES: O=C(CCc1ccc(O)cc1)CC(CCc1ccc(O)cc1)OC1OC(COC2OCC(O)(O)C2O)C(O)C(O)C1O
+2025-10-10 14:10:05,978 - INFO -   UCB value: 1.3595
+f1 shape: (1,)
+2025-10-10 14:10:05,981 - INFO -   True f: 0.6293
+2025-10-10 14:10:06,042 - INFO -   Best so far: 0.6936
+2025-10-10 14:10:06,042 - INFO -   Iter time: 50.78s
+2025-10-10 14:10:06,042 - INFO - 
+--- Trial 1, Beta=1.0, Iter 84 ---
+2025-10-10 14:10:57,165 - INFO - Selected SMILES: O=C(O)C1=COC(OC2OC(CO)C(O)C(O)C2O)C2C1C=CC21C=C(C(O)c2ccc(O)cc2)C(=O)O1
+2025-10-10 14:10:57,165 - INFO -   UCB value: 1.3641
+f1 shape: (1,)
+2025-10-10 14:10:57,167 - INFO -   True f: 0.5799
+2025-10-10 14:10:57,229 - INFO -   Best so far: 0.6936
+2025-10-10 14:10:57,229 - INFO -   Iter time: 51.19s
+2025-10-10 14:10:57,229 - INFO - 
+--- Trial 1, Beta=1.0, Iter 85 ---
+2025-10-10 14:11:48,232 - INFO - Selected SMILES: O=C(CCc1cc(C(=O)c2ccc(OC3CCCC3)cc2O)ccc1OCc1ccc2c(O)noc2c1)OC1OC(C(=O)O)C(O)C(O)C1O
+2025-10-10 14:11:48,232 - INFO -   UCB value: 1.3603
+f1 shape: (1,)
+2025-10-10 14:11:48,235 - INFO -   True f: 0.6555
+2025-10-10 14:11:48,298 - INFO -   Best so far: 0.6936
+2025-10-10 14:11:48,298 - INFO -   Iter time: 51.07s
+2025-10-10 14:11:48,300 - INFO - 
+--- Trial 1, Beta=1.0, Iter 86 ---
+2025-10-10 14:12:42,129 - INFO - Selected SMILES: O=C1c2c(c3c4ccc(O)cc4n(OC4OC(CO)C(O)C(O)C4O)c3c3[nH]c4cc(O)ccc4c23)C(=O)N1NCc1ccc(O)cc1
+2025-10-10 14:12:42,129 - INFO -   UCB value: 1.3633
+f1 shape: (1,)
+2025-10-10 14:12:42,133 - INFO -   True f: 0.5276
+2025-10-10 14:12:42,196 - INFO -   Best so far: 0.6936
+2025-10-10 14:12:42,197 - INFO -   Iter time: 53.90s
+2025-10-10 14:12:42,197 - INFO - 
+--- Trial 1, Beta=1.0, Iter 87 ---
+2025-10-10 14:13:34,156 - INFO - Selected SMILES: CC12CC3(O)OC(O1)C1(COC(=O)c4ccc(O)cc4)C3CC21OC1OC(COC(=O)c2cc(O)c(O)c(O)c2)C(O)C(O)C1O
+2025-10-10 14:13:34,156 - INFO -   UCB value: 1.3635
+f1 shape: (1,)
+2025-10-10 14:13:34,159 - INFO -   True f: 0.5765
+2025-10-10 14:13:34,223 - INFO -   Best so far: 0.6936
+2025-10-10 14:13:34,223 - INFO -   Iter time: 52.03s
+2025-10-10 14:13:34,223 - INFO - 
+--- Trial 1, Beta=1.0, Iter 88 ---
+2025-10-10 14:14:29,901 - INFO - Selected SMILES: O=C(Cc1ccc(O)cc1)OC1C(OCCc2ccc(O)c(O)c2)OC(CO)C(O)C1O
+2025-10-10 14:14:29,901 - INFO -   UCB value: 1.3615
+f1 shape: (1,)
+2025-10-10 14:14:29,903 - INFO -   True f: 0.6097
+2025-10-10 14:14:29,970 - INFO -   Best so far: 0.6936
+2025-10-10 14:14:29,971 - INFO -   Iter time: 55.75s
+2025-10-10 14:14:29,971 - INFO - 
+--- Trial 1, Beta=1.0, Iter 89 ---
+2025-10-10 14:15:23,782 - INFO - Selected SMILES: COc1cccc(COC2CCCC2Nc2ncnc3c2ncn3C2OC(CO)C(O)C2O)c1
+2025-10-10 14:15:23,782 - INFO -   UCB value: 1.3612
+f1 shape: (1,)
+2025-10-10 14:15:23,784 - INFO -   True f: 0.5579
+2025-10-10 14:15:23,850 - INFO -   Best so far: 0.6936
+2025-10-10 14:15:23,850 - INFO -   Iter time: 53.88s
+2025-10-10 14:15:23,850 - INFO - 
+--- Trial 1, Beta=1.0, Iter 90 ---
+2025-10-10 14:16:19,104 - INFO - Selected SMILES: Cc1cc2nc3c(C(OC4OC(CO)C(O)C(O)C4O)C(O)CO)nn(-c4ccccc4)c3nc2cc1C
+2025-10-10 14:16:19,104 - INFO -   UCB value: 1.3633
+f1 shape: (1,)
+2025-10-10 14:16:19,106 - INFO -   True f: 0.5476
+2025-10-10 14:16:19,174 - INFO -   Best so far: 0.6936
+2025-10-10 14:16:19,174 - INFO -   Iter time: 55.32s
+2025-10-10 14:16:19,176 - INFO - 
+--- Trial 1, Beta=1.0, Iter 91 ---
+2025-10-10 14:17:14,342 - INFO - Selected SMILES: O=C1CCN(C2OC(CNC(=O)C(Cc3c[nH]c4ccccc34)NC(=O)CC3OC(CO)C(O)C(O)C3O)C(O)C2O)C(=O)N1
+2025-10-10 14:17:14,342 - INFO -   UCB value: 1.3607
+f1 shape: (1,)
+2025-10-10 14:17:14,344 - INFO -   True f: 0.5626
+2025-10-10 14:17:14,414 - INFO -   Best so far: 0.6936
+2025-10-10 14:17:14,414 - INFO -   Iter time: 55.24s
+2025-10-10 14:17:14,414 - INFO - 
+--- Trial 1, Beta=1.0, Iter 92 ---
+2025-10-10 14:18:09,903 - INFO - Selected SMILES: CC(=O)OC(C)(C)CCC(=O)C(C)(O)C1C(O)CC2(C)C3CC=C4C(C)=C(OC5OC(CO)C(O)C(O)C5O)C(=O)CC4C3(C)C(=O)CC12C
+2025-10-10 14:18:09,903 - INFO -   UCB value: 1.3607
+f1 shape: (1,)
+2025-10-10 14:18:09,906 - INFO -   True f: 0.5544
+2025-10-10 14:18:09,976 - INFO -   Best so far: 0.6936
+2025-10-10 14:18:09,976 - INFO -   Iter time: 55.56s
+2025-10-10 14:18:09,976 - INFO - 
+--- Trial 1, Beta=1.0, Iter 93 ---
+2025-10-10 14:19:08,858 - INFO - Selected SMILES: CC(=O)NC1C(OCC(O)C(O)C(O)C(O)CNc2cccc(NC(=O)CCCCC3CCSS3)c2)OC(CO)C(O)C1OC1OC(C(=O)O)C(O)C(O)C1O
+2025-10-10 14:19:08,858 - INFO -   UCB value: 1.3605
+f1 shape: (1,)
+2025-10-10 14:19:08,861 - INFO -   True f: 0.5584
+2025-10-10 14:19:08,933 - INFO -   Best so far: 0.6936
+2025-10-10 14:19:08,933 - INFO -   Iter time: 58.96s
+2025-10-10 14:19:08,933 - INFO - 
+--- Trial 1, Beta=1.0, Iter 94 ---
+2025-10-10 14:20:05,523 - INFO - Selected SMILES: CC(CCCCCCCCC(=O)CCCCCCCCCC(O)COC1OC(CO)C(O)C(O)C1O)C(=O)C1=C(O)C(Cc2ccc(O)cc2)=NC1=O
+2025-10-10 14:20:05,523 - INFO -   UCB value: 1.3631
+f1 shape: (1,)
+2025-10-10 14:20:05,526 - INFO -   True f: 0.5863
+2025-10-10 14:20:05,598 - INFO -   Best so far: 0.6936
+2025-10-10 14:20:05,599 - INFO -   Iter time: 56.67s
+2025-10-10 14:20:05,599 - INFO - 
+--- Trial 1, Beta=1.0, Iter 95 ---
+2025-10-10 14:21:04,289 - INFO - Selected SMILES: Cc1ccc(CN(C(=O)N(CCCl)N=O)C2OC(CO)C(COCC3OC(CO)C(O)C(O)C3O)C(O)C2O)cc1
+2025-10-10 14:21:04,289 - INFO -   UCB value: 1.3621
+f1 shape: (1,)
+2025-10-10 14:21:04,292 - INFO -   True f: 0.5623
+2025-10-10 14:21:04,366 - INFO -   Best so far: 0.6936
+2025-10-10 14:21:04,366 - INFO -   Iter time: 58.77s
+2025-10-10 14:21:04,368 - INFO - 
+--- Trial 1, Beta=1.0, Iter 96 ---
+2025-10-10 14:22:04,524 - INFO - Selected SMILES: O=C(CCc1ccccc1O)OC1OC(CO)C(O)C(O)C1O
+2025-10-10 14:22:04,524 - INFO -   UCB value: 1.3615
+f1 shape: (1,)
+2025-10-10 14:22:04,526 - INFO -   True f: 0.5554
+2025-10-10 14:22:04,600 - INFO -   Best so far: 0.6936
+2025-10-10 14:22:04,600 - INFO -   Iter time: 60.23s
+2025-10-10 14:22:04,600 - INFO - 
+--- Trial 1, Beta=1.0, Iter 97 ---
+2025-10-10 14:23:04,266 - INFO - Selected SMILES: CC(C)=CCc1c(OC2OC(CO)C(O)C(O)C2O)cc(O)c2c1OC(c1ccc(O)cc1)C(O)C2=O
+2025-10-10 14:23:04,266 - INFO -   UCB value: 1.3614
+f1 shape: (1,)
+2025-10-10 14:23:04,269 - INFO -   True f: 0.5827
+2025-10-10 14:23:04,345 - INFO -   Best so far: 0.6936
+2025-10-10 14:23:04,345 - INFO -   Iter time: 59.74s
+2025-10-10 14:23:04,345 - INFO - 
+--- Trial 1, Beta=1.0, Iter 98 ---
+2025-10-10 14:24:05,048 - INFO - Selected SMILES: CC1OC(OC2CCCCC2OC2OC(CO)C(O)C(OC(Cn3cc(Cc4ccccc4)nn3)C(=O)O)C2O)C(O)C(O)C1O
+2025-10-10 14:24:05,048 - INFO -   UCB value: 1.3597
+f1 shape: (1,)
+2025-10-10 14:24:05,051 - INFO -   True f: 0.5339
+2025-10-10 14:24:05,128 - INFO -   Best so far: 0.6936
+2025-10-10 14:24:05,128 - INFO -   Iter time: 60.78s
+2025-10-10 14:24:05,128 - INFO - 
+--- Trial 1, Beta=1.0, Iter 99 ---
+2025-10-10 14:25:04,399 - INFO - Selected SMILES: OCC1OC(c2cc(Cc3ccc(C4CC4)cc3)c(Cl)c3c2OCCC3)C(O)C(O)C1O
+2025-10-10 14:25:04,399 - INFO -   UCB value: 1.3595
+f1 shape: (1,)
+2025-10-10 14:25:04,401 - INFO -   True f: 0.6263
+2025-10-10 14:25:04,480 - INFO -   Best so far: 0.6936
+2025-10-10 14:25:04,480 - INFO -   Iter time: 59.35s
+2025-10-10 14:25:04,483 - INFO - === Completed Trial ===
